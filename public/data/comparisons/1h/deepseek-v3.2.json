@@ -2,28 +2,54 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 449,
-    "ttftP95": 449,
-    "avgMedianTps": 56.14579767527449,
-    "avgLatency": 26.166029142,
+    "ttftP50": 1185.5,
+    "ttftP95": 1974.5,
+    "avgMedianTps": 56.11920545701889,
+    "avgLatency": 28.769303541499998,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": 592.924057501647,
-    "compositeScore": 67.86994916271203,
-    "latestProbeAt": "2026-04-27T12:58:14.674166849+08:00"
+    "sampleCount": 6,
+    "score": 380.38264420461326,
+    "compositeScore": 53.846910704350066,
+    "latestProbeAt": "2026-04-27T13:26:51.22445291+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 879,
+    "ttftP95": 1448.3999999999996,
+    "avgMedianTps": 40.09577933779957,
+    "avgLatency": 41.09912589425,
+    "successRate": 1,
+    "sampleCount": 4,
+    "score": 37.29652867054756,
+    "compositeScore": 48.54846095620451,
+    "latestProbeAt": "2026-04-27T13:24:49.067519816+08:00"
   },
   {
     "provider": "百度云(千帆)",
     "providerPlatform": "baidu_qianfan",
-    "ttftP50": 1572,
-    "ttftP95": 1572,
-    "avgMedianTps": 39.447775715963076,
-    "avgLatency": 38.249871212,
+    "ttftP50": 1142.5,
+    "ttftP95": 1523.5,
+    "avgMedianTps": 30.916822229785684,
+    "avgLatency": 40.15729100083333,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": -33.960126004221706,
-    "compositeScore": 39.77299731195059,
-    "latestProbeAt": "2026-04-27T12:58:27.454363424+08:00"
+    "sampleCount": 6,
+    "score": -46.931341642119264,
+    "compositeScore": 39.2584957433759,
+    "latestProbeAt": "2026-04-27T13:28:37.78362988+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1631.5,
+    "ttftP95": 2006.05,
+    "avgMedianTps": 11.767524497330154,
+    "avgLatency": 160.59706166750001,
+    "successRate": 1,
+    "sampleCount": 4,
+    "score": -3270.6213947035194,
+    "compositeScore": 22.628868882438262,
+    "latestProbeAt": "2026-04-27T13:24:54.186790345+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -33,9 +59,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 3,
+    "sampleCount": 6,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-04-27T12:57:49.968084202+08:00"
+    "latestProbeAt": "2026-04-27T13:21:22.785932354+08:00"
   }
 ]
