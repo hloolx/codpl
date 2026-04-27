@@ -1,15 +1,67 @@
 [
   {
+    "provider": "Kimi(月之暗面)",
+    "providerPlatform": "moonshot_kimi",
+    "ttftP50": 448,
+    "ttftP95": 635.2,
+    "avgMedianTps": 154.56472497670518,
+    "avgLatency": 13.986630645,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 1488.1225837352313,
+    "compositeScore": 94.21463768438278,
+    "latestProbeAt": "2026-04-28T04:33:36.464533863+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 609,
+    "ttftP95": 694.5,
+    "avgMedianTps": 71.4063177925462,
+    "avgLatency": 37.14177939066666,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 378.09342198861077,
+    "compositeScore": 72.6289934014232,
+    "latestProbeAt": "2026-04-28T04:43:56.793653059+08:00"
+  },
+  {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1120,
-    "ttftP95": 1120,
-    "avgMedianTps": 50.2719246729423,
-    "avgLatency": 67.252991534,
+    "ttftP50": 3407,
+    "ttftP95": 5567.9,
+    "avgMedianTps": 63.64662416865038,
+    "avgLatency": 64.49459189866666,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": -603.6932403123462,
-    "compositeScore": 51.15851153927452,
-    "latestProbeAt": "2026-04-28T03:37:55.278531663+08:00"
+    "sampleCount": 3,
+    "score": -911.8850524547643,
+    "compositeScore": 43.13329908518557,
+    "latestProbeAt": "2026-04-28T05:00:13.241758541+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-28T04:33:07.290240076+08:00"
+  },
+  {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-28T04:35:27.171719919+08:00"
   }
 ]

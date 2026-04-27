@@ -1,15 +1,67 @@
 [
   {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 645,
+    "ttftP95": 771,
+    "avgMedianTps": 56.046381928952314,
+    "avgLatency": 30.495125742333332,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 444.9001480153805,
+    "compositeScore": 62.584462559224036,
+    "latestProbeAt": "2026-04-28T04:41:36.060604073+08:00"
+  },
+  {
+    "provider": "MiniMax",
+    "providerPlatform": "minimax",
+    "ttftP50": 1377,
+    "ttftP95": 1574.1,
+    "avgMedianTps": 73.08173457993713,
+    "avgLatency": 22.673909694666666,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 596.2426651129559,
+    "compositeScore": 61.86409921157144,
+    "latestProbeAt": "2026-04-28T04:34:59.857385881+08:00"
+  },
+  {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 2102.5,
-    "ttftP95": 2833.75,
-    "avgMedianTps": 48.148759446750475,
-    "avgLatency": 36.6212816445,
+    "ttftP50": 1948,
+    "ttftP95": 2627.5,
+    "avgMedianTps": 72.79608782973007,
+    "avgLatency": 30.686186708999998,
     "successRate": 1,
     "sampleCount": 2,
-    "score": -47.139484431997175,
-    "compositeScore": 40.79854172158402,
-    "latestProbeAt": "2026-04-28T03:39:52.406736952+08:00"
+    "score": 280.0218592533805,
+    "compositeScore": 56.688059981973424,
+    "latestProbeAt": "2026-04-28T04:54:28.111563779+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-28T04:33:08.70629767+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-28T04:32:56.626439965+08:00"
   }
 ]
