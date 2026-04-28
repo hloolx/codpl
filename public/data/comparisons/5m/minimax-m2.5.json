@@ -1,28 +1,54 @@
 [
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 630,
-    "ttftP95": 630,
-    "avgMedianTps": 126.87456030035196,
-    "avgLatency": 21.56907277,
+    "provider": "百度云(千帆)",
+    "providerPlatform": "baidu_qianfan",
+    "ttftP50": 580,
+    "ttftP95": 580,
+    "avgMedianTps": 56.7726115373537,
+    "avgLatency": 59.559749397,
     "successRate": 1,
     "sampleCount": 1,
-    "score": 1096.0205425521117,
-    "compositeScore": 89.29610672108602,
-    "latestProbeAt": "2026-04-28T08:56:56.701209601+08:00"
+    "score": -264.35806570087766,
+    "compositeScore": 64.55266292722169,
+    "latestProbeAt": "2026-04-28T09:25:34.457624909+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 806,
+    "ttftP95": 806,
+    "avgMedianTps": 62.52596152199688,
+    "avgLatency": 23.992476613,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 614.1438538069813,
+    "compositeScore": 63.25740353287726,
+    "latestProbeAt": "2026-04-28T09:25:29.017297621+08:00"
   },
   {
     "provider": "联通云",
     "providerPlatform": "cucloud",
-    "ttftP50": 818,
-    "ttftP95": 818,
-    "avgMedianTps": 29.17774205125362,
-    "avgLatency": 45.988001155,
+    "ttftP50": 698,
+    "ttftP95": 698,
+    "avgMedianTps": 26.472825799483793,
+    "avgLatency": 117.347186396,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -138.23357656747828,
-    "compositeScore": 43.03526180629349,
-    "latestProbeAt": "2026-04-28T08:55:34.51766371+08:00"
+    "score": -1914.442705103097,
+    "compositeScore": 43.701050122552566,
+    "latestProbeAt": "2026-04-28T09:27:49.466745899+08:00"
+  },
+  {
+    "provider": "Alaya Code",
+    "providerPlatform": "alaya code",
+    "ttftP50": 3582,
+    "ttftP95": 3582,
+    "avgMedianTps": 44.06104131120354,
+    "avgLatency": 21.049205529,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 21.73610964222121,
+    "compositeScore": 30.65931547182132,
+    "latestProbeAt": "2026-04-28T09:28:20.148043391+08:00"
   }
 ]
