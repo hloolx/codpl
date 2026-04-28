@@ -1,15 +1,15 @@
 {
   "meta": {
-    "generatedAt": "2026-04-28T02:30:17Z",
-    "generatedAtUnix": 1777343417155,
+    "generatedAt": "2026-04-28T03:00:14Z",
+    "generatedAtUnix": 1777345214699,
     "activeProviderCount": 18,
-    "activeModelCount": 58,
+    "activeModelCount": 60,
     "snapshotCount": 1
   },
   "summary": {
     "shanghaiDate": "2026/4/28",
-    "dailyRunIndex": 10,
-    "nextRunAt": "2026/4/28 10:31"
+    "dailyRunIndex": 11,
+    "nextRunAt": "2026/4/28 11:12"
   },
   "latest": [
     {
@@ -1258,6 +1258,12 @@
           "name": "glm-5",
           "logicalModelId": "glm-5",
           "apiType": "anthropic"
+        },
+        {
+          "id": "DeepSeek-V4-Flash",
+          "name": "deepseek-v4-flash",
+          "logicalModelId": "deepseek-v4-flash",
+          "apiType": "anthropic"
         }
       ],
       "active": true,
@@ -1512,13 +1518,13 @@
           "id": "deepseek-v4-pro",
           "name": "deepseek-v4-pro",
           "logicalModelId": "deepseek-v4-pro",
-          "apiType": "anthropic"
+          "apiType": "openai"
         },
         {
           "id": "deepseek-v4-flash",
           "name": "deepseek-v4-flash",
           "logicalModelId": "deepseek-v4-flash",
-          "apiType": "anthropic"
+          "apiType": "openai"
         },
         {
           "id": "qwen3.6-plus",
@@ -1588,6 +1594,12 @@
       "platform": "ollama_cloud",
       "apiType": "openai",
       "models": [
+        {
+          "id": "deepseek-v4-pro",
+          "name": "deepseek-v4-pro",
+          "logicalModelId": "deepseek-v4-pro",
+          "apiType": "openai"
+        },
         {
           "id": "deepseek-v4-flash",
           "name": "deepseek-v4-flash",
