@@ -1,15 +1,67 @@
 [
   {
+    "provider": "MiniMax",
+    "providerPlatform": "minimax",
+    "ttftP50": 964,
+    "ttftP95": 1171.9,
+    "avgMedianTps": 70.29501735541145,
+    "avgLatency": 25.119406969,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 600.9849299074685,
+    "compositeScore": 65.33630395590606,
+    "latestProbeAt": "2026-04-29T05:49:47.722942683+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 699,
+    "ttftP95": 782.7,
+    "avgMedianTps": 42.02999833553208,
+    "avgLatency": 34.643866451,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 246.2833287381926,
+    "compositeScore": 53.01469945252369,
+    "latestProbeAt": "2026-04-29T05:56:19.940384707+08:00"
+  },
+  {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1271.5,
-    "ttftP95": 1282.75,
-    "avgMedianTps": 62.30700075048428,
-    "avgLatency": 28.2882774115,
+    "ttftP50": 2848,
+    "ttftP95": 2848,
+    "avgMedianTps": 73.81009307631805,
+    "avgLatency": 21.83750484,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": 412.3350692154056,
-    "compositeScore": 56.54922988834831,
-    "latestProbeAt": "2026-04-29T04:40:18.576048231+08:00"
+    "sampleCount": 1,
+    "score": 327.3229374579083,
+    "compositeScore": 51.816908441085666,
+    "latestProbeAt": "2026-04-29T05:56:38.388282596+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-29T05:47:47.814021362+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-29T05:47:35.758735104+08:00"
   }
 ]
