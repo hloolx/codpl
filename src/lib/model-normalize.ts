@@ -7,8 +7,11 @@ export function normalizeModelDisplay(model = '', modelDisplay = ''): string {
 
   if (combined.includes('astron-code-latest')) return 'glm-5';
   if (combined.includes('cm-code-latest')) return 'minimax-m2.5';
+  if (combined.includes('deepseek-v4-pro') || combined.includes('deepseek v4 pro')) return 'deepseek-v4-pro';
+  if (combined.includes('deepseek-v4-flash') || combined.includes('deepseek v4 flash')) return 'deepseek-v4-flash';
   if (combined.includes('deepseek-v3.2-thinking')) return 'deepseek-v3.2-thinking';
   if (combined.includes('deepseek-v3.2')) return 'deepseek-v3.2';
+  if (combined.includes('qwen3.6-plus') || combined.includes('qwen3-6-plus')) return 'qwen3.6-plus';
   if (combined.includes('mimo-v2-omni')) return 'MiMo-V2-Omni';
   if (combined.includes('mimo-v2-pro')) return 'MiMo-V2-Pro';
   if (

@@ -1,4 +1,4 @@
-import { Menu, X } from 'lucide-react';
+import { Github, Menu, X } from 'lucide-react';
 import { useEffect, useState, type ReactNode } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -7,6 +7,9 @@ import { LayoutModeToggle } from './layout-mode-toggle';
 import { SidebarNav } from './sidebar-nav';
 import { ThemeToggle } from './theme-toggle';
 import { cn } from '@/lib/cn';
+
+const GITHUB_REPO = 'hloolx/codpl';
+const GITHUB_URL = `https://github.com/${GITHUB_REPO}`;
 
 export function AppShell({ children }: { children: ReactNode }) {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -32,6 +35,7 @@ export function AppShell({ children }: { children: ReactNode }) {
           <SidebarHeader />
           <div className="min-h-0 flex-1 overflow-y-auto px-4 py-2 scrollbar-thin">
             <SidebarNav />
+            <SidebarGitHubLink />
           </div>
           <SidebarFooter />
         </aside>
@@ -61,6 +65,7 @@ export function AppShell({ children }: { children: ReactNode }) {
               <SidebarHeader onClose={() => setMobileOpen(false)} />
               <div className="min-h-0 flex-1 overflow-y-auto px-4 py-2 scrollbar-thin">
                 <SidebarNav onNavigate={() => setMobileOpen(false)} />
+                <SidebarGitHubLink onClick={() => setMobileOpen(false)} />
               </div>
               <SidebarFooter />
             </aside>
@@ -73,6 +78,28 @@ export function AppShell({ children }: { children: ReactNode }) {
           </div>
         </main>
       </div>
+    </div>
+  );
+}
+
+function SidebarGitHubLink({ onClick }: { onClick?: () => void }) {
+  return (
+    <div className="mt-3 border-t border-border/60 pt-3">
+      <a
+        href={GITHUB_URL}
+        target="_blank"
+        rel="noopener noreferrer"
+        onClick={onClick}
+        className="flex items-center gap-3 rounded-lg px-3 py-2 text-sm text-muted-foreground transition-colors hover:bg-secondary hover:text-foreground"
+      >
+        <span className="flex h-8 w-8 items-center justify-center rounded-md bg-background/50 text-muted-foreground ring-1 ring-border/60">
+          <Github className="h-4 w-4" />
+        </span>
+        <span className="flex min-w-0 flex-1 flex-col">
+          <span className="truncate font-medium">GitHub 仓库</span>
+          <span className="truncate text-[11px] text-muted-foreground">{GITHUB_REPO}</span>
+        </span>
+      </a>
     </div>
   );
 }
