@@ -1,28 +1,67 @@
 [
   {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 697,
+    "ttftP95": 949.9,
+    "avgMedianTps": 55.12345379004413,
+    "avgLatency": 23.221992986000004,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 610.7908980902646,
+    "compositeScore": 60.91211072030106,
+    "latestProbeAt": "2026-04-28T17:50:14.093767969+08:00"
+  },
+  {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 1518,
-    "ttftP95": 1518,
-    "avgMedianTps": 39.04587225429133,
-    "avgLatency": 48.157783588,
+    "ttftP50": 1092.5,
+    "ttftP95": 1209.05,
+    "avgMedianTps": 38.89043701407692,
+    "avgLatency": 44.1927679565,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": -273.26935617425204,
-    "compositeScore": 40.03614950337895,
-    "latestProbeAt": "2026-04-28T16:35:07.757463185+08:00"
+    "sampleCount": 2,
+    "score": -89.97657682803856,
+    "compositeScore": 44.688273469525356,
+    "latestProbeAt": "2026-04-28T17:54:37.482781821+08:00"
+  },
+  {
+    "provider": "百度云(千帆)",
+    "providerPlatform": "baidu_qianfan",
+    "ttftP50": 1335,
+    "ttftP95": 1587,
+    "avgMedianTps": 26.884054095363833,
+    "avgLatency": 41.84585537066667,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -151.84205969448362,
+    "compositeScore": 34.59237909642795,
+    "latestProbeAt": "2026-04-28T17:50:45.930971221+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 2551.5,
-    "ttftP95": 3210.75,
-    "avgMedianTps": 10.09846449337006,
-    "avgLatency": 170.7767267205,
+    "ttftP50": 1247.5,
+    "ttftP95": 1344.25,
+    "avgMedianTps": 24.780613072346732,
+    "avgLatency": 95.425412728,
     "successRate": 1,
     "sampleCount": 2,
-    "score": -3719.12738105228,
-    "compositeScore": 15.175966337135431,
-    "latestProbeAt": "2026-04-28T16:44:18.826440447+08:00"
+    "score": -1486.4516397659195,
+    "compositeScore": 34.30831374612062,
+    "latestProbeAt": "2026-04-28T17:59:07.973889323+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-28T17:44:37.877561826+08:00"
   }
 ]
