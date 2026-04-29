@@ -1,15 +1,67 @@
 [
   {
+    "provider": "MiniMax",
+    "providerPlatform": "minimax",
+    "ttftP50": 1113,
+    "ttftP95": 2983.2,
+    "avgMedianTps": 60.23039879705098,
+    "avgLatency": 30.977428483666667,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 364.34668069063935,
+    "compositeScore": 57.2240474097698,
+    "latestProbeAt": "2026-04-29T22:33:52.073500013+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 1105,
+    "ttftP95": 1232.8,
+    "avgMedianTps": 47.93170034588825,
+    "avgLatency": 40.820799938,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 46.07020362532944,
+    "compositeScore": 49.948900569703824,
+    "latestProbeAt": "2026-04-29T22:50:40.385948434+08:00"
+  },
+  {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 2746,
-    "ttftP95": 2746,
-    "avgMedianTps": 40.65648785465716,
-    "avgLatency": 36.07193438,
+    "ttftP50": 3013,
+    "ttftP95": 3080.5,
+    "avgMedianTps": 38.17428658222126,
+    "avgLatency": 28.7242056005,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": -207.05943237205724,
-    "compositeScore": 32.450920516282096,
-    "latestProbeAt": "2026-04-29T21:36:23.468297808+08:00"
+    "sampleCount": 2,
+    "score": -91.65942051917239,
+    "compositeScore": 29.62290927834693,
+    "latestProbeAt": "2026-04-29T22:49:35.535116353+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-29T22:31:44.072102596+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-29T22:31:20.703975596+08:00"
   }
 ]
