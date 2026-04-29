@@ -2,14 +2,14 @@
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 797,
-    "ttftP95": 4091.5999999999995,
-    "avgMedianTps": 80.5017518914755,
-    "avgLatency": 37.709177325,
+    "ttftP50": 778,
+    "ttftP95": 4485.099999999999,
+    "avgMedianTps": 81.33288057872969,
+    "avgLatency": 36.943152394,
     "successRate": 1,
-    "sampleCount": 5,
-    "score": 380.8810782238529,
-    "compositeScore": 74.20487889993939,
+    "sampleCount": 3,
+    "score": 408.81847362237806,
+    "compositeScore": 75.0516518023347,
     "latestProbeAt": "2026-04-30T02:18:33.259125046+08:00"
   },
   {
@@ -26,19 +26,6 @@
     "latestProbeAt": "2026-04-30T02:12:57.077645289+08:00"
   },
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 3641,
-    "ttftP95": 7209.599999999999,
-    "avgMedianTps": 123.98484082048542,
-    "avgLatency": 20.8702900106,
-    "successRate": 1,
-    "sampleCount": 5,
-    "score": 493.9517946579124,
-    "compositeScore": 63.98699665051366,
-    "latestProbeAt": "2026-04-30T02:29:09.943019543+08:00"
-  },
-  {
     "provider": "天翼云",
     "providerPlatform": "ctyun",
     "ttftP50": 1361,
@@ -52,17 +39,30 @@
     "latestProbeAt": "2026-04-30T02:13:35.813964475+08:00"
   },
   {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 303896,
-    "ttftP95": 336527.3,
-    "avgMedianTps": 21.11346852888282,
-    "avgLatency": 381.926682095,
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 4953,
+    "ttftP95": 7693.5,
+    "avgMedianTps": 82.57173269945345,
+    "avgLatency": 58.013232553,
     "successRate": 1,
     "sampleCount": 3,
-    "score": -69200.6862412017,
-    "compositeScore": 12.668081117329692,
-    "latestProbeAt": "2026-04-30T02:24:35.648601747+08:00"
+    "score": -945.5004176282793,
+    "compositeScore": 49.543039619672065,
+    "latestProbeAt": "2026-04-30T02:39:08.791098942+08:00"
+  },
+  {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 340153,
+    "ttftP95": 393487.9,
+    "avgMedianTps": 21.222685647340477,
+    "avgLatency": 405.39425126533325,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -77038.1201677493,
+    "compositeScore": 12.733611388404286,
+    "latestProbeAt": "2026-04-30T02:40:57.807613145+08:00"
   },
   {
     "provider": "OpenCode Go",
