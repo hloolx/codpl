@@ -1,15 +1,67 @@
 [
   {
+    "provider": "MiniMax",
+    "providerPlatform": "minimax",
+    "ttftP50": 1358,
+    "ttftP95": 1549.7,
+    "avgMedianTps": 58.74257764623085,
+    "avgLatency": 30.63913227666667,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 314.87715896071836,
+    "compositeScore": 53.461055850250006,
+    "latestProbeAt": "2026-04-29T19:49:18.318731659+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 1197,
+    "ttftP95": 1629,
+    "avgMedianTps": 50.673285710780334,
+    "avgLatency": 33.198195606333336,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 234.68482410634863,
+    "compositeScore": 50.44008396199199,
+    "latestProbeAt": "2026-04-29T19:57:41.77935944+08:00"
+  },
+  {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 3135,
-    "ttftP95": 3284.4,
-    "avgMedianTps": 38.170258809201925,
-    "avgLatency": 52.820391777,
+    "ttftP50": 10643,
+    "ttftP95": 10643,
+    "avgMedianTps": 35.92225059668767,
+    "avgLatency": 41.240672485,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": -718.4882415697882,
-    "compositeScore": 29.04784491358595,
-    "latestProbeAt": "2026-04-29T18:52:18.001444217+08:00"
+    "sampleCount": 1,
+    "score": -1944.0833085448737,
+    "compositeScore": 21.5533503580126,
+    "latestProbeAt": "2026-04-29T19:54:47.812622289+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-29T19:47:16.879893043+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-29T19:46:52.474465066+08:00"
   }
 ]
