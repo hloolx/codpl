@@ -28,14 +28,14 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1132.5,
-    "ttftP95": 15050.599999999995,
-    "avgMedianTps": 85.6913145486411,
-    "avgLatency": 51.11620977245946,
+    "ttftP50": 1129.5,
+    "ttftP95": 15134.200000000003,
+    "avgMedianTps": 86.4890770924722,
+    "avgLatency": 51.16837652354167,
     "successRate": 1,
-    "sampleCount": 74,
-    "score": 9.74264298035996,
-    "compositeScore": 72.2500222848075,
+    "sampleCount": 72,
+    "score": 13.825049466291603,
+    "compositeScore": 72.76694760651128,
     "latestProbeAt": "2026-04-30T11:41:30.348758714+08:00"
   },
   {
@@ -104,6 +104,19 @@
     "latestProbeAt": "2026-04-30T11:22:20.12173015+08:00"
   },
   {
+    "provider": "联通云",
+    "providerPlatform": "cucloud",
+    "ttftP50": 772,
+    "ttftP95": 3572.7500000000005,
+    "avgMedianTps": 39.87269685305518,
+    "avgLatency": 68.81034257156948,
+    "successRate": 1,
+    "sampleCount": 72,
+    "score": -635.422383170906,
+    "compositeScore": 50.28723464411111,
+    "latestProbeAt": "2026-04-30T11:33:18.77469479+08:00"
+  },
+  {
     "provider": "讯飞星辰",
     "providerPlatform": "iflytek_astron",
     "ttftP50": 1297.5,
@@ -117,29 +130,16 @@
     "latestProbeAt": "2026-04-30T11:16:07.850827583+08:00"
   },
   {
-    "provider": "联通云",
-    "providerPlatform": "cucloud",
-    "ttftP50": 782.5,
-    "ttftP95": 3717.4499999999994,
-    "avgMedianTps": 39.365282818887025,
-    "avgLatency": 69.91394488237839,
-    "successRate": 1,
-    "sampleCount": 74,
-    "score": -668.1569251461376,
-    "compositeScore": 49.78788717809121,
-    "latestProbeAt": "2026-04-30T11:33:18.77469479+08:00"
-  },
-  {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 36560,
-    "ttftP95": 247944.5,
-    "avgMedianTps": 40.74296942688495,
-    "avgLatency": 211.04082050524244,
-    "successRate": 0.8918918918918919,
-    "sampleCount": 74,
-    "score": -11451.670804177858,
-    "compositeScore": 24.44578165613097,
+    "ttftP50": 34884,
+    "ttftP95": 227800.09999999974,
+    "avgMedianTps": 41.39903708960495,
+    "avgLatency": 204.46029261590624,
+    "successRate": 0.8888888888888888,
+    "sampleCount": 72,
+    "score": -10951.024203971137,
+    "compositeScore": 24.839422253762972,
     "latestProbeAt": "2026-04-30T11:43:51.125642617+08:00"
   },
   {
