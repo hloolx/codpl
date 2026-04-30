@@ -1,15 +1,67 @@
 [
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 2700,
-    "ttftP95": 2889.9,
-    "avgMedianTps": 44.5283312658956,
-    "avgLatency": 47.376188422,
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 691.5,
+    "ttftP95": 697.35,
+    "avgMedianTps": 65.59499991515341,
+    "avgLatency": 31.744067739499997,
     "successRate": 1,
     "sampleCount": 2,
-    "score": -457.23472295462625,
-    "compositeScore": 35.01774874511423,
-    "latestProbeAt": "2026-04-30T19:41:50.373285823+08:00"
+    "score": 461.66830600342064,
+    "compositeScore": 67.30933244254591,
+    "latestProbeAt": "2026-04-30T20:51:28.990982603+08:00"
+  },
+  {
+    "provider": "MiniMax",
+    "providerPlatform": "minimax",
+    "ttftP50": 786,
+    "ttftP95": 1024.5,
+    "avgMedianTps": 64.46824182647522,
+    "avgLatency": 28.029645783333333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 528.868306375518,
+    "compositeScore": 64.78527697825787,
+    "latestProbeAt": "2026-04-30T20:46:57.50860482+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 2884,
+    "ttftP95": 2884,
+    "avgMedianTps": 33.01892590548584,
+    "avgLatency": 28.509746684,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -91.43011166708504,
+    "compositeScore": 27.16098795584208,
+    "latestProbeAt": "2026-04-30T20:54:10.303622504+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-30T20:44:42.886348183+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-30T20:44:26.101003331+08:00"
   }
 ]
