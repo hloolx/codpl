@@ -1,15 +1,54 @@
 [
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 7278.5,
-    "ttftP95": 11849.15,
-    "avgMedianTps": 42.66564986772095,
-    "avgLatency": 86.76762316599999,
+    "provider": "Kimi(月之暗面)",
+    "providerPlatform": "moonshot_kimi",
+    "ttftP50": 720,
+    "ttftP95": 2330.1,
+    "avgMedianTps": 82.11318884666403,
+    "avgLatency": 23.411011728333335,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 763.4038398716509,
+    "compositeScore": 76.63756924966049,
+    "latestProbeAt": "2026-05-01T00:52:42.837083786+08:00"
+  },
+  {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 283,
+    "ttftP95": 339.7,
+    "avgMedianTps": 36.747778566994455,
+    "avgLatency": 72.8656960095,
     "successRate": 1,
     "sampleCount": 2,
-    "score": -2368.896679943674,
-    "compositeScore": 25.59938992063257,
-    "latestProbeAt": "2026-04-30T23:47:46.097071475+08:00"
+    "score": -657.7557288355331,
+    "compositeScore": 62.04866714019667,
+    "latestProbeAt": "2026-05-01T00:59:22.721218916+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 3246,
+    "ttftP95": 5302.5,
+    "avgMedianTps": 57.276713536093595,
+    "avgLatency": 42.342763056,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": -364.1087951834386,
+    "compositeScore": 40.00974218113525,
+    "latestProbeAt": "2026-05-01T00:58:56.334148419+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-01T00:51:46.435745872+08:00"
   }
 ]

@@ -2,14 +2,66 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 2070,
-    "ttftP95": 2070,
-    "avgMedianTps": 9.617834703149414,
-    "avgLatency": 145.110389371,
+    "ttftP50": 2177,
+    "ttftP95": 2177,
+    "avgMedianTps": 88.95076054698615,
+    "avgLatency": 20.779940967,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -2984.0527260561034,
-    "compositeScore": 17.90473720298158,
-    "latestProbeAt": "2026-04-30T23:41:38.794615572+08:00"
+    "score": 578.8060391069166,
+    "compositeScore": 64.77738631126843,
+    "latestProbeAt": "2026-05-01T00:53:51.954259124+08:00"
+  },
+  {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 621,
+    "ttftP95": 698.4,
+    "avgMedianTps": 58.3961347641095,
+    "avgLatency": 25.452368933,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 589.8675852596571,
+    "compositeScore": 64.5413731812197,
+    "latestProbeAt": "2026-05-01T00:56:54.460205047+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 989.5,
+    "ttftP95": 1103.35,
+    "avgMedianTps": 41.13687978325767,
+    "avgLatency": 37.2469964585,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": 117.74636723704589,
+    "compositeScore": 47.46475580443829,
+    "latestProbeAt": "2026-05-01T00:58:06.685155434+08:00"
+  },
+  {
+    "provider": "百度云(千帆)",
+    "providerPlatform": "baidu_qianfan",
+    "ttftP50": 1117,
+    "ttftP95": 1423,
+    "avgMedianTps": 32.74848262819345,
+    "avgLatency": 45.41967463833333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -162.40097018917265,
+    "compositeScore": 40.683141777041726,
+    "latestProbeAt": "2026-05-01T00:59:04.889391155+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-01T00:51:33.750243568+08:00"
   }
 ]
