@@ -1,15 +1,67 @@
 [
   {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 570,
+    "ttftP95": 2472.6,
+    "avgMedianTps": 57.289671417715006,
+    "avgLatency": 26.62889016533333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 564.0157743729567,
+    "compositeScore": 65.11380866506677,
+    "latestProbeAt": "2026-04-30T12:51:33.342602893+08:00"
+  },
+  {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1320.5,
-    "ttftP95": 1329.05,
-    "avgMedianTps": 14.967386561844915,
-    "avgLatency": 88.677358896,
+    "ttftP50": 1093,
+    "ttftP95": 1119.1,
+    "avgMedianTps": 49.02021902721694,
+    "avgLatency": 29.630804320000003,
     "successRate": 1,
     "sampleCount": 2,
-    "score": -1391.2296530289304,
-    "compositeScore": 27.599932980394826,
-    "latestProbeAt": "2026-04-30T11:39:30.433446317+08:00"
+    "score": 334.7512061633016,
+    "compositeScore": 50.75954146456992,
+    "latestProbeAt": "2026-04-30T12:58:17.748971168+08:00"
+  },
+  {
+    "provider": "百度云(千帆)",
+    "providerPlatform": "baidu_qianfan",
+    "ttftP50": 846,
+    "ttftP95": 1133.1,
+    "avgMedianTps": 40.074260799015086,
+    "avgLatency": 34.890667293,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 198.9788824690903,
+    "compositeScore": 49.08760485316836,
+    "latestProbeAt": "2026-04-30T12:51:31.946027915+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 1278,
+    "ttftP95": 2524.5,
+    "avgMedianTps": 40.95383845019211,
+    "avgLatency": 42.33251153366667,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -68.1897576405139,
+    "compositeScore": 43.66376876560413,
+    "latestProbeAt": "2026-04-30T12:56:05.94676502+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-04-30T12:45:44.613493099+08:00"
   }
 ]
