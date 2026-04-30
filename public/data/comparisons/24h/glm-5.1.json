@@ -1,29 +1,42 @@
 [
   {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1616.5,
+    "ttftP95": 8893,
+    "avgMedianTps": 80.84561194700107,
+    "avgLatency": 73.55704192648612,
+    "successRate": 1,
+    "sampleCount": 72,
+    "score": -677.1523764801464,
+    "compositeScore": 64.2089761518986,
+    "latestProbeAt": "2026-04-30T17:45:53.681050997+08:00"
+  },
+  {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 858,
-    "ttftP95": 7814.999999999994,
-    "avgMedianTps": 64.27977068639426,
-    "avgLatency": 57.62050110384933,
+    "ttftP50": 864,
+    "ttftP95": 7853.500000000002,
+    "avgMedianTps": 64.51560252902482,
+    "avgLatency": 57.26863366775001,
     "successRate": 1,
-    "sampleCount": 73,
-    "score": -226.43390347786772,
-    "compositeScore": 63.407710941799905,
+    "sampleCount": 72,
+    "score": -217.42222651960128,
+    "compositeScore": 63.44867340073901,
     "latestProbeAt": "2026-04-30T17:28:43.086021455+08:00"
   },
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 1694.5,
-    "ttftP95": 8893,
-    "avgMedianTps": 80.58592851522866,
-    "avgLatency": 73.84404854080556,
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 415,
+    "ttftP95": 180454.50000000015,
+    "avgMedianTps": 36.030247444403216,
+    "avgLatency": 169.5563378772222,
     "successRate": 1,
     "sampleCount": 72,
-    "score": -701.4856424287673,
-    "compositeScore": 63.37330479925606,
-    "latestProbeAt": "2026-04-30T17:19:08.487276696+08:00"
+    "score": -3105.726962264136,
+    "compositeScore": 56.93666010925787,
+    "latestProbeAt": "2026-04-30T17:20:19.065751747+08:00"
   },
   {
     "provider": "智谱",
@@ -37,19 +50,6 @@
     "score": 545.0295918577642,
     "compositeScore": 56.78225222320397,
     "latestProbeAt": "2026-04-30T17:17:36.559805255+08:00"
-  },
-  {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 422,
-    "ttftP95": 177922.99999999956,
-    "avgMedianTps": 35.982430754416264,
-    "avgLatency": 169.13762943167123,
-    "successRate": 1,
-    "sampleCount": 73,
-    "score": -3096.9461512652833,
-    "compositeScore": 56.666653470536716,
-    "latestProbeAt": "2026-04-30T17:20:19.065751747+08:00"
   },
   {
     "provider": "天翼云",
