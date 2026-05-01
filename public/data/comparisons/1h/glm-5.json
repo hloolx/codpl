@@ -52,19 +52,6 @@
     "latestProbeAt": "2026-05-01T12:55:06.039517304+08:00"
   },
   {
-    "provider": "联通云",
-    "providerPlatform": "cucloud",
-    "ttftP50": 663.5,
-    "ttftP95": 667.55,
-    "avgMedianTps": 56.09437736755632,
-    "avgLatency": 67.2364580615,
-    "successRate": 1,
-    "sampleCount": 2,
-    "score": -477.04518733216196,
-    "compositeScore": 62.20528677179067,
-    "latestProbeAt": "2026-05-01T12:56:56.76120587+08:00"
-  },
-  {
     "provider": "智谱",
     "providerPlatform": "bigmodel_glm",
     "ttftP50": 939,
@@ -91,19 +78,6 @@
     "latestProbeAt": "2026-05-01T12:52:14.790805107+08:00"
   },
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 913,
-    "ttftP95": 913,
-    "avgMedianTps": 59.255847440591836,
-    "avgLatency": 35.722899399,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": 279.86259966855096,
-    "compositeScore": 59.49698486947169,
-    "latestProbeAt": "2026-05-01T12:52:58.734148267+08:00"
-  },
-  {
     "provider": "讯飞星辰",
     "providerPlatform": "iflytek_astron",
     "ttftP50": 953,
@@ -117,6 +91,19 @@
     "latestProbeAt": "2026-05-01T12:50:51.87881674+08:00"
   },
   {
+    "provider": "联通云",
+    "providerPlatform": "cucloud",
+    "ttftP50": 668,
+    "ttftP95": 822.8,
+    "avgMedianTps": 43.53207999532321,
+    "avgLatency": 78.064357009,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -824.0164452530607,
+    "compositeScore": 54.570391977412214,
+    "latestProbeAt": "2026-05-01T13:02:02.789270349+08:00"
+  },
+  {
     "provider": "百炼(阿里云)",
     "providerPlatform": "aliyun_bailian",
     "ttftP50": 776,
@@ -128,6 +115,19 @@
     "score": -455.082389195376,
     "compositeScore": 53.800468377716584,
     "latestProbeAt": "2026-05-01T12:58:16.104327953+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1924,
+    "ttftP95": 3001.3,
+    "avgMedianTps": 54.176571133352844,
+    "avgLatency": 55.36580583366666,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -443.88571904154946,
+    "compositeScore": 45.6951987472701,
+    "latestProbeAt": "2026-05-01T13:09:47.650194864+08:00"
   },
   {
     "provider": "Alaya Code",
