@@ -1,1 +1,54 @@
-[]
+[
+  {
+    "provider": "智谱",
+    "providerPlatform": "bigmodel_glm",
+    "ttftP50": 1143,
+    "ttftP95": 1356.3,
+    "avgMedianTps": 63.51353547988873,
+    "avgLatency": 18.1908514525,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": 697.7099265668323,
+    "compositeScore": 58.81021131074726,
+    "latestProbeAt": "2026-05-02T19:57:39.004115708+08:00"
+  },
+  {
+    "provider": "天翼云",
+    "providerPlatform": "ctyun",
+    "ttftP50": 1402,
+    "ttftP95": 2683.6,
+    "avgMedianTps": 68.30948487426787,
+    "avgLatency": 20.999333864333334,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 604.4735626372739,
+    "compositeScore": 58.741171489413304,
+    "latestProbeAt": "2026-05-02T19:57:23.130398576+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 658,
+    "ttftP95": 658,
+    "avgMedianTps": 44.6198564036642,
+    "avgLatency": 66.561030604,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -527.9066266780146,
+    "compositeScore": 55.44066300980491,
+    "latestProbeAt": "2026-05-02T19:55:54.00447592+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 2663,
+    "ttftP95": 2663,
+    "avgMedianTps": 34.94039619775462,
+    "avgLatency": 120.118654068,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -2325.9239745134723,
+    "compositeScore": 29.464057491505436,
+    "latestProbeAt": "2026-05-02T19:59:19.609523079+08:00"
+  }
+]
