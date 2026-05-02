@@ -1,5 +1,18 @@
 [
   {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1254,
+    "ttftP95": 1864.1999999999998,
+    "avgMedianTps": 90.49345151939231,
+    "avgLatency": 25.478090970333337,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 655.2084348580205,
+    "compositeScore": 73.6610414885738,
+    "latestProbeAt": "2026-05-02T22:13:34.342249983+08:00"
+  },
+  {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
     "ttftP50": 1008,
@@ -26,19 +39,6 @@
     "latestProbeAt": "2026-05-02T21:51:46.413328377+08:00"
   },
   {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 165,
-    "ttftP95": 368.4,
-    "avgMedianTps": 40.303178034957696,
-    "avgLatency": 58.452545491799995,
-    "successRate": 1,
-    "sampleCount": 5,
-    "score": -252.49456908525372,
-    "compositeScore": 64.18190682097462,
-    "latestProbeAt": "2026-05-02T21:58:28.929223496+08:00"
-  },
-  {
     "provider": "百度云(千帆)",
     "providerPlatform": "baidu_qianfan",
     "ttftP50": 510,
@@ -50,6 +50,19 @@
     "score": -226.46066324416734,
     "compositeScore": 63.833771691120134,
     "latestProbeAt": "2026-05-02T21:53:22.514741468+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 145,
+    "ttftP95": 178.3,
+    "avgMedianTps": 39.56558842088051,
+    "avgLatency": 57.70194777566667,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -234.15516386638365,
+    "compositeScore": 63.7393530525283,
+    "latestProbeAt": "2026-05-02T21:58:28.929223496+08:00"
   },
   {
     "provider": "Alaya Code",
@@ -76,19 +89,6 @@
     "score": 504.83480033871126,
     "compositeScore": 55.68821608066703,
     "latestProbeAt": "2026-05-02T21:47:18.607384873+08:00"
-  },
-  {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 1268,
-    "ttftP95": 1602.8,
-    "avgMedianTps": 49.5640313401745,
-    "avgLatency": 135.37419185533332,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": -2340.570608342286,
-    "compositeScore": 48.94321540766944,
-    "latestProbeAt": "2026-05-02T21:52:17.788748002+08:00"
   },
   {
     "provider": "联通云",
