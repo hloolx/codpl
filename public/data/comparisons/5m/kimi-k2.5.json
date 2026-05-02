@@ -1,15 +1,67 @@
 [
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 1000,
-    "ttftP95": 1000,
-    "avgMedianTps": 174.0306729926229,
-    "avgLatency": 16.302061676,
+    "provider": "百度云(千帆)",
+    "providerPlatform": "baidu_qianfan",
+    "ttftP50": 596,
+    "ttftP95": 596,
+    "avgMedianTps": 110.67938902673056,
+    "avgLatency": 28.617795328,
     "successRate": 1,
     "sampleCount": 1,
-    "score": 1436.6324960557374,
-    "compositeScore": 82.63034405833794,
-    "latestProbeAt": "2026-05-03T03:26:29.965410396+08:00"
+    "score": 829.4314509603832,
+    "compositeScore": 90.0965017003372,
+    "latestProbeAt": "2026-05-03T03:59:56.040617476+08:00"
+  },
+  {
+    "provider": "腾讯云",
+    "providerPlatform": "tencent_token_plan",
+    "ttftP50": 867,
+    "ttftP95": 867,
+    "avgMedianTps": 42.64158798156575,
+    "avgLatency": 25.013148372,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 457.1208185893944,
+    "compositeScore": 50.274257861679914,
+    "latestProbeAt": "2026-05-03T03:59:20.807976609+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-03T03:58:45.554749243+08:00"
+  },
+  {
+    "provider": "优云",
+    "providerPlatform": "modelverse",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-03T03:58:35.886805421+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-03T03:58:34.034440451+08:00"
   }
 ]
