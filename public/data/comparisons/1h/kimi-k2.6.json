@@ -1,5 +1,18 @@
 [
   {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 307,
+    "ttftP95": 1008.9999999999999,
+    "avgMedianTps": 72.90167977183253,
+    "avgLatency": 47.002858266,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 200.93862198099532,
+    "compositeScore": 83.40824631435655,
+    "latestProbeAt": "2026-05-02T23:14:20.336011499+08:00"
+  },
+  {
     "provider": "Kimi(月之暗面)",
     "providerPlatform": "moonshot_kimi",
     "ttftP50": 726,
@@ -13,30 +26,30 @@
     "latestProbeAt": "2026-05-02T22:54:33.330635062+08:00"
   },
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 1192,
-    "ttftP95": 1203.7,
-    "avgMedianTps": 65.51797612330347,
-    "avgLatency": 36.965658057,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": 230.5664053148207,
-    "compositeScore": 59.40728737431928,
-    "latestProbeAt": "2026-05-02T23:00:06.38425405+08:00"
-  },
-  {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 894,
-    "ttftP95": 894,
-    "avgMedianTps": 57.70504413880465,
-    "avgLatency": 40.652999116,
+    "ttftP50": 874,
+    "ttftP95": 892,
+    "avgMedianTps": 56.63697056771065,
+    "avgLatency": 46.812882429333335,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": 151.1052869328281,
-    "compositeScore": 58.86990317640843,
-    "latestProbeAt": "2026-05-02T22:56:36.183569188+08:00"
+    "sampleCount": 3,
+    "score": -5.300237327069453,
+    "compositeScore": 58.55547455057921,
+    "latestProbeAt": "2026-05-02T23:07:29.784448943+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1929,
+    "ttftP95": 2100,
+    "avgMedianTps": 67.91915715135596,
+    "avgLatency": 34.774320122999995,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 152.3569398331358,
+    "compositeScore": 53.903306915281355,
+    "latestProbeAt": "2026-05-02T23:17:48.550173847+08:00"
   },
   {
     "provider": "OpenCode Go",
