@@ -1,28 +1,54 @@
 [
   {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 1714.5,
-    "ttftP95": 1857.15,
-    "avgMedianTps": 40.612204409638395,
-    "avgLatency": 42.3963255985,
-    "successRate": 1,
-    "sampleCount": 2,
-    "score": -159.1349135046696,
-    "compositeScore": 39.21978766138551,
-    "latestProbeAt": "2026-05-03T19:38:35.034331648+08:00"
-  },
-  {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 3778,
-    "ttftP95": 7142.2,
-    "avgMedianTps": 32.400185801902815,
-    "avgLatency": 47.25452985766666,
+    "provider": "MiniMax",
+    "providerPlatform": "minimax",
+    "ttftP50": 624,
+    "ttftP95": 806.7,
+    "avgMedianTps": 56.59199925154002,
+    "avgLatency": 31.82556297933333,
     "successRate": 1,
     "sampleCount": 3,
-    "score": -742.5621316302496,
-    "compositeScore": 22.894228522216803,
-    "latestProbeAt": "2026-05-03T19:55:34.66941485+08:00"
+    "score": 419.11292102590676,
+    "compositeScore": 63.38936426726033,
+    "latestProbeAt": "2026-05-03T20:54:24.59653389+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 821,
+    "ttftP95": 983.9,
+    "avgMedianTps": 55.906169658285606,
+    "avgLatency": 39.203761596,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": 191.14297804971363,
+    "compositeScore": 59.01950458215212,
+    "latestProbeAt": "2026-05-03T20:57:27.010835672+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-03T20:52:12.918330495+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-03T20:51:58.761564262+08:00"
   }
 ]
