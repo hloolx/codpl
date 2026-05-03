@@ -1,15 +1,67 @@
 [
   {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 57548,
-    "ttftP95": 57548,
-    "avgMedianTps": 22.100348377736637,
-    "avgLatency": 350.864443734,
+    "provider": "天翼云",
+    "providerPlatform": "ctyun",
+    "ttftP50": 1092.5,
+    "ttftP95": 1319.75,
+    "avgMedianTps": 62.110569809947904,
+    "avgLatency": 21.557416568,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": 615.2280046596875,
+    "compositeScore": 58.62035314704795,
+    "latestProbeAt": "2026-05-03T18:29:12.709894531+08:00"
+  },
+  {
+    "provider": "智谱",
+    "providerPlatform": "bigmodel_glm",
+    "ttftP50": 1430,
+    "ttftP95": 1685.6,
+    "avgMedianTps": 67.01118386344012,
+    "avgLatency": 19.588063168999998,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 626.3655239556408,
+    "compositeScore": 57.67690290636537,
+    "latestProbeAt": "2026-05-03T18:30:12.377257395+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 628,
+    "ttftP95": 628,
+    "avgMedianTps": 46.677687647413066,
+    "avgLatency": 68.320674499,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -19148.60900308358,
-    "compositeScore": 13.260209026641983,
-    "latestProbeAt": "2026-05-03T17:55:28.06077871+08:00"
+    "score": -553.5507365905216,
+    "compositeScore": 57.348592004490385,
+    "latestProbeAt": "2026-05-03T18:28:49.141223682+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-03T18:26:48.99623436+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-03T18:26:39.155750996+08:00"
   }
 ]
