@@ -26,6 +26,19 @@
     "latestProbeAt": "2026-05-03T12:16:14.932332723+08:00"
   },
   {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1226,
+    "ttftP95": 1379,
+    "avgMedianTps": 73.41828827880529,
+    "avgLatency": 33.19194800366667,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 365.5110295811651,
+    "compositeScore": 63.74172723533417,
+    "latestProbeAt": "2026-05-03T12:23:49.027814853+08:00"
+  },
+  {
     "provider": "智谱",
     "providerPlatform": "bigmodel_glm",
     "ttftP50": 947,
@@ -52,17 +65,17 @@
     "latestProbeAt": "2026-05-03T12:10:12.849846627+08:00"
   },
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 1311,
-    "ttftP95": 9788.899999999996,
-    "avgMedianTps": 66.90586360537576,
-    "avgLatency": 42.07475648649999,
+    "provider": "联通云",
+    "providerPlatform": "cucloud",
+    "ttftP50": 725,
+    "ttftP95": 1915.6999999999998,
+    "avgMedianTps": 50.54241461853301,
+    "avgLatency": 78.12816364933333,
     "successRate": 1,
-    "sampleCount": 4,
-    "score": 87.3662694697548,
-    "compositeScore": 58.86718536596672,
-    "latestProbeAt": "2026-05-03T12:23:49.027814853+08:00"
+    "sampleCount": 3,
+    "score": -794.949603522135,
+    "compositeScore": 57.595263827055646,
+    "latestProbeAt": "2026-05-03T12:20:46.998180665+08:00"
   },
   {
     "provider": "百度云(千帆)",
@@ -102,19 +115,6 @@
     "score": 516.0532938042775,
     "compositeScore": 51.47764191790252,
     "latestProbeAt": "2026-05-03T12:08:07.364371797+08:00"
-  },
-  {
-    "provider": "联通云",
-    "providerPlatform": "cucloud",
-    "ttftP50": 1233,
-    "ttftP95": 2001.9499999999998,
-    "avgMedianTps": 52.5555966750525,
-    "avgLatency": 66.0788327905,
-    "successRate": 1,
-    "sampleCount": 4,
-    "score": -583.2372397121849,
-    "compositeScore": 51.14197406596192,
-    "latestProbeAt": "2026-05-03T12:20:46.998180665+08:00"
   },
   {
     "provider": "京东云",
