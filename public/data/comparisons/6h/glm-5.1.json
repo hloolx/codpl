@@ -1,5 +1,18 @@
 [
   {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 2041,
+    "ttftP95": 6579.2999999999965,
+    "avgMedianTps": 78.30584160997739,
+    "avgLatency": 44.47113660155555,
+    "successRate": 1,
+    "sampleCount": 18,
+    "score": -50.143365379024544,
+    "compositeScore": 59.32108720061805,
+    "latestProbeAt": "2026-05-04T02:45:19.064672678+08:00"
+  },
+  {
     "provider": "智谱",
     "providerPlatform": "bigmodel_glm",
     "ttftP50": 1176.5,
@@ -11,19 +24,6 @@
     "score": 615.2799381905414,
     "compositeScore": 59.29841893135331,
     "latestProbeAt": "2026-05-04T02:22:38.731591689+08:00"
-  },
-  {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 2077,
-    "ttftP95": 6228,
-    "avgMedianTps": 74.75554683349763,
-    "avgLatency": 43.085489436238085,
-    "successRate": 1,
-    "sampleCount": 21,
-    "score": -44.00395490496635,
-    "compositeScore": 56.93865999661091,
-    "latestProbeAt": "2026-05-04T02:45:19.064672678+08:00"
   },
   {
     "provider": "天翼云",
@@ -41,27 +41,27 @@
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 915,
-    "ttftP95": 13184.999999999793,
-    "avgMedianTps": 51.07077906437253,
-    "avgLatency": 69.62037018552633,
+    "ttftP50": 936.5,
+    "ttftP95": 18053.99999999986,
+    "avgMedianTps": 51.39614679732104,
+    "avgLatency": 70.51760893205557,
     "successRate": 1,
-    "sampleCount": 19,
-    "score": -617.084580251923,
-    "compositeScore": 54.554375011868274,
+    "sampleCount": 18,
+    "score": -641.8633425174628,
+    "compositeScore": 54.41452314092098,
     "latestProbeAt": "2026-05-04T02:37:51.305256654+08:00"
   },
   {
     "provider": "联通元景",
     "providerPlatform": "yuanjing",
-    "ttftP50": 1262.5,
-    "ttftP95": 106615.89999999979,
-    "avgMedianTps": 34.51974678228055,
-    "avgLatency": 153.55886457350002,
-    "successRate": 0.9473684210526315,
-    "sampleCount": 19,
-    "score": -2936.9847125911856,
-    "compositeScore": 39.979358249061946,
+    "ttftP50": 1958,
+    "ttftP95": 113826.1999999999,
+    "avgMedianTps": 35.007688109587434,
+    "avgLatency": 153.00282760029413,
+    "successRate": 0.9444444444444444,
+    "sampleCount": 18,
+    "score": -3062.1801169053842,
+    "compositeScore": 33.941149274674316,
     "latestProbeAt": "2026-05-04T02:26:50.163397335+08:00"
   },
   {
