@@ -1,15 +1,67 @@
 [
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 19157,
-    "ttftP95": 19157,
-    "avgMedianTps": 35.71671343032145,
-    "avgLatency": 109.635755313,
+    "provider": "联通云",
+    "providerPlatform": "cucloud",
+    "ttftP50": 725,
+    "ttftP95": 725,
+    "avgMedianTps": 57.45027281796411,
+    "avgLatency": 69.887025639,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -5357.993602243072,
-    "compositeScore": 21.430028058192867,
-    "latestProbeAt": "2026-05-04T21:57:42.401886514+08:00"
+    "score": -547.4740040672154,
+    "compositeScore": 61.7399787467143,
+    "latestProbeAt": "2026-05-04T22:26:51.658746465+08:00"
+  },
+  {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 1021,
+    "ttftP95": 1021,
+    "avgMedianTps": 62.32800004063785,
+    "avgLatency": 17.792853044,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 724.9466741438271,
+    "compositeScore": 59.727315420563514,
+    "latestProbeAt": "2026-05-04T22:25:21.50309354+08:00"
+  },
+  {
+    "provider": "百度云(千帆)",
+    "providerPlatform": "baidu_qianfan",
+    "ttftP50": 1420,
+    "ttftP95": 1420,
+    "avgMedianTps": 48.94758650831242,
+    "avgLatency": 55.548545720999996,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -379.0281239751255,
+    "compositeScore": 46.93998666602582,
+    "latestProbeAt": "2026-05-04T22:26:17.403339576+08:00"
+  },
+  {
+    "provider": "百炼(阿里云)",
+    "providerPlatform": "aliyun_bailian",
+    "ttftP50": 2961,
+    "ttftP95": 2961,
+    "avgMedianTps": 49.10363925402537,
+    "avgLatency": 53.339948009,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -631.0768647008479,
+    "compositeScore": 36.43168270559849,
+    "latestProbeAt": "2026-05-04T22:25:38.075155163+08:00"
+  },
+  {
+    "provider": "Alaya Code",
+    "providerPlatform": "alaya code",
+    "ttftP50": 20282.5,
+    "ttftP95": 25870.15,
+    "avgMedianTps": 24.737916481819866,
+    "avgLatency": 92.7292172995,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": -5226.30293359658,
+    "compositeScore": 14.84274988909192,
+    "latestProbeAt": "2026-05-04T22:29:47.565561512+08:00"
   }
 ]
