@@ -1,15 +1,67 @@
 [
   {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 932,
+    "ttftP95": 1756.3999999999999,
+    "avgMedianTps": 53.65406660007366,
+    "avgLatency": 35.420056389,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 250.0229898754419,
+    "compositeScore": 55.838765418460206,
+    "latestProbeAt": "2026-05-05T00:53:11.523452501+08:00"
+  },
+  {
+    "provider": "MiniMax",
+    "providerPlatform": "minimax",
+    "ttftP50": 1728,
+    "ttftP95": 1839.6,
+    "avgMedianTps": 64.02028459005508,
+    "avgLatency": 25.193665654333333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 408.6800661819973,
+    "compositeScore": 53.15148263735718,
+    "latestProbeAt": "2026-05-05T00:43:58.91207478+08:00"
+  },
+  {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 3771,
-    "ttftP95": 3771,
-    "avgMedianTps": 32.300220450322946,
-    "avgLatency": 37.985408335,
+    "ttftP50": 5368,
+    "ttftP95": 5368,
+    "avgMedianTps": 26.8186333406907,
+    "avgLatency": 76.775113142,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -510.0338856730623,
-    "compositeScore": 22.861004823735932,
-    "latestProbeAt": "2026-05-04T23:37:05.906255319+08:00"
+    "score": -1832.0660285058557,
+    "compositeScore": 16.09118000441442,
+    "latestProbeAt": "2026-05-05T00:53:29.448891266+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-05T00:42:16.194958909+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-05T00:41:53.655158524+08:00"
   }
 ]

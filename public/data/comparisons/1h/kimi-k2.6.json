@@ -1,15 +1,67 @@
 [
   {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 231,
+    "ttftP95": 298.5,
+    "avgMedianTps": 75.41961408635878,
+    "avgLatency": 43.87770876766666,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 309.37496532648606,
+    "compositeScore": 85.25176845181527,
+    "latestProbeAt": "2026-05-05T00:50:47.15485136+08:00"
+  },
+  {
+    "provider": "Kimi(月之暗面)",
+    "providerPlatform": "moonshot_kimi",
+    "ttftP50": 563,
+    "ttftP95": 801.5,
+    "avgMedianTps": 75.59054569762209,
+    "avgLatency": 27.814326937333334,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 645.5851007523993,
+    "compositeScore": 76.27260320272977,
+    "latestProbeAt": "2026-05-05T00:43:15.420101314+08:00"
+  },
+  {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 5361,
-    "ttftP95": 5361,
-    "avgMedianTps": 90.50279288318097,
-    "avgLatency": 33.002334355,
+    "ttftP50": 3029,
+    "ttftP95": 3029,
+    "avgMedianTps": 88.52275034191995,
+    "avgLatency": 31.405681731,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -354.2416015759143,
-    "compositeScore": 54.30167572990858,
-    "latestProbeAt": "2026-05-04T23:33:18.799160227+08:00"
+    "score": 140.19445877651947,
+    "compositeScore": 59.75557848215705,
+    "latestProbeAt": "2026-05-05T00:51:09.395468537+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 1039,
+    "ttftP95": 1237,
+    "avgMedianTps": 23.003547255905797,
+    "avgLatency": 97.68541747166667,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -1511.9141532562317,
+    "compositeScore": 35.88051586946017,
+    "latestProbeAt": "2026-05-05T00:57:23.256790044+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-05T00:42:14.470601089+08:00"
   }
 ]
