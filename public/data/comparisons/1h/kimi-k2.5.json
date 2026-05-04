@@ -13,19 +13,6 @@
     "latestProbeAt": "2026-05-04T16:21:04.448824445+08:00"
   },
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 1209,
-    "ttftP95": 1377.3,
-    "avgMedianTps": 106.70861329257114,
-    "avgLatency": 16.28885498,
-    "successRate": 1,
-    "sampleCount": 2,
-    "score": 991.2303052554267,
-    "compositeScore": 79.89220161246757,
-    "latestProbeAt": "2026-05-04T16:24:37.170488135+08:00"
-  },
-  {
     "provider": "百度云(千帆)",
     "providerPlatform": "baidu_qianfan",
     "ttftP50": 568,
@@ -37,6 +24,19 @@
     "score": 462.0754866787595,
     "compositeScore": 73.74781276778793,
     "latestProbeAt": "2026-05-04T16:24:20.357092019+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1022,
+    "ttftP95": 2825.6,
+    "avgMedianTps": 84.4092032958886,
+    "avgLatency": 28.686131220000004,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 584.9019392753315,
+    "compositeScore": 72.96191407311575,
+    "latestProbeAt": "2026-05-04T16:43:58.402697163+08:00"
   },
   {
     "provider": "百炼(阿里云)",
@@ -52,6 +52,19 @@
     "latestProbeAt": "2026-05-04T16:23:49.816330392+08:00"
   },
   {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 185,
+    "ttftP95": 357.79999999999995,
+    "avgMedianTps": 45.92655218819289,
+    "avgLatency": 51.11473237766666,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -39.30899631250918,
+    "compositeScore": 67.55593131291573,
+    "latestProbeAt": "2026-05-04T16:30:41.262135169+08:00"
+  },
+  {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
     "ttftP50": 438,
@@ -63,19 +76,6 @@
     "score": -4.837626876368404,
     "compositeScore": 62.994478153810235,
     "latestProbeAt": "2026-05-04T16:24:56.19291511+08:00"
-  },
-  {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 377,
-    "ttftP95": 485.9,
-    "avgMedianTps": 35.283285420970465,
-    "avgLatency": 76.327623506,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": -771.890875124177,
-    "compositeScore": 57.87395102485445,
-    "latestProbeAt": "2026-05-04T16:26:44.719401668+08:00"
   },
   {
     "provider": "联通云",
