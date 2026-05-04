@@ -1,28 +1,67 @@
 [
   {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 274,
+    "ttftP95": 527.8,
+    "avgMedianTps": 80.20372205787409,
+    "avgLatency": 53.491096173333325,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 89.14492801391134,
+    "compositeScore": 88.12223323472446,
+    "latestProbeAt": "2026-05-04T07:48:16.005597674+08:00"
+  },
+  {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 680,
-    "ttftP95": 680,
-    "avgMedianTps": 75.20099097491139,
-    "avgLatency": 31.084787433,
+    "ttftP50": 564,
+    "ttftP95": 566.7,
+    "avgMedianTps": 92.64300000362057,
+    "avgLatency": 31.66956177033333,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": 538.0862600244683,
-    "compositeScore": 73.31487212852863,
-    "latestProbeAt": "2026-05-04T06:32:26.346138334+08:00"
+    "sampleCount": 3,
+    "score": 651.3189557633902,
+    "compositeScore": 86.47847338314321,
+    "latestProbeAt": "2026-05-04T07:52:09.227188216+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1194,
-    "ttftP95": 1216.5,
-    "avgMedianTps": 83.63012128276861,
-    "avgLatency": 32.8967177355,
+    "ttftP50": 1304.5,
+    "ttftP95": 1390.45,
+    "avgMedianTps": 83.68645491021725,
+    "avgLatency": 31.113142402999998,
     "successRate": 1,
     "sampleCount": 2,
-    "score": 440.56278430911175,
-    "compositeScore": 70.25038846197192,
-    "latestProbeAt": "2026-05-04T06:37:47.173140412+08:00"
+    "score": 463.39016938630346,
+    "compositeScore": 69.00724756291464,
+    "latestProbeAt": "2026-05-04T07:57:31.502722969+08:00"
+  },
+  {
+    "provider": "Kimi(月之暗面)",
+    "providerPlatform": "moonshot_kimi",
+    "ttftP50": 622,
+    "ttftP95": 665.2,
+    "avgMedianTps": 56.880765479589094,
+    "avgLatency": 35.448249462999996,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 330.67835630253455,
+    "compositeScore": 63.60893849140624,
+    "latestProbeAt": "2026-05-04T07:43:18.303843575+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-04T07:41:43.944988236+08:00"
   }
 ]
