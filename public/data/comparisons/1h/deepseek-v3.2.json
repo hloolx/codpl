@@ -1,15 +1,67 @@
 [
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 1455,
-    "ttftP95": 1455,
-    "avgMedianTps": 11.688634427447276,
-    "avgLatency": 130.067711692,
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 547,
+    "ttftP95": 616.3,
+    "avgMedianTps": 59.56730186748945,
+    "avgLatency": 20.5448660455,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": 734.3821600674364,
+    "compositeScore": 67.0745977975269,
+    "latestProbeAt": "2026-05-04T17:58:43.688419495+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 973,
+    "ttftP95": 973,
+    "avgMedianTps": 41.581652977154874,
+    "avgLatency": 38.524770025,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -2472.560985735316,
-    "compositeScore": 24.233333183470712,
-    "latestProbeAt": "2026-05-04T16:40:00.284568587+08:00"
+    "score": 91.77066723792939,
+    "compositeScore": 47.974218743440616,
+    "latestProbeAt": "2026-05-04T17:56:03.464904746+08:00"
+  },
+  {
+    "provider": "百度云(千帆)",
+    "providerPlatform": "baidu_qianfan",
+    "ttftP50": 1208,
+    "ttftP95": 1229.6,
+    "avgMedianTps": 28.701106787470195,
+    "avgLatency": 40.069527656,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -71.1315506751788,
+    "compositeScore": 37.12480358419013,
+    "latestProbeAt": "2026-05-04T18:00:22.394315129+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1732,
+    "ttftP95": 1732,
+    "avgMedianTps": 12.432620532380808,
+    "avgLatency": 98.214537118,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -1727.167704755715,
+    "compositeScore": 22.165527077120046,
+    "latestProbeAt": "2026-05-04T17:56:58.954211232+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-04T17:53:53.015051442+08:00"
   }
 ]
