@@ -13,6 +13,19 @@
     "latestProbeAt": "2026-05-05T18:53:20.340928265+08:00"
   },
   {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 1037,
+    "ttftP95": 3663.2,
+    "avgMedianTps": 50.40755989095745,
+    "avgLatency": 74.46657723599999,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -766.6190715542552,
+    "compositeScore": 52.350721051401024,
+    "latestProbeAt": "2026-05-05T19:01:30.726935512+08:00"
+  },
+  {
     "provider": "智谱",
     "providerPlatform": "bigmodel_glm",
     "ttftP50": 1523,
@@ -26,43 +39,30 @@
     "latestProbeAt": "2026-05-05T18:54:26.27392554+08:00"
   },
   {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 2496,
-    "ttftP95": 3809.1,
-    "avgMedianTps": 55.072062768599274,
-    "avgLatency": 64.12555619049999,
-    "successRate": 1,
-    "sampleCount": 2,
-    "score": -771.9065281509043,
-    "compositeScore": 42.47740237749589,
-    "latestProbeAt": "2026-05-05T18:56:19.438433606+08:00"
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 110315,
+    "ttftP95": 196449.5,
+    "avgMedianTps": 22.40663499552671,
+    "avgLatency": 285.71633000049997,
+    "successRate": 0.6666666666666666,
+    "sampleCount": 3,
+    "score": -28404.801773372674,
+    "compositeScore": 13.443980997316025,
+    "latestProbeAt": "2026-05-05T19:14:07.736557716+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1807,
-    "ttftP95": 6820.9,
-    "avgMedianTps": 30.348401770747447,
-    "avgLatency": 116.44458154300001,
+    "ttftP50": 7378,
+    "ttftP95": 7655.2,
+    "avgMedianTps": 16.145142238767768,
+    "avgLatency": 50.69429098533333,
     "successRate": 1,
     "sampleCount": 3,
-    "score": -2090.4241279505154,
-    "compositeScore": 32.303420058761276,
-    "latestProbeAt": "2026-05-05T18:55:45.469699133+08:00"
-  },
-  {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 14610,
-    "ttftP95": 14610,
-    "avgMedianTps": 24.28907133031086,
-    "avgLatency": 143.797708278,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": -5371.208278968134,
-    "compositeScore": 14.573442798186516,
-    "latestProbeAt": "2026-05-05T18:52:40.545946243+08:00"
+    "score": -1646.0864212007268,
+    "compositeScore": 9.68708534326066,
+    "latestProbeAt": "2026-05-05T19:14:57.104856324+08:00"
   },
   {
     "provider": "OpenCode Go",

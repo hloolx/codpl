@@ -1,16 +1,42 @@
 [
   {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 253,
+    "ttftP95": 367.29999999999995,
+    "avgMedianTps": 70.94489858683018,
+    "avgLatency": 59.386195945333334,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -109.58550711235216,
+    "compositeScore": 82.56693915209812,
+    "latestProbeAt": "2026-05-05T19:14:25.125696431+08:00"
+  },
+  {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 738,
-    "ttftP95": 748.8,
-    "avgMedianTps": 75.8025441331317,
-    "avgLatency": 34.526388080000004,
+    "ttftP50": 750,
+    "ttftP95": 3065.7,
+    "avgMedianTps": 80.74538168808778,
+    "avgLatency": 32.197299867000005,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": 444.0555627987901,
-    "compositeScore": 72.49494332423387,
-    "latestProbeAt": "2026-05-05T18:57:46.759304606+08:00"
+    "sampleCount": 3,
+    "score": 529.5397934535266,
+    "compositeScore": 75.22794806397906,
+    "latestProbeAt": "2026-05-05T19:02:43.868611896+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1700,
+    "ttftP95": 3597.2,
+    "avgMedianTps": 68.71348104601934,
+    "avgLatency": 34.27060650666667,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 215.5157236094493,
+    "compositeScore": 56.20308522231977,
+    "latestProbeAt": "2026-05-05T19:15:33.321408515+08:00"
   },
   {
     "provider": "Kimi(月之暗面)",
@@ -24,32 +50,6 @@
     "score": 250.70553328277447,
     "compositeScore": 54.86991739349946,
     "latestProbeAt": "2026-05-05T18:51:51.898301185+08:00"
-  },
-  {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 380,
-    "ttftP95": 380,
-    "avgMedianTps": 25.648960048166693,
-    "avgLatency": 81.389548438,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": -956.844950661,
-    "compositeScore": 51.97900685054935,
-    "latestProbeAt": "2026-05-05T18:54:02.591142547+08:00"
-  },
-  {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 3808,
-    "ttftP95": 3863.8,
-    "avgMedianTps": 70.51812928315147,
-    "avgLatency": 34.097344830999994,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": -190.92484507609106,
-    "compositeScore": 45.65088684177025,
-    "latestProbeAt": "2026-05-05T18:56:14.840256512+08:00"
   },
   {
     "provider": "OpenCode Go",
