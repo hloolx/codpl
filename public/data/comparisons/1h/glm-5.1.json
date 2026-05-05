@@ -1,5 +1,18 @@
 [
   {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1766,
+    "ttftP95": 10421.3,
+    "avgMedianTps": 113.43203524209382,
+    "avgLatency": 23.061955283666666,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 750.8433293608962,
+    "compositeScore": 74.42549062847415,
+    "latestProbeAt": "2026-05-05T09:44:59.937143851+08:00"
+  },
+  {
     "provider": "智谱",
     "providerPlatform": "bigmodel_glm",
     "ttftP50": 682,
@@ -26,43 +39,30 @@
     "latestProbeAt": "2026-05-05T09:27:31.421390495+08:00"
   },
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 6539,
-    "ttftP95": 10898.6,
-    "avgMedianTps": 122.67613502241602,
-    "avgLatency": 25.1622243275,
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 779,
+    "ttftP95": 5620.099999999999,
+    "avgMedianTps": 48.08918544223504,
+    "avgLatency": 67.55786203033334,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": -200.79879805300402,
-    "compositeScore": 60,
-    "latestProbeAt": "2026-05-05T09:29:06.792903023+08:00"
+    "sampleCount": 3,
+    "score": -556.2114381049232,
+    "compositeScore": 55.08690298968314,
+    "latestProbeAt": "2026-05-05T09:34:14.908703145+08:00"
   },
   {
     "provider": "联通元景",
     "providerPlatform": "yuanjing",
-    "ttftP50": 335,
-    "ttftP95": 335,
-    "avgMedianTps": 23.71842852679339,
-    "avgLatency": 143.746329752,
+    "ttftP50": 74952,
+    "ttftP95": 240973.19999999998,
+    "avgMedianTps": 21.919217178157083,
+    "avgLatency": 315.257723135,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": -2518.3476726392396,
-    "compositeScore": 52.639071167583495,
-    "latestProbeAt": "2026-05-05T09:27:19.446381589+08:00"
-  },
-  {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 3411,
-    "ttftP95": 5883.3,
-    "avgMedianTps": 47.78594116244524,
-    "avgLatency": 61.0420168355,
-    "successRate": 1,
-    "sampleCount": 2,
-    "score": -921.5347739128285,
-    "compositeScore": 33.59996120629191,
-    "latestProbeAt": "2026-05-05T09:29:58.684790007+08:00"
+    "sampleCount": 3,
+    "score": -21740.327775306057,
+    "compositeScore": 13.15153030689425,
+    "latestProbeAt": "2026-05-05T09:43:26.543109482+08:00"
   },
   {
     "provider": "OpenCode Go",
