@@ -3,14 +3,14 @@
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
     "ttftP50": 1187.5,
-    "ttftP95": 3574.199999999999,
-    "avgMedianTps": 101.4392243090697,
-    "avgLatency": 38.50458635424286,
+    "ttftP95": 3543.800000000001,
+    "avgMedianTps": 101.68755691128902,
+    "avgLatency": 38.13064149673612,
     "successRate": 1,
-    "sampleCount": 70,
-    "score": 408.5206869983466,
+    "sampleCount": 72,
+    "score": 419.3593040493313,
     "compositeScore": 80.15106892390209,
-    "latestProbeAt": "2026-05-05T13:24:44.069962535+08:00"
+    "latestProbeAt": "2026-05-05T13:40:20.206929583+08:00"
   },
   {
     "provider": "百度云(千帆)",
@@ -39,6 +39,19 @@
     "latestProbeAt": "2026-05-05T13:25:58.616013041+08:00"
   },
   {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 201,
+    "ttftP95": 3883.550000000003,
+    "avgMedianTps": 39.56760598825765,
+    "avgLatency": 83.61790151504164,
+    "successRate": 1,
+    "sampleCount": 72,
+    "score": -893.2419019464949,
+    "compositeScore": 63.74056359295459,
+    "latestProbeAt": "2026-05-05T13:36:40.499744198+08:00"
+  },
+  {
     "provider": "腾讯云",
     "providerPlatform": "tencent_token_plan",
     "ttftP50": 947,
@@ -50,19 +63,6 @@
     "score": 515.6447490798154,
     "compositeScore": 63.6770029526662,
     "latestProbeAt": "2026-05-05T13:22:26.438742238+08:00"
-  },
-  {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 192.5,
-    "ttftP95": 3813.5999999999963,
-    "avgMedianTps": 39.29891835887637,
-    "avgLatency": 84.70279810555711,
-    "successRate": 1,
-    "sampleCount": 70,
-    "score": -920.2764424856693,
-    "compositeScore": 63.57935101532583,
-    "latestProbeAt": "2026-05-05T13:28:50.144539228+08:00"
   },
   {
     "provider": "京东云",
