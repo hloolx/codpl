@@ -13,6 +13,19 @@
     "latestProbeAt": "2026-05-06T15:55:54.324255449+08:00"
   },
   {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1092,
+    "ttftP95": 1155,
+    "avgMedianTps": 83.02569439155968,
+    "avgLatency": 25.392064406333333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 644.9525561910247,
+    "compositeScore": 71.17603213069609,
+    "latestProbeAt": "2026-05-06T16:12:28.337941592+08:00"
+  },
+  {
     "provider": "腾讯云",
     "providerPlatform": "tencent_token_plan",
     "ttftP50": 1439,
@@ -39,43 +52,30 @@
     "latestProbeAt": "2026-05-06T15:52:47.956661362+08:00"
   },
   {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 180,
-    "ttftP95": 180,
-    "avgMedianTps": 38.248191246999156,
-    "avgLatency": 28.037106091,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": 492.561495206995,
-    "compositeScore": 62.94891474819949,
-    "latestProbeAt": "2026-05-06T15:49:05.433747199+08:00"
-  },
-  {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 1092,
-    "ttftP95": 1092,
-    "avgMedianTps": 67.58175689332549,
-    "avgLatency": 30.646145077,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": 420.93691443495277,
-    "compositeScore": 61.90966963175558,
-    "latestProbeAt": "2026-05-06T15:53:56.963791966+08:00"
-  },
-  {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
     "ttftP50": 41663,
-    "ttftP95": 41663,
-    "avgMedianTps": 225.9165238060973,
-    "avgLatency": 49.955056475,
+    "ttftP95": 51905,
+    "avgMedianTps": 98.55130887164522,
+    "avgLatency": 72.84376721333332,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": -7225.977269038416,
-    "compositeScore": 60,
-    "latestProbeAt": "2026-05-06T15:51:49.855008987+08:00"
+    "sampleCount": 3,
+    "score": -8562.386327103462,
+    "compositeScore": 59.13078532298713,
+    "latestProbeAt": "2026-05-06T16:10:24.789807871+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 276,
+    "ttftP95": 352.5,
+    "avgMedianTps": 31.29023230803215,
+    "avgLatency": 187.51388698000002,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -3555.3057806518077,
+    "compositeScore": 58.77413938481929,
+    "latestProbeAt": "2026-05-06T16:06:26.584200836+08:00"
   },
   {
     "provider": "百度云(千帆)",
