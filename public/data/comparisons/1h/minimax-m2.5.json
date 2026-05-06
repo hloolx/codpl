@@ -13,6 +13,19 @@
     "latestProbeAt": "2026-05-06T13:26:41.171244143+08:00"
   },
   {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 685,
+    "ttftP95": 4875.4,
+    "avgMedianTps": 71.49934934420897,
+    "avgLatency": 117.36309477133334,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -1642.0812732180798,
+    "compositeScore": 70.9881947330053,
+    "latestProbeAt": "2026-05-06T13:51:01.938716181+08:00"
+  },
+  {
     "provider": "MiniMax",
     "providerPlatform": "minimax",
     "ttftP50": 539,
@@ -24,32 +37,6 @@
     "score": 569.3079352682172,
     "compositeScore": 70.04976560175547,
     "latestProbeAt": "2026-05-06T13:23:46.198636717+08:00"
-  },
-  {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 1272,
-    "ttftP95": 1729.1999999999998,
-    "avgMedianTps": 82.78415566126507,
-    "avgLatency": 15.297289643,
-    "successRate": 1,
-    "sampleCount": 2,
-    "score": 859.8726928925904,
-    "compositeScore": 68.82985074887429,
-    "latestProbeAt": "2026-05-06T13:27:50.053314387+08:00"
-  },
-  {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 642,
-    "ttftP95": 642,
-    "avgMedianTps": 61.436654385889035,
-    "avgLatency": 33.543175819,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": 401.6405308403341,
-    "compositeScore": 65.8858846652692,
-    "latestProbeAt": "2026-05-06T12:33:05.273095521+08:00"
   },
   {
     "provider": "百度云(千帆)",
@@ -76,6 +63,19 @@
     "score": 380.0642370345548,
     "compositeScore": 60,
     "latestProbeAt": "2026-05-06T13:29:47.900465154+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 1780,
+    "ttftP95": 8914.3,
+    "avgMedianTps": 73.20071934046446,
+    "avgLatency": 21.903007991,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 535.6291162677868,
+    "compositeScore": 58.23200325069988,
+    "latestProbeAt": "2026-05-06T13:41:39.57612294+08:00"
   },
   {
     "provider": "腾讯云",
