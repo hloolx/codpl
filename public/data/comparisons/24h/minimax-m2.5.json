@@ -2,28 +2,41 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 138.5,
-    "ttftP95": 286.95000000000016,
-    "avgMedianTps": 183.52832139880718,
-    "avgLatency": 13.007105055208333,
+    "ttftP50": 139,
+    "ttftP95": 284.3999999999996,
+    "avgMedianTps": 183.07788770972138,
+    "avgLatency": 13.086637176136986,
     "successRate": 1,
-    "sampleCount": 72,
-    "score": 1748.2923020126348,
+    "sampleCount": 73,
+    "score": 1743.5013968549035,
     "compositeScore": 100,
-    "latestProbeAt": "2026-05-06T15:54:48.479268611+08:00"
+    "latestProbeAt": "2026-05-06T16:57:33.75065954+08:00"
   },
   {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
     "ttftP50": 712.5,
     "ttftP95": 4661.8,
-    "avgMedianTps": 86.74802464366904,
-    "avgLatency": 20.297295039708334,
+    "avgMedianTps": 86.25661110747001,
+    "avgLatency": 20.449254261236113,
     "successRate": 1,
     "sampleCount": 72,
-    "score": 870.5557718693058,
-    "compositeScore": 79.56953965176557,
-    "latestProbeAt": "2026-05-06T16:02:24.253652578+08:00"
+    "score": 863.8083101139173,
+    "compositeScore": 79.27469153004614,
+    "latestProbeAt": "2026-05-06T16:56:19.911607356+08:00"
+  },
+  {
+    "provider": "腾讯云",
+    "providerPlatform": "tencent_token_plan",
+    "ttftP50": 2032.5,
+    "ttftP95": 3222.35,
+    "avgMedianTps": 124.3881814733067,
+    "avgLatency": 15.374883674527776,
+    "successRate": 1,
+    "sampleCount": 72,
+    "score": 955.4569969766458,
+    "compositeScore": 72.3977905353349,
+    "latestProbeAt": "2026-05-06T16:59:14.335695505+08:00"
   },
   {
     "provider": "Ollama Cloud",
@@ -39,82 +52,69 @@
     "latestProbeAt": "2026-05-06T16:15:32.918984839+08:00"
   },
   {
-    "provider": "腾讯云",
-    "providerPlatform": "tencent_token_plan",
-    "ttftP50": 2189.5,
-    "ttftP95": 3269.8,
-    "avgMedianTps": 127.40762608108243,
-    "avgLatency": 15.157713884930555,
-    "successRate": 1,
-    "sampleCount": 72,
-    "score": 947.6029093632308,
-    "compositeScore": 71.3243295604323,
-    "latestProbeAt": "2026-05-06T15:49:52.356137312+08:00"
-  },
-  {
     "provider": "MiniMax",
     "providerPlatform": "minimax",
-    "ttftP50": 637,
-    "ttftP95": 1789.3000000000002,
-    "avgMedianTps": 63.117333876569745,
-    "avgLatency": 29.10816273055556,
+    "ttftP50": 643,
+    "ttftP95": 1787.5999999999997,
+    "avgMedianTps": 62.955264743087206,
+    "avgLatency": 29.25532673630137,
     "successRate": 1,
-    "sampleCount": 72,
-    "score": 523.5999349955293,
-    "compositeScore": 67.00709160833765,
-    "latestProbeAt": "2026-05-06T15:47:28.187457782+08:00"
+    "sampleCount": 73,
+    "score": 517.748420050989,
+    "compositeScore": 66.77459647753166,
+    "latestProbeAt": "2026-05-06T16:59:19.441554605+08:00"
   },
   {
     "provider": "百度云(千帆)",
     "providerPlatform": "baidu_qianfan",
-    "ttftP50": 612.5,
-    "ttftP95": 1583.6500000000037,
-    "avgMedianTps": 55.02859130810816,
-    "avgLatency": 50.279803832416654,
+    "ttftP50": 613,
+    "ttftP95": 1515.7999999999884,
+    "avgMedianTps": 55.002553146029264,
+    "avgLatency": 50.43706143941095,
     "successRate": 1,
-    "sampleCount": 72,
-    "score": -49.32354796176742,
-    "compositeScore": 62.719681350924375,
-    "latestProbeAt": "2026-05-06T15:54:54.956544101+08:00"
+    "sampleCount": 73,
+    "score": -53.51121710909797,
+    "compositeScore": 62.692286155668555,
+    "latestProbeAt": "2026-05-06T16:58:43.531051757+08:00"
   },
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
     "ttftP50": 4963,
     "ttftP95": 27127,
-    "avgMedianTps": 118.58898998041882,
-    "avgLatency": 27.42986966812676,
+    "avgMedianTps": 117.53599914411672,
+    "avgLatency": 27.15227028474648,
     "successRate": 0.9861111111111112,
     "sampleCount": 72,
-    "score": 19.298309290454995,
+    "score": 19.92034885714952,
     "compositeScore": 60,
-    "latestProbeAt": "2026-05-06T16:02:24.475709231+08:00"
+    "latestProbeAt": "2026-05-06T16:56:24.786437778+08:00"
   },
   {
     "provider": "百炼(阿里云)",
     "providerPlatform": "aliyun_bailian",
-    "ttftP50": 1662.5,
-    "ttftP95": 4150.900000000002,
-    "avgMedianTps": 71.12860368645084,
-    "avgLatency": 29.04322163659722,
+    "ttftP50": 1676,
+    "ttftP95": 4110.799999999993,
+    "avgMedianTps": 70.92541905316138,
+    "avgLatency": 29.11252129027397,
     "successRate": 1,
-    "sampleCount": 72,
-    "score": 368.19108120377473,
-    "compositeScore": 57.97396286407017,
-    "latestProbeAt": "2026-05-06T15:53:29.929498242+08:00"
+    "sampleCount": 73,
+    "score": 362.5394820621191,
+    "compositeScore": 57.73537399986212,
+    "latestProbeAt": "2026-05-06T16:58:45.836797324+08:00"
   },
   {
     "provider": "联通云",
     "providerPlatform": "cucloud",
     "ttftP50": 786.5,
-    "ttftP95": 5357.750000000003,
-    "avgMedianTps": 43.753164594198715,
-    "avgLatency": 69.72112563868053,
+    "ttftP95": 5276.249999999995,
+    "avgMedianTps": 43.546595691253216,
+    "avgLatency": 69.78793003868918,
     "successRate": 1,
-    "sampleCount": 72,
-    "score": -637.809153401821,
-    "compositeScore": 52.34705610732118,
-    "latestProbeAt": "2026-05-06T15:59:12.529959812+08:00"
+    "sampleCount": 74,
+    "score": -640.7186768197103,
+    "compositeScore": 52.22311476555387,
+    "latestProbeAt": "2026-05-06T17:00:19.87160769+08:00"
   },
   {
     "provider": "OpenCode Go",
@@ -127,7 +127,7 @@
     "sampleCount": 72,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-05-06T15:44:34.092248923+08:00"
+    "latestProbeAt": "2026-05-06T16:56:09.37797583+08:00"
   },
   {
     "provider": "优云",
@@ -140,7 +140,7 @@
     "sampleCount": 72,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-05-06T15:44:15.127422889+08:00"
+    "latestProbeAt": "2026-05-06T16:55:55.263269182+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -153,7 +153,7 @@
     "sampleCount": 72,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-05-06T15:44:14.822068649+08:00"
+    "latestProbeAt": "2026-05-06T16:55:56.150509036+08:00"
   },
   {
     "provider": "移动云",
@@ -166,6 +166,6 @@
     "sampleCount": 72,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-05-06T15:44:12.969566079+08:00"
+    "latestProbeAt": "2026-05-06T16:55:54.278797832+08:00"
   }
 ]
