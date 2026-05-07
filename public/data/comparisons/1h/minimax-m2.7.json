@@ -1,18 +1,5 @@
 [
   {
-    "provider": "OpenCode Go",
-    "providerPlatform": "opencode_go",
-    "ttftP50": 1549,
-    "ttftP95": 1549,
-    "avgMedianTps": 115.0038885174614,
-    "avgLatency": 8.517639715,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": 1167.2823382297686,
-    "compositeScore": 76.31697261706313,
-    "latestProbeAt": "2026-05-08T06:56:09.487822144+08:00"
-  },
-  {
     "provider": "MiniMax",
     "providerPlatform": "minimax",
     "ttftP50": 567,
@@ -26,30 +13,43 @@
     "latestProbeAt": "2026-05-08T06:54:46.433878289+08:00"
   },
   {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 656.5,
-    "ttftP95": 717.25,
-    "avgMedianTps": 63.18752810465833,
-    "avgLatency": 26.165407964,
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 1549,
+    "ttftP95": 2381.5,
+    "avgMedianTps": 86.86539015448007,
+    "avgLatency": 22.341587599333334,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": 593.68996952795,
-    "compositeScore": 66.61419175882493,
-    "latestProbeAt": "2026-05-08T06:59:02.526920181+08:00"
+    "sampleCount": 3,
+    "score": 652.8526509435471,
+    "compositeScore": 68.43620670975116,
+    "latestProbeAt": "2026-05-08T07:08:41.129230599+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 3006.5,
-    "ttftP95": 3304.85,
-    "avgMedianTps": 96.25502186664878,
-    "avgLatency": 16.7145794445,
+    "ttftP50": 2847,
+    "ttftP95": 4178.1,
+    "avgMedianTps": 113.05593447536337,
+    "avgLatency": 15.614523460333336,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": 558.3656450873925,
-    "compositeScore": 64.50250759298739,
-    "latestProbeAt": "2026-05-08T06:58:38.145104004+08:00"
+    "sampleCount": 3,
+    "score": 718.5725203438467,
+    "compositeScore": 67.53591912753615,
+    "latestProbeAt": "2026-05-08T07:11:50.521683109+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 658,
+    "ttftP95": 717.4,
+    "avgMedianTps": 57.42225037452454,
+    "avgLatency": 28.544013416000002,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 499.33316684714725,
+    "compositeScore": 63.12209939232111,
+    "latestProbeAt": "2026-05-08T07:12:49.543300511+08:00"
   },
   {
     "provider": "无问芯穹",
