@@ -1,31 +1,5 @@
 [
   {
-    "provider": "MiniMax",
-    "providerPlatform": "minimax",
-    "ttftP50": 693,
-    "ttftP95": 758.7,
-    "avgMedianTps": 63.737919921590965,
-    "avgLatency": 28.148759615666666,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": 540.1085291378793,
-    "compositeScore": 66.16382343654125,
-    "latestProbeAt": "2026-05-07T07:26:16.35445215+08:00"
-  },
-  {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 730,
-    "ttftP95": 732.7,
-    "avgMedianTps": 52.39034006564257,
-    "avgLatency": 33.80406271766667,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": 323.24047245218867,
-    "compositeScore": 58.60486440667056,
-    "latestProbeAt": "2026-05-07T07:32:57.875699349+08:00"
-  },
-  {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
     "ttftP50": 4616,
@@ -39,29 +13,29 @@
     "latestProbeAt": "2026-05-07T07:45:16.847401541+08:00"
   },
   {
-    "provider": "OpenCode Go",
-    "providerPlatform": "opencode_go",
-    "ttftP50": 2718,
-    "ttftP95": 7938.9,
-    "avgMedianTps": 73.14806682635388,
-    "avgLatency": 26.63078498033333,
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 730,
+    "ttftP95": 730,
+    "avgMedianTps": 38.759906078226706,
+    "avgLatency": 40.441217626,
     "successRate": 1,
-    "sampleCount": 3,
-    "score": 229.51877644979004,
-    "compositeScore": 52.09372959309722,
-    "latestProbeAt": "2026-05-07T07:41:00.875602651+08:00"
+    "sampleCount": 1,
+    "score": 75.52899581936026,
+    "compositeScore": 50.42660401422104,
+    "latestProbeAt": "2026-05-07T07:32:57.875699349+08:00"
   },
   {
-    "provider": "无问芯穹",
-    "providerPlatform": "infini_genstudio",
-    "ttftP50": 0,
-    "ttftP95": 0,
-    "avgMedianTps": 0,
-    "avgLatency": 0,
-    "successRate": 0,
-    "sampleCount": 3,
-    "score": -1000,
-    "compositeScore": 0,
-    "latestProbeAt": "2026-05-07T07:23:47.984000515+08:00"
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 5150,
+    "ttftP95": 8182.099999999999,
+    "avgMedianTps": 82.87143617186558,
+    "avgLatency": 20.7366366615,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": -51.18729950630643,
+    "compositeScore": 49.72286170311935,
+    "latestProbeAt": "2026-05-07T07:41:00.875602651+08:00"
   }
 ]
