@@ -1,5 +1,18 @@
 [
   {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 1015,
+    "ttftP95": 1156.3,
+    "avgMedianTps": 64.02960654515722,
+    "avgLatency": 32.63220579433334,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 365.3724944126101,
+    "compositeScore": 60.833310711327755,
+    "latestProbeAt": "2026-05-08T21:06:01.281604217+08:00"
+  },
+  {
     "provider": "腾讯云",
     "providerPlatform": "tencent_token_plan",
     "ttftP50": 798,
@@ -11,19 +24,6 @@
     "score": 474.38695236603905,
     "compositeScore": 60.235379611839264,
     "latestProbeAt": "2026-05-08T20:44:01.016848271+08:00"
-  },
-  {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 1004,
-    "ttftP95": 1013.9,
-    "avgMedianTps": 55.38599293005946,
-    "avgLatency": 36.276180725,
-    "successRate": 1,
-    "sampleCount": 2,
-    "score": 224.61143945535673,
-    "compositeScore": 55.804347123486764,
-    "latestProbeAt": "2026-05-08T20:52:35.589649506+08:00"
   },
   {
     "provider": "OpenCode Go",
