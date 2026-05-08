@@ -1,41 +1,41 @@
 [
   {
-    "provider": "联通云",
-    "providerPlatform": "cucloud",
-    "ttftP50": 1581,
-    "ttftP95": 1581,
-    "avgMedianTps": 104.03868102673277,
-    "avgLatency": 19.759428959,
-    "successRate": 0.3333333333333333,
-    "sampleCount": 3,
-    "score": 147.37969551872982,
-    "compositeScore": 76.0219703813751,
-    "latestProbeAt": "2026-05-08T23:31:01.971502114+08:00"
-  },
-  {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 1364,
-    "ttftP95": 1542.2,
-    "avgMedianTps": 78.4648419092306,
-    "avgLatency": 32.60028870233333,
+    "ttftP50": 1040,
+    "ttftP95": 1458.1999999999998,
+    "avgMedianTps": 91.42090229572659,
+    "avgLatency": 26.807158841200003,
     "successRate": 1,
-    "sampleCount": 3,
-    "score": 382.9818338970506,
-    "compositeScore": 65.23081276025545,
-    "latestProbeAt": "2026-05-08T23:48:24.194627901+08:00"
+    "sampleCount": 5,
+    "score": 670.3464427443595,
+    "compositeScore": 76.91705015211022,
+    "latestProbeAt": "2026-05-09T00:28:15.689370098+08:00"
   },
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 2021,
-    "ttftP95": 3813.6999999999994,
-    "avgMedianTps": 74.29594435346806,
-    "avgLatency": 47.023730769500006,
+    "ttftP50": 1082,
+    "ttftP95": 3619.449999999999,
+    "avgMedianTps": 80.79933137426288,
+    "avgLatency": 31.143156020750002,
     "successRate": 1,
     "sampleCount": 4,
-    "score": -134.01760311669182,
-    "compositeScore": 57.057217453242295,
-    "latestProbeAt": "2026-05-08T23:42:06.291299837+08:00"
+    "score": 489.81708772682714,
+    "compositeScore": 69.97293789124839,
+    "latestProbeAt": "2026-05-09T00:24:57.669377467+08:00"
+  },
+  {
+    "provider": "联通云",
+    "providerPlatform": "cucloud",
+    "ttftP50": 1586,
+    "ttftP95": 1586,
+    "avgMedianTps": 2.332449803680149,
+    "avgLatency": 349.206277895,
+    "successRate": 0.25,
+    "sampleCount": 4,
+    "score": -8783.36224855292,
+    "compositeScore": 17.375886230127115,
+    "latestProbeAt": "2026-05-09T00:24:17.578349942+08:00"
   }
 ]
