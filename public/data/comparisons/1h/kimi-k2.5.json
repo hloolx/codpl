@@ -28,15 +28,15 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1328.5,
-    "ttftP95": 1571.85,
-    "avgMedianTps": 101.1289307277114,
-    "avgLatency": 27.135536119,
+    "ttftP50": 1237,
+    "ttftP95": 1557.4,
+    "avgMedianTps": 113.29204832181694,
+    "avgLatency": 29.719650087999998,
     "successRate": 1,
-    "sampleCount": 4,
-    "score": 662.6851813912684,
-    "compositeScore": 78.53236178005375,
-    "latestProbeAt": "2026-05-09T00:29:29.375047624+08:00"
+    "sampleCount": 3,
+    "score": 689.3610377309014,
+    "compositeScore": 79.56188905519511,
+    "latestProbeAt": "2026-05-09T00:39:04.805172976+08:00"
   },
   {
     "provider": "Alaya Code",
@@ -50,19 +50,6 @@
     "score": 79.91629867798906,
     "compositeScore": 64.27504643179185,
     "latestProbeAt": "2026-05-09T00:19:19.676607019+08:00"
-  },
-  {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 170,
-    "ttftP95": 347.8,
-    "avgMedianTps": 36.43711286837882,
-    "avgLatency": 81.06396258520002,
-    "successRate": 1,
-    "sampleCount": 5,
-    "score": -841.9763874197274,
-    "compositeScore": 61.862267721027294,
-    "latestProbeAt": "2026-05-09T00:25:52.929972176+08:00"
   },
   {
     "provider": "腾讯云",
@@ -91,16 +78,29 @@
     "latestProbeAt": "2026-05-09T00:15:04.76550518+08:00"
   },
   {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 339,
+    "ttftP95": 348.9,
+    "avgMedianTps": 32.00283220747357,
+    "avgLatency": 108.22289147366666,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -1581.355293596825,
+    "compositeScore": 57.43847159807951,
+    "latestProbeAt": "2026-05-09T00:25:52.929972176+08:00"
+  },
+  {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
     "ttftP50": 1391,
-    "ttftP95": 3216,
-    "avgMedianTps": 57.88180123062555,
-    "avgLatency": 47.4821889252,
+    "ttftP95": 3330.5,
+    "avgMedianTps": 63.14666866743149,
+    "avgLatency": 44.113558545,
     "successRate": 1,
-    "sampleCount": 5,
-    "score": -117.96391574624658,
-    "compositeScore": 52.59820059791175,
+    "sampleCount": 3,
+    "score": -2.158951620411017,
+    "compositeScore": 55.75712105999531,
     "latestProbeAt": "2026-05-09T00:24:58.801995048+08:00"
   },
   {
