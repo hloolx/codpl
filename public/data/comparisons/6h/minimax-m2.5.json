@@ -13,19 +13,6 @@
     "latestProbeAt": "2026-05-09T06:56:25.152798938+08:00"
   },
   {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 617.5,
-    "ttftP95": 764.25,
-    "avgMedianTps": 94.50007550193767,
-    "avgLatency": 26.049008343312504,
-    "successRate": 1,
-    "sampleCount": 16,
-    "score": 792.2752444288136,
-    "compositeScore": 86.28527894140102,
-    "latestProbeAt": "2026-05-09T06:56:32.886418725+08:00"
-  },
-  {
     "provider": "腾讯云",
     "providerPlatform": "tencent_token_plan",
     "ttftP50": 799.5,
@@ -37,6 +24,19 @@
     "score": 1137.67901602657,
     "compositeScore": 85.85864467015548,
     "latestProbeAt": "2026-05-09T06:54:17.998067494+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 619.5,
+    "ttftP95": 767.4499999999997,
+    "avgMedianTps": 93.84293496271347,
+    "avgLatency": 26.76976409555556,
+    "successRate": 1,
+    "sampleCount": 18,
+    "score": 769.913507387392,
+    "compositeScore": 85.84434316118089,
+    "latestProbeAt": "2026-05-09T07:08:50.245346652+08:00"
   },
   {
     "provider": "火山引擎",
@@ -78,19 +78,6 @@
     "latestProbeAt": "2026-05-09T06:57:49.50600899+08:00"
   },
   {
-    "provider": "OpenCode Go",
-    "providerPlatform": "opencode_go",
-    "ttftP50": 2309,
-    "ttftP95": 5575.799999999997,
-    "avgMedianTps": 84.55842871942907,
-    "avgLatency": 25.240081801705884,
-    "successRate": 1,
-    "sampleCount": 17,
-    "score": 414.54852727392745,
-    "compositeScore": 61.2927195588751,
-    "latestProbeAt": "2026-05-09T06:59:56.722684251+08:00"
-  },
-  {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
     "ttftP50": 4725,
@@ -115,6 +102,19 @@
     "score": 122.3266653844903,
     "compositeScore": 59.24077430193083,
     "latestProbeAt": "2026-05-09T06:58:52.251775558+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 2407,
+    "ttftP95": 6554.649999999998,
+    "avgMedianTps": 81.9604523887748,
+    "avgLatency": 25.159857042388893,
+    "successRate": 1,
+    "sampleCount": 18,
+    "score": 381.36628827292634,
+    "compositeScore": 59.13425407347872,
+    "latestProbeAt": "2026-05-09T07:05:57.941042815+08:00"
   },
   {
     "provider": "百炼(阿里云)",
