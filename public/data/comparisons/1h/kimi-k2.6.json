@@ -15,15 +15,28 @@
   {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
-    "ttftP50": 1287,
-    "ttftP95": 2820,
-    "avgMedianTps": 107.87517846196927,
-    "avgLatency": 41.06515385499999,
+    "ttftP50": 1212,
+    "ttftP95": 1279.5,
+    "avgMedianTps": 80.83032848623101,
+    "avgLatency": 30.316417202333337,
     "successRate": 1,
-    "sampleCount": 5,
-    "score": 363.2222243968158,
-    "compositeScore": 78.99022352275179,
+    "sampleCount": 3,
+    "score": 484.6715408590527,
+    "compositeScore": 68.3546441619679,
     "latestProbeAt": "2026-05-09T10:26:48.850585603+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 1369,
+    "ttftP95": 3732.3999999999996,
+    "avgMedianTps": 55.40454831807647,
+    "avgLatency": 43.96061151866667,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -40.38799805820781,
+    "compositeScore": 51.3418485832257,
+    "latestProbeAt": "2026-05-09T10:30:24.641094968+08:00"
   },
   {
     "provider": "Kimi(月之暗面)",
@@ -39,29 +52,16 @@
     "latestProbeAt": "2026-05-09T10:12:41.994956056+08:00"
   },
   {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 1161,
-    "ttftP95": 3601.099999999999,
-    "avgMedianTps": 45.813053074587955,
-    "avgLatency": 50.9200929755,
-    "successRate": 1,
-    "sampleCount": 4,
-    "score": -230.32400593997227,
-    "compositeScore": 47.96449618105592,
-    "latestProbeAt": "2026-05-09T10:21:42.700118115+08:00"
-  },
-  {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 1443,
-    "ttftP95": 1464.3,
-    "avgMedianTps": 34.699682071426956,
-    "avgLatency": 75.716180158,
+    "ttftP50": 1437,
+    "ttftP95": 1464,
+    "avgMedianTps": 33.72398835843299,
+    "avgLatency": 72.245891231,
     "successRate": 1,
-    "sampleCount": 4,
-    "score": -973.3064115214382,
-    "compositeScore": 38.15944030290301,
+    "sampleCount": 3,
+    "score": -891.2033506244022,
+    "compositeScore": 37.634136455445244,
     "latestProbeAt": "2026-05-09T10:28:21.15476486+08:00"
   }
 ]
