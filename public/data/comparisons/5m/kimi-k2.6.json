@@ -1,41 +1,54 @@
 [
   {
-    "provider": "OpenCode Go",
-    "providerPlatform": "opencode_go",
-    "ttftP50": 1205,
-    "ttftP95": 1205,
-    "avgMedianTps": 140.90497204631552,
-    "avgLatency": 13.912350629,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": 1256.6210665528931,
-    "compositeScore": 79.94001259378557,
-    "latestProbeAt": "2026-05-10T10:56:11.376769748+08:00"
-  },
-  {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 740.5,
-    "ttftP95": 741.85,
-    "avgMedianTps": 81.97948336601435,
-    "avgLatency": 36.108464544,
-    "successRate": 1,
-    "sampleCount": 2,
-    "score": 441.06528659608625,
-    "compositeScore": 76.15231767167894,
-    "latestProbeAt": "2026-05-10T10:59:30.993799501+08:00"
-  },
-  {
     "provider": "联通元景",
     "providerPlatform": "yuanjing",
-    "ttftP50": 230,
-    "ttftP95": 230,
-    "avgMedianTps": 38.08092692249808,
-    "avgLatency": 54.603597521,
+    "ttftP50": 244,
+    "ttftP95": 244,
+    "avgMedianTps": 148.79308369642567,
+    "avgLatency": 16.678960486,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -182.60437649001165,
-    "compositeScore": 62.84855615349885,
-    "latestProbeAt": "2026-05-10T10:57:15.195081753+08:00"
+    "score": 1426.9844900285539,
+    "compositeScore": 100,
+    "latestProbeAt": "2026-05-10T11:29:50.897694476+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 1061,
+    "ttftP95": 1061,
+    "avgMedianTps": 157.7477095548799,
+    "avgLatency": 14.924069347,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 1361.1845236542795,
+    "compositeScore": 81.77609749581117,
+    "latestProbeAt": "2026-05-10T11:29:11.140837892+08:00"
+  },
+  {
+    "provider": "Kimi(月之暗面)",
+    "providerPlatform": "moonshot_kimi",
+    "ttftP50": 622,
+    "ttftP95": 697.6,
+    "avgMedianTps": 62.85002025471701,
+    "avgLatency": 29.953886240000003,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 503.85296552830187,
+    "compositeScore": 67.190491356483,
+    "latestProbeAt": "2026-05-10T11:29:26.20942346+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-10T11:28:22.32630251+08:00"
   }
 ]
