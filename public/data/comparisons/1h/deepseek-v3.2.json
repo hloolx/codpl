@@ -1,15 +1,67 @@
 [
   {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 786,
+    "ttftP95": 1015.5,
+    "avgMedianTps": 48.86184146424589,
+    "avgLatency": 30.595804527,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 371.0759356104752,
+    "compositeScore": 55.42143676092027,
+    "latestProbeAt": "2026-05-10T21:55:04.642128092+08:00"
+  },
+  {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 1608,
-    "ttftP95": 1608,
-    "avgMedianTps": 40.104146945331834,
-    "avgLatency": 46.819393026,
+    "ttftP50": 1045.5,
+    "ttftP95": 1356.4499999999998,
+    "avgMedianTps": 40.87600827920803,
+    "avgLatency": 44.270386879,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": -251.45994397800894,
-    "compositeScore": 39.840158160368624,
-    "latestProbeAt": "2026-05-10T20:33:08.304337831+08:00"
+    "sampleCount": 2,
+    "score": -70.6036222997518,
+    "compositeScore": 46.51401840658784,
+    "latestProbeAt": "2026-05-10T21:56:59.11888609+08:00"
+  },
+  {
+    "provider": "百度云(千帆)",
+    "providerPlatform": "baidu_qianfan",
+    "ttftP50": 1137,
+    "ttftP95": 1316.1,
+    "avgMedianTps": 35.19281505696696,
+    "avgLatency": 39.80571059533333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -11.385874541531507,
+    "compositeScore": 41.89371055021651,
+    "latestProbeAt": "2026-05-10T21:56:20.418569405+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-10T21:49:47.83156205+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-10T21:49:21.443165206+08:00"
   }
 ]
