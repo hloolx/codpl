@@ -28,28 +28,41 @@
   {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 1132.5,
-    "ttftP95": 1179.75,
-    "avgMedianTps": 154.97827869816493,
-    "avgLatency": 15.876998247500001,
+    "ttftP50": 1160,
+    "ttftP95": 1182.5,
+    "avgMedianTps": 156.4025674644505,
+    "avgLatency": 17.241017452666668,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": 1306.4447160014897,
-    "compositeScore": 80.83523355562284,
-    "latestProbeAt": "2026-05-11T03:58:01.203432192+08:00"
+    "sampleCount": 3,
+    "score": 1275.3899684700364,
+    "compositeScore": 80.48909600480947,
+    "latestProbeAt": "2026-05-11T04:03:49.170071094+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 170,
+    "ttftP95": 3210.2,
+    "avgMedianTps": 41.79202286718742,
+    "avgLatency": 68.83626476266666,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -504.15448186354206,
+    "compositeScore": 65.07521372031245,
+    "latestProbeAt": "2026-05-11T04:02:30.242621676+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 656.5,
-    "ttftP95": 665.05,
-    "avgMedianTps": 57.94010447198702,
-    "avgLatency": 19.105074755,
+    "ttftP50": 647,
+    "ttftP95": 664.1,
+    "avgMedianTps": 55.93818617497712,
+    "avgLatency": 19.040701846666668,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": 738.7137579569222,
-    "compositeScore": 63.46573757922215,
-    "latestProbeAt": "2026-05-11T03:57:03.635336326+08:00"
+    "sampleCount": 3,
+    "score": 730.2115708831959,
+    "compositeScore": 62.47487959002,
+    "latestProbeAt": "2026-05-11T04:01:11.683973765+08:00"
   },
   {
     "provider": "Alaya Code",
@@ -76,19 +89,6 @@
     "score": -1351.5468639551566,
     "compositeScore": 49.349681002485525,
     "latestProbeAt": "2026-05-11T03:58:52.876640658+08:00"
-  },
-  {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 1842.5,
-    "ttftP95": 3377.45,
-    "avgMedianTps": 36.332945783632056,
-    "avgLatency": 76.6504294155,
-    "successRate": 1,
-    "sampleCount": 2,
-    "score": -1066.7630606857078,
-    "compositeScore": 35.61346533531372,
-    "latestProbeAt": "2026-05-11T03:58:32.627212449+08:00"
   },
   {
     "provider": "Ollama Cloud",
