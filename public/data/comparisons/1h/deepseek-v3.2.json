@@ -1,29 +1,55 @@
 [
   {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 1328,
+    "ttftP95": 1533.2,
+    "avgMedianTps": 54.09598467501045,
+    "avgLatency": 29.548181364666664,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 320.2713739333959,
+    "compositeScore": 50.995383396495825,
+    "latestProbeAt": "2026-05-11T18:07:53.217384982+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 1380,
+    "ttftP95": 1578,
+    "avgMedianTps": 40.33162804126305,
+    "avgLatency": 45.077105419,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -160.93786722742175,
+    "compositeScore": 42.182638213061324,
+    "latestProbeAt": "2026-05-11T18:16:23.870148056+08:00"
+  },
+  {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
     "ttftP50": 1459,
-    "ttftP95": 1459,
-    "avgMedianTps": 40.782216096442326,
-    "avgLatency": 35.741705518,
+    "ttftP95": 1488.7,
+    "avgMedianTps": 37.30348072231633,
+    "avgLatency": 38.73400210666667,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": 59.35065862865383,
-    "compositeScore": 41.649874883645296,
-    "latestProbeAt": "2026-05-11T18:00:17.776340888+08:00"
+    "sampleCount": 3,
+    "score": -36.329168332768745,
+    "compositeScore": 39.5626336591697,
+    "latestProbeAt": "2026-05-11T18:13:10.191527443+08:00"
   },
   {
     "provider": "百度云(千帆)",
     "providerPlatform": "baidu_qianfan",
     "ttftP50": 1178,
-    "ttftP95": 1178,
-    "avgMedianTps": 35.529752533383004,
-    "avgLatency": 36.819869368,
+    "ttftP95": 1578.5,
+    "avgMedianTps": 30.52699173534595,
+    "avgLatency": 40.406653549666665,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": 57.081781000298065,
-    "compositeScore": 41.58480018668401,
-    "latestProbeAt": "2026-05-11T18:00:19.097973315+08:00"
+    "sampleCount": 3,
+    "score": -62.604388329591075,
+    "compositeScore": 38.583143707861765,
+    "latestProbeAt": "2026-05-11T18:06:34.61951615+08:00"
   },
   {
     "provider": "Ollama Cloud",
@@ -33,9 +59,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 1,
+    "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-05-11T17:59:44.625437445+08:00"
+    "latestProbeAt": "2026-05-11T18:04:14.630725691+08:00"
   }
 ]
