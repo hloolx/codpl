@@ -1,18 +1,5 @@
 [
   {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 838.5,
-    "ttftP95": 1296.4999999999998,
-    "avgMedianTps": 56.05307589827062,
-    "avgLatency": 51.979617018999996,
-    "successRate": 1,
-    "sampleCount": 4,
-    "score": -130.87197008537623,
-    "compositeScore": 58.803362708277724,
-    "latestProbeAt": "2026-05-12T13:58:52.16112101+08:00"
-  },
-  {
     "provider": "联通元景",
     "providerPlatform": "yuanjing",
     "ttftP50": 351,
@@ -24,6 +11,32 @@
     "score": -981.6754369541629,
     "compositeScore": 55.68185479066355,
     "latestProbeAt": "2026-05-12T13:56:16.514879236+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 831,
+    "ttftP95": 1214.4,
+    "avgMedianTps": 47.493603583281924,
+    "avgLatency": 58.84974578599999,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -352.48202315030835,
+    "compositeScore": 53.79730238722452,
+    "latestProbeAt": "2026-05-12T14:04:55.864327213+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 1377,
+    "ttftP95": 1486.8,
+    "avgMedianTps": 47.859632375597705,
+    "avgLatency": 56.07033464533333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -390.0005718797472,
+    "compositeScore": 46.730837888967784,
+    "latestProbeAt": "2026-05-12T14:14:09.899502557+08:00"
   },
   {
     "provider": "Kimi(月之暗面)",
@@ -39,19 +52,6 @@
     "latestProbeAt": "2026-05-12T13:51:31.978715787+08:00"
   },
   {
-    "provider": "OpenCode Go",
-    "providerPlatform": "opencode_go",
-    "ttftP50": 3468,
-    "ttftP95": 3522.9,
-    "avgMedianTps": 60.098488191493836,
-    "avgLatency": 46.536944565666666,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": -496.4326849927037,
-    "compositeScore": 40.74839798763675,
-    "latestProbeAt": "2026-05-12T13:53:15.727954006+08:00"
-  },
-  {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
     "ttftP50": 0,
@@ -59,7 +59,7 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 6,
+    "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-05-12T13:54:26.85071012+08:00"
