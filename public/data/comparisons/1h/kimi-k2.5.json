@@ -26,19 +26,6 @@
     "latestProbeAt": "2026-05-12T17:57:36.252894573+08:00"
   },
   {
-    "provider": "火山引擎",
-    "providerPlatform": "volcengine",
-    "ttftP50": 280.5,
-    "ttftP95": 368.25,
-    "avgMedianTps": 29.484237776666895,
-    "avgLatency": 239.63933617200001,
-    "successRate": 1,
-    "sampleCount": 2,
-    "score": -4870.177977639998,
-    "compositeScore": 57.69054266600014,
-    "latestProbeAt": "2026-05-12T18:00:08.122648667+08:00"
-  },
-  {
     "provider": "百度云(千帆)",
     "providerPlatform": "baidu_qianfan",
     "ttftP50": 918,
@@ -52,30 +39,43 @@
     "latestProbeAt": "2026-05-12T17:50:39.660393163+08:00"
   },
   {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 378,
+    "ttftP95": 392.4,
+    "avgMedianTps": 29.02487283821726,
+    "avgLatency": 237.88150726366666,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -4848.488444562363,
+    "compositeScore": 54.08068636567843,
+    "latestProbeAt": "2026-05-12T18:07:48.501635472+08:00"
+  },
+  {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
     "ttftP50": 1302,
-    "ttftP95": 1302,
-    "avgMedianTps": 49.83947913822398,
-    "avgLatency": 59.692854203,
+    "ttftP95": 1471.2,
+    "avgMedianTps": 58.53538005721497,
+    "avgLatency": 49.94687865233334,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": -453.68448024565623,
-    "compositeScore": 48.72673705623684,
-    "latestProbeAt": "2026-05-12T17:49:53.855703241+08:00"
+    "sampleCount": 3,
+    "score": -157.8596859650438,
+    "compositeScore": 53.944277607631435,
+    "latestProbeAt": "2026-05-12T18:11:46.179390234+08:00"
   },
   {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
-    "ttftP50": 59608,
-    "ttftP95": 67721.5,
-    "avgMedianTps": 10.50738937688654,
-    "avgLatency": 109.30390474250001,
+    "ttftP50": 38589,
+    "ttftP95": 65619.6,
+    "avgMedianTps": 36.96689568965559,
+    "avgLatency": 71.827781297,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": -13591.153282301182,
-    "compositeScore": 6.304433626131924,
-    "latestProbeAt": "2026-05-12T17:54:15.172246929+08:00"
+    "sampleCount": 3,
+    "score": -8291.693158287067,
+    "compositeScore": 22.18013741379335,
+    "latestProbeAt": "2026-05-12T18:10:13.034162101+08:00"
   },
   {
     "provider": "Ollama Cloud",
