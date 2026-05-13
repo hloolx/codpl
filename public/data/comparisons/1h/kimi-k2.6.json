@@ -1,16 +1,29 @@
 [
   {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 239,
+    "ttftP95": 275,
+    "avgMedianTps": 143.43260460099341,
+    "avgLatency": 18.322842717666667,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 1354.7245596642938,
+    "compositeScore": 100,
+    "latestProbeAt": "2026-05-13T23:16:34.465849537+08:00"
+  },
+  {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 612,
-    "ttftP95": 612,
-    "avgMedianTps": 73.82615707660153,
-    "avgLatency": 25.985261518,
+    "ttftP50": 765,
+    "ttftP95": 859.5,
+    "avgMedianTps": 59.68897764287008,
+    "avgLatency": 41.06856714033333,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": 670.9254045096092,
-    "compositeScore": 74.01000272399321,
-    "latestProbeAt": "2026-05-13T22:58:22.154774942+08:00"
+    "sampleCount": 3,
+    "score": 178.41968734888724,
+    "compositeScore": 62.30841411488072,
+    "latestProbeAt": "2026-05-13T23:08:05.099124184+08:00"
   },
   {
     "provider": "Kimi(月之暗面)",
@@ -28,14 +41,27 @@
   {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 3436,
-    "ttftP95": 3436,
-    "avgMedianTps": 42.065209024842375,
-    "avgLatency": 46.758471313,
+    "ttftP50": 3025,
+    "ttftP95": 3394.9,
+    "avgMedianTps": 48.94411691573203,
+    "avgLatency": 52.066085498666666,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": -603.7705286759458,
-    "compositeScore": 30.062169108479598,
-    "latestProbeAt": "2026-05-13T22:59:36.777739549+08:00"
+    "sampleCount": 3,
+    "score": -612.9874359722746,
+    "compositeScore": 36.02746278390484,
+    "latestProbeAt": "2026-05-13T23:18:25.557531518+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-13T23:12:39.031805474+08:00"
   }
 ]
