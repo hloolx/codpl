@@ -1,16 +1,55 @@
 [
   {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 330,
+    "ttftP95": 330,
+    "avgMedianTps": 30.184117684735707,
+    "avgLatency": 64.317185686,
+    "successRate": 0.5,
+    "sampleCount": 2,
+    "score": -992.8249360415858,
+    "compositeScore": 56.73543537334208,
+    "latestProbeAt": "2026-05-13T09:59:17.700862882+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 895,
+    "ttftP95": 896.8,
+    "avgMedianTps": 50.42888139820695,
+    "avgLatency": 56.03556000366666,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -277.3157117024248,
+    "compositeScore": 54.48807702236679,
+    "latestProbeAt": "2026-05-13T09:41:44.763778438+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 2186,
+    "ttftP95": 2464.1,
+    "avgMedianTps": 51.019041378635016,
+    "avgLatency": 53.79253476499999,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -475.89912085318974,
+    "compositeScore": 41.95883487542078,
+    "latestProbeAt": "2026-05-13T09:47:23.187457026+08:00"
+  },
+  {
     "provider": "Kimi(月之暗面)",
     "providerPlatform": "moonshot_kimi",
-    "ttftP50": 2888.5,
-    "ttftP95": 4589.95,
-    "avgMedianTps": 57.178708573427464,
-    "avgLatency": 30.271171545,
+    "ttftP50": 3395,
+    "ttftP95": 4640.6,
+    "avgMedianTps": 55.13572920335678,
+    "avgLatency": 36.13375270266667,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": 8.592962815564647,
-    "compositeScore": 41.634364255614024,
-    "latestProbeAt": "2026-05-13T09:29:41.434717799+08:00"
+    "sampleCount": 3,
+    "score": -251.52944234652614,
+    "compositeScore": 38.07766583565194,
+    "latestProbeAt": "2026-05-13T09:30:29.296509083+08:00"
   },
   {
     "provider": "Ollama Cloud",
@@ -20,9 +59,9 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 1,
+    "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-05-13T09:29:48.785234639+08:00"
+    "latestProbeAt": "2026-05-13T09:33:37.950004531+08:00"
   }
 ]
