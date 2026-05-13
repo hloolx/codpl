@@ -1,15 +1,67 @@
 [
   {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 735,
-    "ttftP95": 735,
-    "avgMedianTps": 34.32527004140629,
-    "avgLatency": 163.007388658,
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 734,
+    "ttftP95": 734,
+    "avgMedianTps": 52.74171196959968,
+    "avgLatency": 57.703552893,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -3016.233096201562,
-    "compositeScore": 47.66734453256531,
-    "latestProbeAt": "2026-05-13T20:59:02.658000847+08:00"
+    "score": -272.93855050740194,
+    "compositeScore": 58.73685155828649,
+    "latestProbeAt": "2026-05-13T21:28:43.76038266+08:00"
+  },
+  {
+    "provider": "智谱",
+    "providerPlatform": "bigmodel_glm",
+    "ttftP50": 3468.5,
+    "ttftP95": 4622.75,
+    "avgMedianTps": 49.04892848741049,
+    "avgLatency": 29.1396783075,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": -127.89838676303702,
+    "compositeScore": 34.11658230496418,
+    "latestProbeAt": "2026-05-13T21:29:41.496068902+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 2264,
+    "ttftP95": 2264,
+    "avgMedianTps": 29.043258951758354,
+    "avgLatency": 78.654475161,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -1244.9023253144496,
+    "compositeScore": 28.267559847694997,
+    "latestProbeAt": "2026-05-13T21:29:16.225790661+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 1,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-13T21:28:42.802036512+08:00"
+  },
+  {
+    "provider": "天翼云",
+    "providerPlatform": "ctyun",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-13T21:26:24.953837404+08:00"
   }
 ]
