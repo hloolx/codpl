@@ -26,19 +26,6 @@
     "latestProbeAt": "2026-05-14T10:10:18.624735761+08:00"
   },
   {
-    "provider": "智谱",
-    "providerPlatform": "bigmodel_glm",
-    "ttftP50": 2151,
-    "ttftP95": 2869.2,
-    "avgMedianTps": 49.70952331313281,
-    "avgLatency": 24.782242194666665,
-    "successRate": 1,
-    "sampleCount": 3,
-    "score": 248.50108501213015,
-    "compositeScore": 41.40598279860789,
-    "latestProbeAt": "2026-05-14T10:04:24.593089291+08:00"
-  },
-  {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
     "ttftP50": 2045,
@@ -52,17 +39,30 @@
     "latestProbeAt": "2026-05-14T10:14:56.492296337+08:00"
   },
   {
+    "provider": "智谱",
+    "providerPlatform": "bigmodel_glm",
+    "ttftP50": 2550,
+    "ttftP95": 3030.6,
+    "avgMedianTps": 45.34577989087927,
+    "avgLatency": 27.847170811749997,
+    "successRate": 1,
+    "sampleCount": 4,
+    "score": 65.89540905152569,
+    "compositeScore": 36.33283952202416,
+    "latestProbeAt": "2026-05-14T10:59:54.011429342+08:00"
+  },
+  {
     "provider": "联通元景",
     "providerPlatform": "yuanjing",
-    "ttftP50": 26296,
-    "ttftP95": 49677.1,
-    "avgMedianTps": 41.496985980420675,
-    "avgLatency": 181.74495434,
+    "ttftP50": 52275,
+    "ttftP95": 113052,
+    "avgMedianTps": 34.28423298760732,
+    "avgLatency": 250.471750264,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": -8553.841942617477,
-    "compositeScore": 24.898191588252406,
-    "latestProbeAt": "2026-05-14T10:26:49.564976653+08:00"
+    "sampleCount": 3,
+    "score": -15511.088358674357,
+    "compositeScore": 20.57053979256439,
+    "latestProbeAt": "2026-05-14T10:44:03.287078859+08:00"
   },
   {
     "provider": "Ollama Cloud",
@@ -72,10 +72,10 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 3,
+    "sampleCount": 4,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-05-14T10:03:38.285059253+08:00"
+    "latestProbeAt": "2026-05-14T10:59:44.100180637+08:00"
   },
   {
     "provider": "天翼云",
@@ -88,6 +88,6 @@
     "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-05-14T09:59:46.960471031+08:00"
+    "latestProbeAt": "2026-05-14T10:58:02.747806619+08:00"
   }
 ]
