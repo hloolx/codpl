@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "provider": "MiniMax",
+    "providerPlatform": "minimax",
+    "ttftP50": 674,
+    "ttftP95": 968.3,
+    "avgMedianTps": 66.18602519670368,
+    "avgLatency": 28.631753825000004,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 546.5223055552219,
+    "compositeScore": 68.03375421116243,
+    "latestProbeAt": "2026-05-15T06:59:56.199877175+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 634,
+    "ttftP95": 634,
+    "avgMedianTps": 59.31187855080619,
+    "avgLatency": 29.872327439,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": 482.26308532983717,
+    "compositeScore": 64.79192373404845,
+    "latestProbeAt": "2026-05-15T06:58:21.907161361+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 1,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-15T06:58:49.042262322+08:00"
+  }
+]
