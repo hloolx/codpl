@@ -1,41 +1,41 @@
 [
   {
+    "provider": "MiniMax",
+    "providerPlatform": "minimax",
+    "ttftP50": 607,
+    "ttftP95": 610.6,
+    "avgMedianTps": 66.66933214451188,
+    "avgLatency": 30.312092695,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 520.8136754920713,
+    "compositeScore": 69.83425912910911,
+    "latestProbeAt": "2026-05-14T23:28:27.527288088+08:00"
+  },
+  {
     "provider": "火山引擎",
     "providerPlatform": "volcengine",
-    "ttftP50": 635,
-    "ttftP95": 635,
-    "avgMedianTps": 62.49225804699695,
-    "avgLatency": 17.586775269,
+    "ttftP50": 1262,
+    "ttftP95": 1262,
+    "avgMedianTps": 45.029917614289204,
+    "avgLatency": 42.247199746,
     "successRate": 1,
     "sampleCount": 1,
-    "score": 808.2841665569817,
-    "compositeScore": 66.6774139165617,
-    "latestProbeAt": "2026-05-14T22:55:38.39212891+08:00"
+    "score": -38.4004879642647,
+    "compositeScore": 46.29117552370684,
+    "latestProbeAt": "2026-05-14T23:27:00.761020547+08:00"
   },
   {
-    "provider": "OpenCode Go",
-    "providerPlatform": "opencode_go",
-    "ttftP50": 4779,
-    "ttftP95": 4779,
-    "avgMedianTps": 44.61174603930175,
-    "avgLatency": 50.86215028,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": -959.6832807641898,
-    "compositeScore": 26.8303040060752,
-    "latestProbeAt": "2026-05-14T22:57:29.259840453+08:00"
-  },
-  {
-    "provider": "无问芯穹",
-    "providerPlatform": "infini_genstudio",
-    "ttftP50": 19314,
-    "ttftP95": 19314,
-    "avgMedianTps": 13.193642773341788,
-    "avgLatency": 129.363805611,
-    "successRate": 1,
-    "sampleCount": 1,
-    "score": -6017.73328363495,
-    "compositeScore": 7.916185664005072,
-    "latestProbeAt": "2026-05-14T22:57:10.984746456+08:00"
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 2,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-14T23:30:05.200637184+08:00"
   }
 ]
