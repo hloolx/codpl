@@ -1,5 +1,70 @@
 [
   {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 1476,
+    "ttftP95": 1701,
+    "avgMedianTps": 117.03689828811996,
+    "avgLatency": 23.044572282,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 830.9070826787197,
+    "compositeScore": 77.01341684435485,
+    "latestProbeAt": "2026-05-14T10:16:59.569161367+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 153,
+    "ttftP95": 192.6,
+    "avgMedianTps": 45.05170773970125,
+    "avgLatency": 31.01371916133333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 464.3672674048744,
+    "compositeScore": 67.03102464382076,
+    "latestProbeAt": "2026-05-14T10:12:18.700107445+08:00"
+  },
+  {
+    "provider": "Alaya Code",
+    "providerPlatform": "alaya code",
+    "ttftP50": 40001,
+    "ttftP95": 67725.5,
+    "avgMedianTps": 112.70651796926839,
+    "avgLatency": 49.92180614466667,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -7572.006045801057,
+    "compositeScore": 60,
+    "latestProbeAt": "2026-05-14T10:13:40.431621338+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 725,
+    "ttftP95": 1216.4,
+    "avgMedianTps": 48.71176792494284,
+    "avgLatency": 26.446237385333333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 486.1146729163238,
+    "compositeScore": 56.49687581090154,
+    "latestProbeAt": "2026-05-14T10:13:34.333867788+08:00"
+  },
+  {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 1395,
+    "ttftP95": 14924.699999999999,
+    "avgMedianTps": 60.560638814842356,
+    "avgLatency": 46.46253275833334,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -77.19948606927915,
+    "compositeScore": 54.16407612669872,
+    "latestProbeAt": "2026-05-14T10:08:36.428167104+08:00"
+  },
+  {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
     "ttftP50": 0,
@@ -7,10 +72,10 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 1,
+    "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-05-14T10:00:04.203061692+08:00"
+    "latestProbeAt": "2026-05-14T10:03:39.71684976+08:00"
   },
   {
     "provider": "优云",

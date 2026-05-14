@@ -1,5 +1,70 @@
 [
   {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 1604,
+    "ttftP95": 1693.1,
+    "avgMedianTps": 68.1276128914201,
+    "avgLatency": 41.828063834,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 42.26408149852068,
+    "compositeScore": 56.690170375261665,
+    "latestProbeAt": "2026-05-14T10:15:49.066224826+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 805,
+    "ttftP95": 1229.8,
+    "avgMedianTps": 46.18292775121717,
+    "avgLatency": 69.02768781766667,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -609.5946289343638,
+    "compositeScore": 53.46949382566932,
+    "latestProbeAt": "2026-05-14T10:10:18.624735761+08:00"
+  },
+  {
+    "provider": "智谱",
+    "providerPlatform": "bigmodel_glm",
+    "ttftP50": 2151,
+    "ttftP95": 2869.2,
+    "avgMedianTps": 49.70952331313281,
+    "avgLatency": 24.782242194666665,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 248.50108501213015,
+    "compositeScore": 41.40598279860789,
+    "latestProbeAt": "2026-05-14T10:04:24.593089291+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 2045,
+    "ttftP95": 2795.6,
+    "avgMedianTps": 40.386701191705825,
+    "avgLatency": 58.999506266999994,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -641.6674495247651,
+    "compositeScore": 36.5413563416912,
+    "latestProbeAt": "2026-05-14T10:14:56.492296337+08:00"
+  },
+  {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 26296,
+    "ttftP95": 49677.1,
+    "avgMedianTps": 41.496985980420675,
+    "avgLatency": 181.74495434,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": -8553.841942617477,
+    "compositeScore": 24.898191588252406,
+    "latestProbeAt": "2026-05-14T10:26:49.564976653+08:00"
+  },
+  {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
     "ttftP50": 0,
@@ -7,10 +72,10 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 1,
+    "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-05-14T10:00:01.859904187+08:00"
+    "latestProbeAt": "2026-05-14T10:03:38.285059253+08:00"
   },
   {
     "provider": "天翼云",

@@ -1,16 +1,42 @@
 [
   {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 1359,
+    "ttftP95": 1362.6,
+    "avgMedianTps": 70.8892825694692,
+    "avgLatency": 36.29298300833333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 246.21112020848204,
+    "compositeScore": 60.738459038966425,
+    "latestProbeAt": "2026-05-14T10:11:43.902784797+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 2029,
+    "ttftP95": 2139.7,
+    "avgMedianTps": 60.35661545705441,
+    "avgLatency": 41.03938117166667,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -69.6448365493402,
+    "compositeScore": 48.636624681624866,
+    "latestProbeAt": "2026-05-14T10:16:40.405334893+08:00"
+  },
+  {
     "provider": "Kimi(月之暗面)",
     "providerPlatform": "moonshot_kimi",
-    "ttftP50": 11911,
-    "ttftP95": 11911,
-    "avgMedianTps": 64.87087440394129,
-    "avgLatency": 27.671180662,
-    "successRate": 0.5,
-    "sampleCount": 2,
-    "score": -2184.754270126353,
-    "compositeScore": 38.92252464236477,
-    "latestProbeAt": "2026-05-14T10:00:22.709691862+08:00"
+    "ttftP50": 8357,
+    "ttftP95": 11555.599999999999,
+    "avgMedianTps": 65.73396299431944,
+    "avgLatency": 22.8623844365,
+    "successRate": 0.6666666666666666,
+    "sampleCount": 3,
+    "score": -1181.889166279917,
+    "compositeScore": 39.44037779659166,
+    "latestProbeAt": "2026-05-14T10:00:40.768624767+08:00"
   },
   {
     "provider": "Ollama Cloud",
@@ -20,9 +46,22 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-14T10:03:38.860225429+08:00"
+  },
+  {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
     "sampleCount": 1,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-05-14T10:00:03.059172151+08:00"
+    "latestProbeAt": "2026-05-14T10:20:30.482282642+08:00"
   }
 ]
