@@ -6,9 +6,9 @@
     "ttftP95": 469.1499999999996,
     "avgMedianTps": 62.26262956984832,
     "avgLatency": 47.585065550374985,
-    "successRate": 0.5797101449275363,
-    "sampleCount": 69,
-    "score": -310.14071641274836,
+    "successRate": 0.5882352941176471,
+    "sampleCount": 68,
+    "score": -301.61556722263754,
     "compositeScore": 74.37099458626383,
     "latestProbeAt": "2026-05-14T08:35:30.559245928+08:00"
   },
@@ -26,6 +26,19 @@
     "latestProbeAt": "2026-05-14T08:29:19.287179881+08:00"
   },
   {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 1670.5,
+    "ttftP95": 4529,
+    "avgMedianTps": 56.878343392849,
+    "avgLatency": 46.49805917373531,
+    "successRate": 1,
+    "sampleCount": 68,
+    "score": -155.2814189862887,
+    "compositeScore": 49.35455026731851,
+    "latestProbeAt": "2026-05-14T08:21:48.814116981+08:00"
+  },
+  {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
     "ttftP50": 1492,
@@ -39,29 +52,16 @@
     "latestProbeAt": "2026-05-14T08:30:39.450140947+08:00"
   },
   {
-    "provider": "京东云",
-    "providerPlatform": "jdcloud",
-    "ttftP50": 1692,
-    "ttftP95": 4520.999999999999,
-    "avgMedianTps": 57.05626471983158,
-    "avgLatency": 46.121917980217404,
-    "successRate": 1,
-    "sampleCount": 69,
-    "score": -149.11036118644574,
-    "compositeScore": 49.27680720565826,
-    "latestProbeAt": "2026-05-14T08:21:48.814116981+08:00"
-  },
-  {
     "provider": "智谱",
     "providerPlatform": "bigmodel_glm",
-    "ttftP50": 2320,
-    "ttftP95": 5132.199999999998,
-    "avgMedianTps": 59.349935826214534,
-    "avgLatency": 26.053022068333338,
+    "ttftP50": 2315,
+    "ttftP95": 4875.349999999999,
+    "avgMedianTps": 59.56260358829985,
+    "avgLatency": 25.974391566044122,
     "successRate": 1,
-    "sampleCount": 69,
-    "score": 240.77406324895378,
-    "compositeScore": 46.09905750053819,
+    "sampleCount": 68,
+    "score": 245.0158323786959,
+    "compositeScore": 46.25778427646273,
     "latestProbeAt": "2026-05-14T08:20:18.798083995+08:00"
   },
   {
@@ -91,19 +91,6 @@
     "latestProbeAt": "2026-05-14T08:25:35.474207739+08:00"
   },
   {
-    "provider": "讯飞星辰",
-    "providerPlatform": "iflytek_astron",
-    "ttftP50": 19285,
-    "ttftP95": 19285,
-    "avgMedianTps": 29.792235208028604,
-    "avgLatency": 50.471678417,
-    "successRate": 0.014492753623188406,
-    "sampleCount": 69,
-    "score": -4925.54579555364,
-    "compositeScore": 17.87534112481716,
-    "latestProbeAt": "2026-05-14T08:17:55.497863346+08:00"
-  },
-  {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
     "ttftP50": 0,
@@ -111,7 +98,7 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 69,
+    "sampleCount": 68,
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-05-14T08:19:46.09089766+08:00"
@@ -124,7 +111,7 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 69,
+    "sampleCount": 66,
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-05-14T08:17:58.016157139+08:00"
@@ -137,7 +124,7 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 69,
+    "sampleCount": 66,
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-05-14T08:17:55.586932717+08:00"
@@ -150,7 +137,7 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 69,
+    "sampleCount": 66,
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-05-14T08:17:56.45751797+08:00"
@@ -163,7 +150,7 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 69,
+    "sampleCount": 66,
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-05-14T08:17:59.241278959+08:00"
@@ -176,9 +163,22 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 69,
+    "sampleCount": 66,
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-05-14T08:17:55.828828863+08:00"
+  },
+  {
+    "provider": "讯飞星辰",
+    "providerPlatform": "iflytek_astron",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 66,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-14T08:17:55.497863346+08:00"
   }
 ]
