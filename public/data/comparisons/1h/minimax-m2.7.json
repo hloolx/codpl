@@ -1,28 +1,67 @@
 [
   {
+    "provider": "MiniMax",
+    "providerPlatform": "minimax",
+    "ttftP50": 905,
+    "ttftP95": 1379.3,
+    "avgMedianTps": 65.45969196198267,
+    "avgLatency": 26.30820125566667,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 554.0531203802291,
+    "compositeScore": 63.346262262442735,
+    "latestProbeAt": "2026-05-15T22:56:19.136235739+08:00"
+  },
+  {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 9025,
-    "ttftP95": 9025,
-    "avgMedianTps": 108.10526788966058,
-    "avgLatency": 29.53031201,
+    "ttftP50": 7938,
+    "ttftP95": 7938,
+    "avgMedianTps": 122.23809592092573,
+    "avgLatency": 27.329881016,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -894.6261929120365,
+    "score": -537.4184498744457,
     "compositeScore": 60,
-    "latestProbeAt": "2026-05-15T21:33:20.13062353+08:00"
+    "latestProbeAt": "2026-05-15T22:58:04.738011509+08:00"
   },
   {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 2807,
-    "ttftP95": 2807,
-    "avgMedianTps": 50.2280103465083,
-    "avgLatency": 41.581413436,
+    "ttftP50": 2816,
+    "ttftP95": 2816,
+    "avgMedianTps": 47.161470086726105,
+    "avgLatency": 65.904405955,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -299.5672738209504,
-    "compositeScore": 37.87685962773854,
-    "latestProbeAt": "2026-05-15T21:35:06.058889629+08:00"
+    "score": -927.8413283546436,
+    "compositeScore": 35.9907527706215,
+    "latestProbeAt": "2026-05-15T22:58:28.617970482+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-15T22:54:40.093644293+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-15T22:54:02.732272959+08:00"
   }
 ]
