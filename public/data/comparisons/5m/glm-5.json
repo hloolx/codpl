@@ -1,28 +1,67 @@
 [
   {
+    "provider": "智谱",
+    "providerPlatform": "bigmodel_glm",
+    "ttftP50": 1487.5,
+    "ttftP95": 2165.6499999999996,
+    "avgMedianTps": 60.89619598827159,
+    "avgLatency": 22.715410513000002,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": 499.9919131046296,
+    "compositeScore": 53.43916496709508,
+    "latestProbeAt": "2026-05-16T00:27:08.948412108+08:00"
+  },
+  {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 2608,
-    "ttftP95": 2608,
-    "avgMedianTps": 58.66801995228085,
-    "avgLatency": 58.645690703,
+    "ttftP50": 1486,
+    "ttftP95": 1486,
+    "avgMedianTps": 51.320975072769386,
+    "avgLatency": 89.979447504,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -635.7341478613149,
-    "compositeScore": 44.00171733401655,
-    "latestProbeAt": "2026-05-15T23:57:05.947863363+08:00"
+    "score": -1238.7603371633838,
+    "compositeScore": 47.70858794323448,
+    "latestProbeAt": "2026-05-16T00:28:29.02780233+08:00"
+  },
+  {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 1686,
+    "ttftP95": 1686,
+    "avgMedianTps": 53.77352313639824,
+    "avgLatency": 55.703266734,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -407.1405295316106,
+    "compositeScore": 47.35841257737693,
+    "latestProbeAt": "2026-05-16T00:25:32.452132584+08:00"
   },
   {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 2690,
-    "ttftP95": 2690,
-    "avgMedianTps": 52.08861218862482,
-    "avgLatency": 44.670211049,
+    "ttftP50": 1092,
+    "ttftP95": 1092,
+    "avgMedianTps": 31.37493253016853,
+    "avgLatency": 98.047931621,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -342.2236030932511,
-    "compositeScore": 39.60744964369384,
-    "latestProbeAt": "2026-05-15T23:59:05.464075714+08:00"
+    "score": -1481.3486953439892,
+    "compositeScore": 40.1855750138614,
+    "latestProbeAt": "2026-05-16T00:25:47.322460562+08:00"
+  },
+  {
+    "provider": "Alaya Code",
+    "providerPlatform": "alaya code",
+    "ttftP50": 70009.5,
+    "ttftP95": 72821.55,
+    "avgMedianTps": 0,
+    "avgLatency": 70.0104926265,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": -14752.162315662501,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-16T00:28:14.011604623+08:00"
   }
 ]
