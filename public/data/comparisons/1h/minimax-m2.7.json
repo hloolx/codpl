@@ -1,15 +1,67 @@
 [
   {
+    "provider": "MiniMax",
+    "providerPlatform": "minimax",
+    "ttftP50": 927,
+    "ttftP95": 1105.2,
+    "avgMedianTps": 56.695344783381564,
+    "avgLatency": 26.856984216666664,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 483.3474632836227,
+    "compositeScore": 57.74113848873244,
+    "latestProbeAt": "2026-05-19T17:35:46.436903367+08:00"
+  },
+  {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 4655,
-    "ttftP95": 4655,
-    "avgMedianTps": 44.06066633579396,
-    "avgLatency": 48.982259113,
+    "ttftP50": 2034,
+    "ttftP95": 2419.2,
+    "avgMedianTps": 42.74782842389436,
+    "avgLatency": 40.17179787966666,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": -891.1924798102364,
-    "compositeScore": 26.878932181973624,
-    "latestProbeAt": "2026-05-19T16:33:57.110236874+08:00"
+    "sampleCount": 3,
+    "score": -154.6079764483004,
+    "compositeScore": 38.03584432072042,
+    "latestProbeAt": "2026-05-19T17:55:33.257899045+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 6069,
+    "ttftP95": 10759.8,
+    "avgMedianTps": 36.574573687541,
+    "avgLatency": 45.422699136333335,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -1129.9200362830875,
+    "compositeScore": 21.944744212524597,
+    "latestProbeAt": "2026-05-19T17:48:21.296911216+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-19T17:44:13.705419884+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-19T17:33:25.330081622+08:00"
   }
 ]
