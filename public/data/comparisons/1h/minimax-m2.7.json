@@ -1,15 +1,67 @@
 [
   {
+    "provider": "MiniMax",
+    "providerPlatform": "minimax",
+    "ttftP50": 1209,
+    "ttftP95": 1299,
+    "avgMedianTps": 65.98054825090387,
+    "avgLatency": 28.741256854333333,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": 435.55186814708986,
+    "compositeScore": 59.48053056300989,
+    "latestProbeAt": "2026-05-20T19:37:25.709380312+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 9791,
+    "ttftP95": 15173.9,
+    "avgMedianTps": 79.34273675337228,
+    "avgLatency": 27.664438346,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -1173.7545381297664,
+    "compositeScore": 47.60564205202336,
+    "latestProbeAt": "2026-05-20T19:48:21.784641291+08:00"
+  },
+  {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 2451,
-    "ttftP95": 2451,
-    "avgMedianTps": 49.17271251224513,
-    "avgLatency": 37.106816457,
+    "ttftP50": 6214,
+    "ttftP95": 6277.9,
+    "avgMedianTps": 60.96533754592209,
+    "avgLatency": 30.986565043333332,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": -122.83413635152931,
-    "compositeScore": 39.20026672363749,
-    "latestProbeAt": "2026-05-20T18:31:20.781129427+08:00"
+    "sampleCount": 3,
+    "score": -651.6721008078009,
+    "compositeScore": 36.57920252755325,
+    "latestProbeAt": "2026-05-20T19:53:36.348618865+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-20T19:40:14.564749447+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-20T19:35:15.136503145+08:00"
   }
 ]
