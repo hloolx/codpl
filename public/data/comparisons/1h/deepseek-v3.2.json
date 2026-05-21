@@ -2,28 +2,28 @@
   {
     "provider": "京东云",
     "providerPlatform": "jdcloud",
-    "ttftP50": 423,
-    "ttftP95": 429.3,
-    "avgMedianTps": 54.996153064699016,
-    "avgLatency": 22.961625668499998,
+    "ttftP50": 1111,
+    "ttftP95": 1771.6,
+    "avgMedianTps": 56.75828136892195,
+    "avgLatency": 26.128362652333333,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": 671.3362766756942,
-    "compositeScore": 68.04074021257873,
-    "latestProbeAt": "2026-05-21T18:35:31.0255002+08:00"
+    "sampleCount": 3,
+    "score": 465.14062190519826,
+    "compositeScore": 55.16672471242106,
+    "latestProbeAt": "2026-05-21T19:48:16.696693704+08:00"
   },
   {
     "provider": "无问芯穹",
     "providerPlatform": "infini_genstudio",
-    "ttftP50": 1565.5,
-    "ttftP95": 1761.25,
-    "avgMedianTps": 35.74916558308388,
-    "avgLatency": 39.58792244,
+    "ttftP50": 1348,
+    "ttftP95": 1583.8,
+    "avgMedianTps": 33.86107856235412,
+    "avgLatency": 42.225402540666664,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": -88.30306750149668,
-    "compositeScore": 37.61360832342244,
-    "latestProbeAt": "2026-05-21T18:39:42.148889863+08:00"
+    "sampleCount": 3,
+    "score": -122.06859214254189,
+    "compositeScore": 38.6387862305527,
+    "latestProbeAt": "2026-05-21T19:49:00.532424652+08:00"
   },
   {
     "provider": "Ollama Cloud",
@@ -33,9 +33,35 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 2,
+    "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-05-21T18:33:28.703743312+08:00"
+    "latestProbeAt": "2026-05-21T19:42:42.784630693+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-21T19:38:57.031038962+08:00"
+  },
+  {
+    "provider": "百度云(千帆)",
+    "providerPlatform": "baidu_qianfan",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-21T19:39:03.829970945+08:00"
   }
 ]
