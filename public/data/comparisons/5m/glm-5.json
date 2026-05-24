@@ -2,14 +2,66 @@
   {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 11534,
-    "ttftP95": 11534,
-    "avgMedianTps": 133.2024219929986,
-    "avgLatency": 29.413247042,
+    "ttftP50": 784,
+    "ttftP95": 784,
+    "avgMedianTps": 139.61577695224042,
+    "avgLatency": 24.56520146,
+    "successRate": 0.3333333333333333,
+    "sampleCount": 3,
+    "score": 400.0979585467759,
+    "compositeScore": 86.14108846380672,
+    "latestProbeAt": "2026-05-24T18:28:40.568395354+08:00"
+  },
+  {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 368,
+    "ttftP95": 368,
+    "avgMedianTps": 72.2988723462835,
+    "avgLatency": 38.546410961,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -1242.9166440920085,
-    "compositeScore": 60,
-    "latestProbeAt": "2026-05-24T17:57:06.499768975+08:00"
+    "score": 396.5329600527011,
+    "compositeScore": 80.43189075215878,
+    "latestProbeAt": "2026-05-24T18:30:19.930544845+08:00"
+  },
+  {
+    "provider": "智谱",
+    "providerPlatform": "bigmodel_glm",
+    "ttftP50": 1732,
+    "ttftP95": 2476.3,
+    "avgMedianTps": 63.94761956942149,
+    "avgLatency": 19.6984487575,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": 544.8244984790288,
+    "compositeScore": 53.07452649934446,
+    "latestProbeAt": "2026-05-24T18:27:14.516751581+08:00"
+  },
+  {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 2404.5,
+    "ttftP95": 2817.15,
+    "avgMedianTps": 33.387081175786776,
+    "avgLatency": 80.02077360199999,
+    "successRate": 1,
+    "sampleCount": 2,
+    "score": -1281.0968529952793,
+    "compositeScore": 30.005223501673832,
+    "latestProbeAt": "2026-05-24T18:30:09.923953686+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 1,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-24T18:25:24.564050982+08:00"
   }
 ]

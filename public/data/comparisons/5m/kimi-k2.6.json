@@ -2,27 +2,53 @@
   {
     "provider": "OpenCode Go",
     "providerPlatform": "opencode_go",
-    "ttftP50": 692,
-    "ttftP95": 692,
-    "avgMedianTps": 183.82180608233267,
-    "avgLatency": 15.471423799,
+    "ttftP50": 564,
+    "ttftP95": 564,
+    "avgMedianTps": 159.51857676469962,
+    "avgLatency": 11.323196838,
+    "successRate": 0.3333333333333333,
+    "sampleCount": 3,
+    "score": 894.5648729715311,
+    "compositeScore": 90.89267338097088,
+    "latestProbeAt": "2026-05-24T18:28:41.240787714+08:00"
+  },
+  {
+    "provider": "Kimi(月之暗面)",
+    "providerPlatform": "moonshot_kimi",
+    "ttftP50": 895,
+    "ttftP95": 1233.4,
+    "avgMedianTps": 38.02490603216358,
+    "avgLatency": 61.360937510333336,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": 1577.745241518996,
-    "compositeScore": 87.94190462859156,
-    "latestProbeAt": "2026-05-24T17:57:59.172987437+08:00"
+    "sampleCount": 3,
+    "score": -484.8740015653518,
+    "compositeScore": 47.04569180274076,
+    "latestProbeAt": "2026-05-24T18:28:00.848203359+08:00"
   },
   {
     "provider": "联通元景",
     "providerPlatform": "yuanjing",
-    "ttftP50": 645,
-    "ttftP95": 645,
-    "avgMedianTps": 5.0514207098014925,
-    "avgLatency": 535.801695098,
+    "ttftP50": 589,
+    "ttftP95": 589,
+    "avgMedianTps": 9.396802784963974,
+    "avgLatency": 224.587116748,
     "successRate": 1,
     "sampleCount": 1,
-    "score": -12493.73385319119,
-    "compositeScore": 31.98748582773354,
-    "latestProbeAt": "2026-05-24T18:00:21.204267635+08:00"
+    "score": -4676.097101990216,
+    "compositeScore": 35.90503033763259,
+    "latestProbeAt": "2026-05-24T18:29:41.378707693+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 1,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-24T18:25:25.67201802+08:00"
   }
 ]
