@@ -1,16 +1,29 @@
 [
   {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 591,
-    "ttftP95": 772.8,
-    "avgMedianTps": 7.137263400363133,
-    "avgLatency": 336.18179917599997,
+    "provider": "Kimi(月之暗面)",
+    "providerPlatform": "moonshot_kimi",
+    "ttftP50": 968,
+    "ttftP95": 993.2,
+    "avgMedianTps": 35.5203487256451,
+    "avgLatency": 47.39364965266666,
     "successRate": 1,
     "sampleCount": 3,
-    "score": -7479.921398997821,
-    "compositeScore": 34.50040174340137,
-    "latestProbeAt": "2026-05-25T13:50:22.769784579+08:00"
+    "score": -165.31914896279602,
+    "compositeScore": 44.41176376759992,
+    "latestProbeAt": "2026-05-25T14:51:29.604719575+08:00"
+  },
+  {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 585,
+    "ttftP95": 585,
+    "avgMedianTps": 9.542885259090458,
+    "avgLatency": 236.798086518,
+    "successRate": 1,
+    "sampleCount": 1,
+    "score": -4979.694851395457,
+    "compositeScore": 36.090989915705414,
+    "latestProbeAt": "2026-05-25T14:54:58.673915797+08:00"
   },
   {
     "provider": "Ollama Cloud",
@@ -20,9 +33,35 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 1,
+    "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-05-25T13:31:59.410681118+08:00"
+    "latestProbeAt": "2026-05-25T14:54:42.348524751+08:00"
+  },
+  {
+    "provider": "OpenCode Go",
+    "providerPlatform": "opencode_go",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-25T14:49:21.172156374+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-25T14:49:08.314689623+08:00"
   }
 ]
