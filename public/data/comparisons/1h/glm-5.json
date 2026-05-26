@@ -1,16 +1,42 @@
 [
   {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 386.5,
+    "ttftP95": 412.15,
+    "avgMedianTps": 62.059343612438695,
+    "avgLatency": 43.6959656725,
+    "successRate": 0.6666666666666666,
+    "sampleCount": 3,
+    "score": -130.67641347120139,
+    "compositeScore": 73.58054703317356,
+    "latestProbeAt": "2026-05-26T18:46:51.125789477+08:00"
+  },
+  {
     "provider": "智谱",
     "providerPlatform": "bigmodel_glm",
-    "ttftP50": 5299.5,
-    "ttftP95": 8080.049999999999,
-    "avgMedianTps": 52.90258281006666,
-    "avgLatency": 27.783499454999998,
+    "ttftP50": 6493,
+    "ttftP95": 8199.4,
+    "avgMedianTps": 56.89262452010727,
+    "avgLatency": 28.442561705333333,
     "successRate": 1,
-    "sampleCount": 2,
-    "score": -437.0719895146,
-    "compositeScore": 31.741549686039995,
-    "latestProbeAt": "2026-05-26T18:29:52.747272589+08:00"
+    "sampleCount": 3,
+    "score": -668.3082955126898,
+    "compositeScore": 34.13557471206436,
+    "latestProbeAt": "2026-05-26T18:31:12.538609357+08:00"
+  },
+  {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 5708,
+    "ttftP95": 5717.9,
+    "avgMedianTps": 39.97566338030381,
+    "avgLatency": 85.16558438733334,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -2030.885629401511,
+    "compositeScore": 23.985398028182285,
+    "latestProbeAt": "2026-05-26T18:39:33.490956177+08:00"
   },
   {
     "provider": "Alaya Code",
@@ -33,10 +59,10 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 1,
+    "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-05-26T18:28:54.82814471+08:00"
+    "latestProbeAt": "2026-05-26T18:36:16.122260436+08:00"
   },
   {
     "provider": "OpenCode Go",
@@ -128,19 +154,6 @@
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-05-26T18:28:07.024245929+08:00"
-  },
-  {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 0,
-    "ttftP95": 0,
-    "avgMedianTps": 0,
-    "avgLatency": 0,
-    "successRate": 0,
-    "sampleCount": 1,
-    "score": -1000,
-    "compositeScore": 0,
-    "latestProbeAt": "2026-05-26T18:28:03.550487818+08:00"
   },
   {
     "provider": "腾讯云",
