@@ -1,5 +1,44 @@
 [
   {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 368,
+    "ttftP95": 372.5,
+    "avgMedianTps": 71.42279910167537,
+    "avgLatency": 37.899708169,
+    "successRate": 0.6666666666666666,
+    "sampleCount": 3,
+    "score": 74.11075705171879,
+    "compositeScore": 79.9062468053939,
+    "latestProbeAt": "2026-05-26T13:15:51.93824031+08:00"
+  },
+  {
+    "provider": "智谱",
+    "providerPlatform": "bigmodel_glm",
+    "ttftP50": 3168,
+    "ttftP95": 9459,
+    "avgMedianTps": 52.06973097260638,
+    "avgLatency": 29.90127968666667,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -68.71360633102847,
+    "compositeScore": 37.23645928772653,
+    "latestProbeAt": "2026-05-26T13:03:23.513555202+08:00"
+  },
+  {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 3925,
+    "ttftP95": 4243.6,
+    "avgMedianTps": 53.01712534726611,
+    "avgLatency": 63.70950668733334,
+    "successRate": 1,
+    "sampleCount": 3,
+    "score": -1059.6349150997369,
+    "compositeScore": 34.71369272665495,
+    "latestProbeAt": "2026-05-26T13:08:36.846487418+08:00"
+  },
+  {
     "provider": "Alaya Code",
     "providerPlatform": "alaya code",
     "ttftP50": 0,
@@ -11,6 +50,19 @@
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-05-26T12:59:58.75377825+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-05-26T13:02:45.801021761+08:00"
   },
   {
     "provider": "OpenCode Go",
@@ -102,19 +154,6 @@
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-05-26T13:00:00.665475112+08:00"
-  },
-  {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 0,
-    "ttftP95": 0,
-    "avgMedianTps": 0,
-    "avgLatency": 0,
-    "successRate": 0,
-    "sampleCount": 1,
-    "score": -1000,
-    "compositeScore": 0,
-    "latestProbeAt": "2026-05-26T12:59:57.004437005+08:00"
   },
   {
     "provider": "腾讯云",
