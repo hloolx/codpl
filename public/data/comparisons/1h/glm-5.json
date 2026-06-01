@@ -1,16 +1,29 @@
 [
   {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 280.5,
+    "ttftP95": 285.45,
+    "avgMedianTps": 27.14129375598067,
+    "avgLatency": 106.911114311,
+    "successRate": 0.6666666666666666,
+    "sampleCount": 3,
+    "score": -1899.3634285724493,
+    "compositeScore": 56.284776253588404,
+    "latestProbeAt": "2026-06-01T11:14:14.796064968+08:00"
+  },
+  {
     "provider": "智谱",
     "providerPlatform": "bigmodel_glm",
     "ttftP50": 3225,
-    "ttftP95": 3225,
-    "avgMedianTps": 77.93729271845703,
-    "avgLatency": 23.598009315,
+    "ttftP95": 3489.6,
+    "avgMedianTps": 59.03942866489886,
+    "avgLatency": 26.208884601333335,
     "successRate": 1,
-    "sampleCount": 1,
-    "score": 232.67352343574225,
-    "compositeScore": 52.49972808405323,
-    "latestProbeAt": "2026-06-01T11:00:04.838636579+08:00"
+    "sampleCount": 3,
+    "score": 54.01445695605992,
+    "compositeScore": 41.16100965191833,
+    "latestProbeAt": "2026-06-01T11:02:17.186471416+08:00"
   },
   {
     "provider": "Alaya Code",
@@ -24,6 +37,19 @@
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-06-01T10:59:41.632466299+08:00"
+  },
+  {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-06-01T11:04:15.16863621+08:00"
   },
   {
     "provider": "OpenCode Go",
@@ -128,19 +154,6 @@
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-06-01T10:59:43.199367681+08:00"
-  },
-  {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 0,
-    "ttftP95": 0,
-    "avgMedianTps": 0,
-    "avgLatency": 0,
-    "successRate": 0,
-    "sampleCount": 1,
-    "score": -1000,
-    "compositeScore": 0,
-    "latestProbeAt": "2026-06-01T10:59:39.893200459+08:00"
   },
   {
     "provider": "腾讯云",
