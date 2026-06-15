@@ -1,16 +1,29 @@
 [
   {
+    "provider": "Ollama Cloud",
+    "providerPlatform": "ollama_cloud",
+    "ttftP50": 537,
+    "ttftP95": 6356.4,
+    "avgMedianTps": 91.09708428286037,
+    "avgLatency": 31.236884944666667,
+    "successRate": 0.16666666666666666,
+    "sampleCount": 18,
+    "score": -175.0729512528378,
+    "compositeScore": 86.2586546948209,
+    "latestProbeAt": "2026-06-15T08:10:09.323841453+08:00"
+  },
+  {
     "provider": "MiniMax",
     "providerPlatform": "minimax",
-    "ttftP50": 757.5,
-    "ttftP95": 2055.2999999999997,
-    "avgMedianTps": 62.37284605491444,
-    "avgLatency": 27.873501944555557,
+    "ttftP50": 768,
+    "ttftP95": 2179.249999999999,
+    "avgMedianTps": 58.54352982254765,
+    "avgLatency": 31.036049765111116,
     "successRate": 1,
     "sampleCount": 18,
-    "score": 525.8995277155977,
-    "compositeScore": 64.06087375430434,
-    "latestProbeAt": "2026-06-15T07:46:14.252308345+08:00"
+    "score": 421.7599348075081,
+    "compositeScore": 61.564679791275836,
+    "latestProbeAt": "2026-06-15T08:05:48.274821758+08:00"
   },
   {
     "provider": "Alaya Code",
@@ -23,20 +36,7 @@
     "sampleCount": 18,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-06-15T07:43:19.018232377+08:00"
-  },
-  {
-    "provider": "Ollama Cloud",
-    "providerPlatform": "ollama_cloud",
-    "ttftP50": 0,
-    "ttftP95": 0,
-    "avgMedianTps": 0,
-    "avgLatency": 0,
-    "successRate": 0,
-    "sampleCount": 18,
-    "score": -1000,
-    "compositeScore": 0,
-    "latestProbeAt": "2026-06-15T07:43:38.966633229+08:00"
+    "latestProbeAt": "2026-06-15T08:01:14.296664879+08:00"
   },
   {
     "provider": "OpenCode Go",
@@ -49,7 +49,7 @@
     "sampleCount": 18,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-06-15T07:43:35.179606518+08:00"
+    "latestProbeAt": "2026-06-15T08:01:30.77641307+08:00"
   },
   {
     "provider": "京东云",
@@ -62,7 +62,7 @@
     "sampleCount": 18,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-06-15T07:43:18.449313473+08:00"
+    "latestProbeAt": "2026-06-15T08:01:13.696586934+08:00"
   },
   {
     "provider": "优云",
@@ -75,7 +75,7 @@
     "sampleCount": 18,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-06-15T07:43:21.025827672+08:00"
+    "latestProbeAt": "2026-06-15T08:01:15.132951962+08:00"
   },
   {
     "provider": "无问芯穹",
@@ -88,7 +88,7 @@
     "sampleCount": 18,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-06-15T07:43:20.898339565+08:00"
+    "latestProbeAt": "2026-06-15T08:01:16.397914405+08:00"
   },
   {
     "provider": "火山引擎",
@@ -101,7 +101,7 @@
     "sampleCount": 18,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-06-15T07:43:18.622749554+08:00"
+    "latestProbeAt": "2026-06-15T08:01:13.775064583+08:00"
   },
   {
     "provider": "百度云(千帆)",
@@ -114,7 +114,7 @@
     "sampleCount": 18,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-06-15T07:43:25.499296468+08:00"
+    "latestProbeAt": "2026-06-15T08:01:20.371848856+08:00"
   },
   {
     "provider": "百炼(阿里云)",
@@ -127,7 +127,7 @@
     "sampleCount": 18,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-06-15T07:43:18.877615286+08:00"
+    "latestProbeAt": "2026-06-15T08:01:14.012500691+08:00"
   },
   {
     "provider": "移动云",
@@ -140,7 +140,7 @@
     "sampleCount": 18,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-06-15T07:43:18.317386803+08:00"
+    "latestProbeAt": "2026-06-15T08:01:12.610053127+08:00"
   },
   {
     "provider": "联通云",
@@ -153,7 +153,7 @@
     "sampleCount": 18,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-06-15T07:43:20.872373047+08:00"
+    "latestProbeAt": "2026-06-15T08:01:15.923201793+08:00"
   },
   {
     "provider": "腾讯云",
@@ -166,6 +166,6 @@
     "sampleCount": 18,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-06-15T07:43:17.901537874+08:00"
+    "latestProbeAt": "2026-06-15T08:01:13.217690953+08:00"
   }
 ]
