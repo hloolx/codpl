@@ -1,38 +1,25 @@
 {
   "meta": {
-    "generatedAt": "2026-06-18T02:30:15Z",
-    "generatedAtUnix": 1781749815430,
-    "activeProviderCount": 3,
-    "activeModelCount": 6,
+    "generatedAt": "2026-06-18T03:00:16Z",
+    "generatedAtUnix": 1781751616564,
+    "activeProviderCount": 2,
+    "activeModelCount": 3,
     "snapshotCount": 1
   },
   "summary": {
     "shanghaiDate": "2026/6/18",
-    "dailyRunIndex": 10,
-    "nextRunAt": "2026/6/18 10:50"
+    "dailyRunIndex": 11,
+    "nextRunAt": "2026/6/18 11:06"
   },
   "latest": [
     {
       "provider": "Kimi(月之暗面)",
       "model": "kimi-for-coding",
       "modelDisplay": "kimi-k2.6",
-      "avgTtft": 1187.6666666666667,
-      "avgTps": 71.40160917774911,
-      "medianTps": 118.6660415075449,
-      "avgTotalTime": 27.137827887666663,
-      "successCount": 3,
-      "errorCount": 0,
-      "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "智谱",
-      "model": "glm-5-turbo",
-      "modelDisplay": "GLM-5-Turbo",
-      "avgTtft": 537,
-      "avgTps": 85.23250541173257,
-      "medianTps": 116.12615581967937,
-      "avgTotalTime": 12.604079513333334,
+      "avgTtft": 1600,
+      "avgTps": 54.087794897850735,
+      "medianTps": 93.11634994601239,
+      "avgTotalTime": 33.181435627666666,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": false,
@@ -42,10 +29,10 @@
       "provider": "MiniMax",
       "model": "MiniMax-M2.5-highspeed",
       "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 735,
-      "avgTps": 59.19876387744711,
-      "medianTps": 58.503013034819276,
-      "avgTotalTime": 26.713649268,
+      "avgTtft": 1013,
+      "avgTps": 58.65012060613861,
+      "medianTps": 62.10676011232755,
+      "avgTotalTime": 33.28236347566666,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -55,39 +42,13 @@
       "provider": "MiniMax",
       "model": "MiniMax-M2.7-highspeed",
       "modelDisplay": "minimax-m2.7",
-      "avgTtft": 972.3333333333334,
-      "avgTps": 54.878081409398526,
-      "medianTps": 57.396525979929066,
-      "avgTotalTime": 34.81942454966667,
+      "avgTtft": 1056.3333333333333,
+      "avgTps": 55.72288831037441,
+      "medianTps": 54.226190753576645,
+      "avgTotalTime": 36.40054943266667,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "智谱",
-      "model": "glm-5",
-      "modelDisplay": "glm-5",
-      "avgTtft": 3062.3333333333335,
-      "avgTps": 46.99953305444015,
-      "medianTps": 54.115066115105094,
-      "avgTotalTime": 23.202060853333336,
-      "successCount": 3,
-      "errorCount": 0,
-      "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "智谱",
-      "model": "glm-5.1",
-      "modelDisplay": "glm-5.1",
-      "avgTtft": 1754,
-      "avgTps": 46.16996519522389,
-      "medianTps": 50.64851389109493,
-      "avgTotalTime": 21.28600910766667,
-      "successCount": 3,
-      "errorCount": 0,
-      "hasThinking": false,
       "abnormalTps": false
     }
   ],
@@ -339,7 +300,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": true,
+      "active": false,
       "domesticPolicy": {
         "providerPlatform": "bigmodel_glm",
         "stickyTtlSeconds": 300,
