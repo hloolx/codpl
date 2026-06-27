@@ -1,28 +1,54 @@
 {
   "meta": {
-    "generatedAt": "2026-06-27T04:00:18Z",
-    "generatedAtUnix": 1782532818768,
-    "activeProviderCount": 1,
-    "activeModelCount": 1,
+    "generatedAt": "2026-06-27T04:30:15Z",
+    "generatedAtUnix": 1782534615951,
+    "activeProviderCount": 2,
+    "activeModelCount": 3,
     "snapshotCount": 1
   },
   "summary": {
     "shanghaiDate": "2026/6/27",
-    "dailyRunIndex": 12,
-    "nextRunAt": "2026/6/27 12:01"
+    "dailyRunIndex": 13,
+    "nextRunAt": "2026/6/27 13:11"
   },
   "latest": [
     {
       "provider": "Kimi(月之暗面)",
       "model": "kimi-for-coding",
       "modelDisplay": "kimi-k2.6",
-      "avgTtft": 1322.6666666666667,
-      "avgTps": 80.71035438828993,
-      "medianTps": 143.18648723770778,
-      "avgTotalTime": 18.689050074333334,
+      "avgTtft": 1567,
+      "avgTps": 51.98222001311834,
+      "medianTps": 84.50209430603529,
+      "avgTotalTime": 30.778760804,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": false,
+      "abnormalTps": false
+    },
+    {
+      "provider": "MiniMax",
+      "model": "MiniMax-M2.7-highspeed",
+      "modelDisplay": "minimax-m2.7",
+      "avgTtft": 679.3333333333334,
+      "avgTps": 59.60872106819145,
+      "medianTps": 60.429781347739436,
+      "avgTotalTime": 29.32605562266667,
+      "successCount": 3,
+      "errorCount": 0,
+      "hasThinking": true,
+      "abnormalTps": false
+    },
+    {
+      "provider": "MiniMax",
+      "model": "MiniMax-M2.5-highspeed",
+      "modelDisplay": "MiniMax-M2.5",
+      "avgTtft": 1031,
+      "avgTps": 53.073634771157465,
+      "medianTps": 57.14746791877577,
+      "avgTotalTime": 36.214527275,
+      "successCount": 3,
+      "errorCount": 0,
+      "hasThinking": true,
       "abnormalTps": false
     }
   ],
@@ -148,7 +174,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "domesticPolicy": {
         "providerPlatform": "minimax",
         "stickyTtlSeconds": 300,
