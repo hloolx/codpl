@@ -1,54 +1,28 @@
 {
   "meta": {
-    "generatedAt": "2026-06-27T02:30:15Z",
-    "generatedAtUnix": 1782527415484,
-    "activeProviderCount": 2,
-    "activeModelCount": 3,
+    "generatedAt": "2026-06-27T03:00:16Z",
+    "generatedAtUnix": 1782529216505,
+    "activeProviderCount": 1,
+    "activeModelCount": 1,
     "snapshotCount": 1
   },
   "summary": {
     "shanghaiDate": "2026/6/27",
-    "dailyRunIndex": 10,
-    "nextRunAt": "2026/6/27 10:56"
+    "dailyRunIndex": 11,
+    "nextRunAt": "2026/6/27 11:14"
   },
   "latest": [
     {
       "provider": "Kimi(月之暗面)",
       "model": "kimi-for-coding",
       "modelDisplay": "kimi-k2.6",
-      "avgTtft": 1142.3333333333333,
-      "avgTps": 59.36274822871609,
-      "medianTps": 102.63244061369365,
-      "avgTotalTime": 23.047482742333333,
+      "avgTtft": 2628,
+      "avgTps": 72.12625566839239,
+      "medianTps": 135.46045572178093,
+      "avgTotalTime": 22.571010511,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": false,
-      "abnormalTps": false
-    },
-    {
-      "provider": "MiniMax",
-      "model": "MiniMax-M2.7-highspeed",
-      "modelDisplay": "minimax-m2.7",
-      "avgTtft": 907.6666666666666,
-      "avgTps": 48.84642792149591,
-      "medianTps": 48.730598535199015,
-      "avgTotalTime": 31.54492073033333,
-      "successCount": 3,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "MiniMax",
-      "model": "MiniMax-M2.5-highspeed",
-      "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 1193.3333333333333,
-      "avgTps": 46.82756619724977,
-      "medianTps": 47.76084748803516,
-      "avgTotalTime": 38.10350122,
-      "successCount": 3,
-      "errorCount": 0,
-      "hasThinking": true,
       "abnormalTps": false
     }
   ],
@@ -174,7 +148,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": true,
+      "active": false,
       "domesticPolicy": {
         "providerPlatform": "minimax",
         "stickyTtlSeconds": 300,
