@@ -1,13 +1,13 @@
 [
   {
     "timePoint": "07/07 00:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.5",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.5-highspeed",
     "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 97.36251697541688,
-    "medianTps": 90.28100020742941,
-    "ttft": 801,
-    "dataPoints": 6
+    "avgTps": 57.97555777482504,
+    "medianTps": 59.81134972489377,
+    "ttft": 1214.8,
+    "dataPoints": 5
   },
   {
     "timePoint": "07/07 00:00",
@@ -18,16 +18,6 @@
     "medianTps": 55.55848609882099,
     "ttft": 880.4,
     "dataPoints": 5
-  },
-  {
-    "timePoint": "07/07 00:00",
-    "provider": "Ollama Cloud",
-    "model": "glm-4.7",
-    "modelDisplay": "glm-4.7",
-    "avgTps": 39.618373287881845,
-    "medianTps": 38.930849964976915,
-    "ttft": 1574.5,
-    "dataPoints": 6
   },
   {
     "timePoint": "07/07 00:00",
@@ -42,6 +32,16 @@
   {
     "timePoint": "07/07 00:00",
     "provider": "Ollama Cloud",
+    "model": "glm-4.7",
+    "modelDisplay": "glm-4.7",
+    "avgTps": 39.618373287881845,
+    "medianTps": 38.930849964976915,
+    "ttft": 1574.5,
+    "dataPoints": 6
+  },
+  {
+    "timePoint": "07/07 00:00",
+    "provider": "Ollama Cloud",
     "model": "minimax-m2.1",
     "modelDisplay": "minimax-m2.1",
     "avgTps": 86.75152944745908,
@@ -51,23 +51,13 @@
   },
   {
     "timePoint": "07/07 00:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.5-highspeed",
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 57.97555777482504,
-    "medianTps": 59.81134972489377,
-    "ttft": 1214.8,
-    "dataPoints": 5
-  },
-  {
-    "timePoint": "07/07 01:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.5-highspeed",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 64.85256637592695,
-    "medianTps": 67.32079269214982,
-    "ttft": 961.3333333333334,
-    "dataPoints": 3
+    "avgTps": 97.36251697541688,
+    "medianTps": 90.28100020742941,
+    "ttft": 801,
+    "dataPoints": 6
   },
   {
     "timePoint": "07/07 01:00",
@@ -87,6 +77,16 @@
     "avgTps": 64.99816472232077,
     "medianTps": 69.16277982536604,
     "ttft": 895.3333333333334,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 01:00",
+    "provider": "Kimi(月之暗面)",
+    "model": "kimi-for-coding",
+    "modelDisplay": "kimi-k2.6",
+    "avgTps": 300.7219288423998,
+    "medianTps": 411.0544730764429,
+    "ttft": 841.6666666666666,
     "dataPoints": 3
   },
   {
@@ -111,52 +111,12 @@
   },
   {
     "timePoint": "07/07 01:00",
-    "provider": "Kimi(月之暗面)",
-    "model": "kimi-for-coding",
-    "modelDisplay": "kimi-k2.6",
-    "avgTps": 300.7219288423998,
-    "medianTps": 411.0544730764429,
-    "ttft": 841.6666666666666,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 02:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.5",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 92.5180235183508,
-    "medianTps": 90.15159369875443,
-    "ttft": 671.6666666666666,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 02:00",
     "provider": "MiniMax",
-    "model": "MiniMax-M2.7-highspeed",
-    "modelDisplay": "minimax-m2.7",
-    "avgTps": 65.74339890536389,
-    "medianTps": 65.2613854762022,
-    "ttft": 695,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 02:00",
-    "provider": "Ollama Cloud",
-    "model": "glm-4.7",
-    "modelDisplay": "glm-4.7",
-    "avgTps": 23.31479092581098,
-    "medianTps": 27.70087608196955,
-    "ttft": 1368.3333333333333,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 02:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.1",
-    "modelDisplay": "minimax-m2.1",
-    "avgTps": 68.28623884712025,
-    "medianTps": 67.4369407342071,
-    "ttft": 1617,
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 64.85256637592695,
+    "medianTps": 67.32079269214982,
+    "ttft": 961.3333333333334,
     "dataPoints": 3
   },
   {
@@ -172,12 +132,62 @@
   {
     "timePoint": "07/07 02:00",
     "provider": "MiniMax",
+    "model": "MiniMax-M2.7-highspeed",
+    "modelDisplay": "minimax-m2.7",
+    "avgTps": 65.74339890536389,
+    "medianTps": 65.2613854762022,
+    "ttft": 695,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 02:00",
+    "provider": "MiniMax",
     "model": "MiniMax-M2.5-highspeed",
     "modelDisplay": "MiniMax-M2.5",
     "avgTps": 59.58741139544393,
     "medianTps": 58.90147576996858,
     "ttft": 966.6666666666666,
     "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 02:00",
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.1",
+    "modelDisplay": "minimax-m2.1",
+    "avgTps": 68.28623884712025,
+    "medianTps": 67.4369407342071,
+    "ttft": 1617,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 02:00",
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 92.5180235183508,
+    "medianTps": 90.15159369875443,
+    "ttft": 671.6666666666666,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 02:00",
+    "provider": "Ollama Cloud",
+    "model": "glm-4.7",
+    "modelDisplay": "glm-4.7",
+    "avgTps": 23.31479092581098,
+    "medianTps": 27.70087608196955,
+    "ttft": 1368.3333333333333,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 03:00",
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 75.29637586577056,
+    "medianTps": 83.4715112656227,
+    "ttft": 47617.5,
+    "dataPoints": 2
   },
   {
     "timePoint": "07/07 03:00",
@@ -191,22 +201,22 @@
   },
   {
     "timePoint": "07/07 03:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.5-highspeed",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 55.765758211851875,
-    "medianTps": 58.11882944975295,
-    "ttft": 1154.6666666666667,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 03:00",
     "provider": "Ollama Cloud",
     "model": "glm-4.7",
     "modelDisplay": "glm-4.7",
     "avgTps": 68.91366599934598,
     "medianTps": 68.5479886653345,
     "ttft": 2389.3333333333335,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 03:00",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 55.765758211851875,
+    "medianTps": 58.11882944975295,
+    "ttft": 1154.6666666666667,
     "dataPoints": 3
   },
   {
@@ -230,14 +240,24 @@
     "dataPoints": 3
   },
   {
-    "timePoint": "07/07 03:00",
+    "timePoint": "07/07 04:00",
     "provider": "Ollama Cloud",
-    "model": "minimax-m2.5",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 75.29637586577056,
-    "medianTps": 83.4715112656227,
-    "ttft": 47617.5,
-    "dataPoints": 2
+    "model": "minimax-m2.1",
+    "modelDisplay": "minimax-m2.1",
+    "avgTps": 77.69935128455518,
+    "medianTps": 78.28119514716123,
+    "ttft": 1208.6666666666667,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 04:00",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.7-highspeed",
+    "modelDisplay": "minimax-m2.7",
+    "avgTps": 52.46447279801177,
+    "medianTps": 54.13411632002205,
+    "ttft": 1593,
+    "dataPoints": 3
   },
   {
     "timePoint": "07/07 04:00",
@@ -251,12 +271,12 @@
   },
   {
     "timePoint": "07/07 04:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.1",
-    "modelDisplay": "minimax-m2.1",
-    "avgTps": 77.69935128455518,
-    "medianTps": 78.28119514716123,
-    "ttft": 1208.6666666666667,
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 53.27439284332223,
+    "medianTps": 52.62534727784677,
+    "ttft": 1141.6666666666667,
     "dataPoints": 3
   },
   {
@@ -271,42 +291,12 @@
   },
   {
     "timePoint": "07/07 04:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.5-highspeed",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 53.27439284332223,
-    "medianTps": 52.62534727784677,
-    "ttft": 1141.6666666666667,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 04:00",
     "provider": "Kimi(月之暗面)",
     "model": "kimi-for-coding",
     "modelDisplay": "kimi-k2.6",
     "avgTps": 296.32640126949775,
     "medianTps": 395.9750617951572,
     "ttft": 1244.3333333333333,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 04:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.7-highspeed",
-    "modelDisplay": "minimax-m2.7",
-    "avgTps": 52.46447279801177,
-    "medianTps": 54.13411632002205,
-    "ttft": 1593,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 05:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.5",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 78.06849245018049,
-    "medianTps": 85.98455751097659,
-    "ttft": 4067.3333333333335,
     "dataPoints": 3
   },
   {
@@ -321,32 +311,32 @@
   },
   {
     "timePoint": "07/07 05:00",
-    "provider": "联通元景",
-    "model": "glm-5.1",
-    "modelDisplay": "glm-5.1",
-    "avgTps": 45.36609495186375,
-    "medianTps": 63.384042997452944,
-    "ttft": 398,
-    "dataPoints": 1
-  },
-  {
-    "timePoint": "07/07 05:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.7-highspeed",
-    "modelDisplay": "minimax-m2.7",
-    "avgTps": 58.53795724470984,
-    "medianTps": 59.659800488871895,
-    "ttft": 547,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 05:00",
     "provider": "Ollama Cloud",
     "model": "glm-4.7",
     "modelDisplay": "glm-4.7",
     "avgTps": 160.175001588888,
     "medianTps": 212.57177532823798,
     "ttft": 686.3333333333334,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 05:00",
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 78.06849245018049,
+    "medianTps": 85.98455751097659,
+    "ttft": 4067.3333333333335,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 05:00",
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.1",
+    "modelDisplay": "minimax-m2.1",
+    "avgTps": 237.58148895735562,
+    "medianTps": 221.23706152838545,
+    "ttft": 1391.3333333333333,
     "dataPoints": 3
   },
   {
@@ -361,32 +351,32 @@
   },
   {
     "timePoint": "07/07 05:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.1",
-    "modelDisplay": "minimax-m2.1",
-    "avgTps": 237.58148895735562,
-    "medianTps": 221.23706152838545,
-    "ttft": 1391.3333333333333,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 06:00",
     "provider": "MiniMax",
     "model": "MiniMax-M2.7-highspeed",
     "modelDisplay": "minimax-m2.7",
-    "avgTps": 60.347757906704025,
-    "medianTps": 60.62429757949468,
-    "ttft": 1109.6666666666667,
+    "avgTps": 58.53795724470984,
+    "medianTps": 59.659800488871895,
+    "ttft": 547,
     "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 05:00",
+    "provider": "联通元景",
+    "model": "glm-5.1",
+    "modelDisplay": "glm-5.1",
+    "avgTps": 45.36609495186375,
+    "medianTps": 63.384042997452944,
+    "ttft": 398,
+    "dataPoints": 1
   },
   {
     "timePoint": "07/07 06:00",
     "provider": "Ollama Cloud",
-    "model": "minimax-m2.1",
-    "modelDisplay": "minimax-m2.1",
-    "avgTps": 94.58983014159053,
-    "medianTps": 93.72806956189174,
-    "ttft": 1270,
+    "model": "glm-4.7",
+    "modelDisplay": "glm-4.7",
+    "avgTps": 24.63065392507315,
+    "medianTps": 26.4567536376799,
+    "ttft": 1023,
     "dataPoints": 3
   },
   {
@@ -402,11 +392,21 @@
   {
     "timePoint": "07/07 06:00",
     "provider": "Ollama Cloud",
-    "model": "glm-4.7",
-    "modelDisplay": "glm-4.7",
-    "avgTps": 24.63065392507315,
-    "medianTps": 26.4567536376799,
-    "ttft": 1023,
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 102.01102618443262,
+    "medianTps": 90.75870981497447,
+    "ttft": 601.3333333333334,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 06:00",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.7-highspeed",
+    "modelDisplay": "minimax-m2.7",
+    "avgTps": 60.347757906704025,
+    "medianTps": 60.62429757949468,
+    "ttft": 1109.6666666666667,
     "dataPoints": 3
   },
   {
@@ -422,31 +422,11 @@
   {
     "timePoint": "07/07 06:00",
     "provider": "Ollama Cloud",
-    "model": "minimax-m2.5",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 102.01102618443262,
-    "medianTps": 90.75870981497447,
-    "ttft": 601.3333333333334,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 07:00",
-    "provider": "Ollama Cloud",
     "model": "minimax-m2.1",
     "modelDisplay": "minimax-m2.1",
-    "avgTps": 78.7587419969637,
-    "medianTps": 82.86724139171044,
-    "ttft": 1470.6666666666667,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 07:00",
-    "provider": "Ollama Cloud",
-    "model": "glm-4.7",
-    "modelDisplay": "glm-4.7",
-    "avgTps": 210.13859800197667,
-    "medianTps": 265.0753882005734,
-    "ttft": 800.3333333333334,
+    "avgTps": 94.58983014159053,
+    "medianTps": 93.72806956189174,
+    "ttft": 1270,
     "dataPoints": 3
   },
   {
@@ -482,11 +462,31 @@
   {
     "timePoint": "07/07 07:00",
     "provider": "Ollama Cloud",
+    "model": "glm-4.7",
+    "modelDisplay": "glm-4.7",
+    "avgTps": 210.13859800197667,
+    "medianTps": 265.0753882005734,
+    "ttft": 800.3333333333334,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 07:00",
+    "provider": "Ollama Cloud",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
     "avgTps": 89.78922181015975,
     "medianTps": 99.95450672698625,
     "ttft": 595,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 07:00",
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.1",
+    "modelDisplay": "minimax-m2.1",
+    "avgTps": 78.7587419969637,
+    "medianTps": 82.86724139171044,
+    "ttft": 1470.6666666666667,
     "dataPoints": 3
   },
   {
@@ -501,16 +501,6 @@
   },
   {
     "timePoint": "07/07 08:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.5",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 63.873995692464554,
-    "medianTps": 89.88123482784908,
-    "ttft": 665.3333333333334,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 08:00",
     "provider": "MiniMax",
     "model": "MiniMax-M2.5-highspeed",
     "modelDisplay": "MiniMax-M2.5",
@@ -521,12 +511,12 @@
   },
   {
     "timePoint": "07/07 08:00",
-    "provider": "Kimi(月之暗面)",
-    "model": "kimi-for-coding",
-    "modelDisplay": "kimi-k2.6",
-    "avgTps": 289.6647443799979,
-    "medianTps": 388.2339756996135,
-    "ttft": 838,
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 63.873995692464554,
+    "medianTps": 89.88123482784908,
+    "ttft": 665.3333333333334,
     "dataPoints": 3
   },
   {
@@ -550,6 +540,16 @@
     "dataPoints": 3
   },
   {
+    "timePoint": "07/07 08:00",
+    "provider": "Kimi(月之暗面)",
+    "model": "kimi-for-coding",
+    "modelDisplay": "kimi-k2.6",
+    "avgTps": 289.6647443799979,
+    "medianTps": 388.2339756996135,
+    "ttft": 838,
+    "dataPoints": 3
+  },
+  {
     "timePoint": "07/07 09:00",
     "provider": "Kimi(月之暗面)",
     "model": "kimi-for-coding",
@@ -557,16 +557,6 @@
     "avgTps": 296.1892792270429,
     "medianTps": 411.612961704495,
     "ttft": 827.5,
-    "dataPoints": 2
-  },
-  {
-    "timePoint": "07/07 10:00",
-    "provider": "Kimi(月之暗面)",
-    "model": "kimi-for-coding",
-    "modelDisplay": "kimi-k2.6",
-    "avgTps": 280.9746780403874,
-    "medianTps": 388.8055761749828,
-    "ttft": 29701,
     "dataPoints": 2
   },
   {
@@ -581,16 +571,6 @@
   },
   {
     "timePoint": "07/07 10:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.5-highspeed",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 54.24840394607893,
-    "medianTps": 56.25536183378801,
-    "ttft": 1668.6666666666667,
-    "dataPoints": 6
-  },
-  {
-    "timePoint": "07/07 10:00",
     "provider": "Ollama Cloud",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
@@ -601,12 +581,22 @@
   },
   {
     "timePoint": "07/07 10:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.1",
-    "modelDisplay": "minimax-m2.1",
-    "avgTps": 62.80471187156274,
-    "medianTps": 64.3893250272826,
-    "ttft": 1644,
+    "provider": "Kimi(月之暗面)",
+    "model": "kimi-for-coding",
+    "modelDisplay": "kimi-k2.6",
+    "avgTps": 280.9746780403874,
+    "medianTps": 388.8055761749828,
+    "ttft": 29701,
+    "dataPoints": 2
+  },
+  {
+    "timePoint": "07/07 10:00",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 54.24840394607893,
+    "medianTps": 56.25536183378801,
+    "ttft": 1668.6666666666667,
     "dataPoints": 6
   },
   {
@@ -620,24 +610,14 @@
     "dataPoints": 6
   },
   {
-    "timePoint": "07/07 11:00",
+    "timePoint": "07/07 10:00",
     "provider": "Ollama Cloud",
-    "model": "minimax-m2.5",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 72.46723349974029,
-    "medianTps": 79.8622737735966,
-    "ttft": 809.6666666666666,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 11:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.7-highspeed",
-    "modelDisplay": "minimax-m2.7",
-    "avgTps": 58.69956537809686,
-    "medianTps": 59.25255991159935,
-    "ttft": 1258.3333333333333,
-    "dataPoints": 3
+    "model": "minimax-m2.1",
+    "modelDisplay": "minimax-m2.1",
+    "avgTps": 62.80471187156274,
+    "medianTps": 64.3893250272826,
+    "ttft": 1644,
+    "dataPoints": 6
   },
   {
     "timePoint": "07/07 11:00",
@@ -647,16 +627,6 @@
     "avgTps": 30.41123727512429,
     "medianTps": 35.07867238882111,
     "ttft": 1311,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 11:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.5-highspeed",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 57.11768327895453,
-    "medianTps": 58.13645785782193,
-    "ttft": 1064,
     "dataPoints": 3
   },
   {
@@ -671,12 +641,62 @@
   },
   {
     "timePoint": "07/07 11:00",
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 72.46723349974029,
+    "medianTps": 79.8622737735966,
+    "ttft": 809.6666666666666,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 11:00",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 57.11768327895453,
+    "medianTps": 58.13645785782193,
+    "ttft": 1064,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 11:00",
     "provider": "Kimi(月之暗面)",
     "model": "kimi-for-coding",
     "modelDisplay": "kimi-k2.6",
     "avgTps": 296.601356056723,
     "medianTps": 411.41255832032374,
     "ttft": 5650.333333333333,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 11:00",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.7-highspeed",
+    "modelDisplay": "minimax-m2.7",
+    "avgTps": 58.69956537809686,
+    "medianTps": 59.25255991159935,
+    "ttft": 1258.3333333333333,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 12:00",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 68.04532405223848,
+    "medianTps": 73.44862227493826,
+    "ttft": 756.6666666666666,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 12:00",
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 101.69659057597835,
+    "medianTps": 99.56910994416421,
+    "ttft": 578,
     "dataPoints": 3
   },
   {
@@ -691,12 +711,12 @@
   },
   {
     "timePoint": "07/07 12:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.5",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 101.69659057597835,
-    "medianTps": 99.56910994416421,
-    "ttft": 578,
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.7-highspeed",
+    "modelDisplay": "minimax-m2.7",
+    "avgTps": 68.36456172169683,
+    "medianTps": 70.10884487680978,
+    "ttft": 1053.3333333333333,
     "dataPoints": 3
   },
   {
@@ -720,46 +740,6 @@
     "dataPoints": 3
   },
   {
-    "timePoint": "07/07 12:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.7-highspeed",
-    "modelDisplay": "minimax-m2.7",
-    "avgTps": 68.36456172169683,
-    "medianTps": 70.10884487680978,
-    "ttft": 1053.3333333333333,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 12:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.5-highspeed",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 68.04532405223848,
-    "medianTps": 73.44862227493826,
-    "ttft": 756.6666666666666,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 13:00",
-    "provider": "Kimi(月之暗面)",
-    "model": "kimi-for-coding",
-    "modelDisplay": "kimi-k2.6",
-    "avgTps": 287.1326820369121,
-    "medianTps": 388.6459490297839,
-    "ttft": 1799.6666666666667,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 13:00",
-    "provider": "Ollama Cloud",
-    "model": "glm-4.7",
-    "modelDisplay": "glm-4.7",
-    "avgTps": 340.143953945294,
-    "medianTps": 324.57705434644447,
-    "ttft": 737,
-    "dataPoints": 3
-  },
-  {
     "timePoint": "07/07 13:00",
     "provider": "Ollama Cloud",
     "model": "minimax-m2.5",
@@ -767,6 +747,16 @@
     "avgTps": 106.81578916922952,
     "medianTps": 96.92983322512619,
     "ttft": 1596.6666666666667,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 13:00",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 49.91274010720168,
+    "medianTps": 50.75710496772314,
+    "ttft": 1556.6666666666667,
     "dataPoints": 3
   },
   {
@@ -782,6 +772,16 @@
   {
     "timePoint": "07/07 13:00",
     "provider": "Ollama Cloud",
+    "model": "glm-4.7",
+    "modelDisplay": "glm-4.7",
+    "avgTps": 340.143953945294,
+    "medianTps": 324.57705434644447,
+    "ttft": 737,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 13:00",
+    "provider": "Ollama Cloud",
     "model": "minimax-m2.1",
     "modelDisplay": "minimax-m2.1",
     "avgTps": 82.28774381693184,
@@ -791,52 +791,12 @@
   },
   {
     "timePoint": "07/07 13:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.5-highspeed",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 49.91274010720168,
-    "medianTps": 50.75710496772314,
-    "ttft": 1556.6666666666667,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 14:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.1",
-    "modelDisplay": "minimax-m2.1",
-    "avgTps": 72.62471103927437,
-    "medianTps": 72.69794970816967,
-    "ttft": 1386.6666666666667,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 14:00",
     "provider": "Kimi(月之暗面)",
     "model": "kimi-for-coding",
     "modelDisplay": "kimi-k2.6",
-    "avgTps": 305.1963317162261,
-    "medianTps": 378.85065242703445,
-    "ttft": 3903.6666666666665,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 14:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.5-highspeed",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 58.39304951633519,
-    "medianTps": 59.52832596603802,
-    "ttft": 999.3333333333334,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 14:00",
-    "provider": "Ollama Cloud",
-    "model": "glm-4.7",
-    "modelDisplay": "glm-4.7",
-    "avgTps": 65.81065344753905,
-    "medianTps": 72.16509190907804,
-    "ttft": 1098,
+    "avgTps": 287.1326820369121,
+    "medianTps": 388.6459490297839,
+    "ttft": 1799.6666666666667,
     "dataPoints": 3
   },
   {
@@ -860,6 +820,46 @@
     "dataPoints": 3
   },
   {
+    "timePoint": "07/07 14:00",
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.1",
+    "modelDisplay": "minimax-m2.1",
+    "avgTps": 72.62471103927437,
+    "medianTps": 72.69794970816967,
+    "ttft": 1386.6666666666667,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 14:00",
+    "provider": "Ollama Cloud",
+    "model": "glm-4.7",
+    "modelDisplay": "glm-4.7",
+    "avgTps": 65.81065344753905,
+    "medianTps": 72.16509190907804,
+    "ttft": 1098,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 14:00",
+    "provider": "Kimi(月之暗面)",
+    "model": "kimi-for-coding",
+    "modelDisplay": "kimi-k2.6",
+    "avgTps": 305.1963317162261,
+    "medianTps": 378.85065242703445,
+    "ttft": 3903.6666666666665,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 14:00",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 58.39304951633519,
+    "medianTps": 59.52832596603802,
+    "ttft": 999.3333333333334,
+    "dataPoints": 3
+  },
+  {
     "timePoint": "07/07 15:00",
     "provider": "Ollama Cloud",
     "model": "minimax-m2.1",
@@ -871,6 +871,16 @@
   },
   {
     "timePoint": "07/07 16:00",
+    "provider": "Kimi(月之暗面)",
+    "model": "kimi-for-coding",
+    "modelDisplay": "kimi-k2.6",
+    "avgTps": 302.8257536984219,
+    "medianTps": 408.8106868097436,
+    "ttft": 2439,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 16:00",
     "provider": "MiniMax",
     "model": "MiniMax-M2.5-highspeed",
     "modelDisplay": "MiniMax-M2.5",
@@ -878,16 +888,6 @@
     "medianTps": 58.88260053672324,
     "ttft": 675.3333333333334,
     "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 16:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.5",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 104.20654812887092,
-    "medianTps": 97.56481196090694,
-    "ttft": 1054.6666666666667,
-    "dataPoints": 6
   },
   {
     "timePoint": "07/07 16:00",
@@ -911,13 +911,13 @@
   },
   {
     "timePoint": "07/07 16:00",
-    "provider": "Kimi(月之暗面)",
-    "model": "kimi-for-coding",
-    "modelDisplay": "kimi-k2.6",
-    "avgTps": 302.8257536984219,
-    "medianTps": 408.8106868097436,
-    "ttft": 2439,
-    "dataPoints": 3
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 104.20654812887092,
+    "medianTps": 97.56481196090694,
+    "ttft": 1054.6666666666667,
+    "dataPoints": 6
   },
   {
     "timePoint": "07/07 16:00",
@@ -932,21 +932,11 @@
   {
     "timePoint": "07/07 17:00",
     "provider": "Ollama Cloud",
-    "model": "minimax-m2.5",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 114.23098160461247,
-    "medianTps": 104.70664985578087,
-    "ttft": 552,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 17:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.5-highspeed",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 63.018222897814105,
-    "medianTps": 64.1770422507883,
-    "ttft": 1044.6666666666667,
+    "model": "glm-4.7",
+    "modelDisplay": "glm-4.7",
+    "avgTps": 80.13220294557932,
+    "medianTps": 77.52395772814567,
+    "ttft": 996.3333333333334,
     "dataPoints": 3
   },
   {
@@ -962,21 +952,11 @@
   {
     "timePoint": "07/07 17:00",
     "provider": "MiniMax",
-    "model": "MiniMax-M2.7-highspeed",
-    "modelDisplay": "minimax-m2.7",
-    "avgTps": 57.097866120309185,
-    "medianTps": 56.0305401532404,
-    "ttft": 1185.3333333333333,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 17:00",
-    "provider": "Ollama Cloud",
-    "model": "glm-4.7",
-    "modelDisplay": "glm-4.7",
-    "avgTps": 80.13220294557932,
-    "medianTps": 77.52395772814567,
-    "ttft": 996.3333333333334,
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 63.018222897814105,
+    "medianTps": 64.1770422507883,
+    "ttft": 1044.6666666666667,
     "dataPoints": 3
   },
   {
@@ -1000,13 +980,63 @@
     "dataPoints": 3
   },
   {
+    "timePoint": "07/07 17:00",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.7-highspeed",
+    "modelDisplay": "minimax-m2.7",
+    "avgTps": 57.097866120309185,
+    "medianTps": 56.0305401532404,
+    "ttft": 1185.3333333333333,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 17:00",
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 114.23098160461247,
+    "medianTps": 104.70664985578087,
+    "ttft": 552,
+    "dataPoints": 3
+  },
+  {
     "timePoint": "07/07 18:00",
     "provider": "Ollama Cloud",
-    "model": "minimax-m2.1",
-    "modelDisplay": "minimax-m2.1",
-    "avgTps": 76.29229257460024,
-    "medianTps": 72.68094224818743,
-    "ttft": 1392,
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 113.61597764637696,
+    "medianTps": 103.33857448154036,
+    "ttft": 758.3333333333334,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 18:00",
+    "provider": "Kimi(月之暗面)",
+    "model": "kimi-for-coding",
+    "modelDisplay": "kimi-k2.6",
+    "avgTps": 315.96696292149517,
+    "medianTps": 402.89387553643775,
+    "ttft": 901.3333333333334,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 18:00",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.7-highspeed",
+    "modelDisplay": "minimax-m2.7",
+    "avgTps": 70.04657194471092,
+    "medianTps": 75.01135584886262,
+    "ttft": 709.3333333333334,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 18:00",
+    "provider": "Ollama Cloud",
+    "model": "glm-4.7",
+    "modelDisplay": "glm-4.7",
+    "avgTps": 48.19365320098755,
+    "medianTps": 46.633231983030065,
+    "ttft": 1997,
     "dataPoints": 3
   },
   {
@@ -1022,41 +1052,31 @@
   {
     "timePoint": "07/07 18:00",
     "provider": "Ollama Cloud",
-    "model": "glm-4.7",
-    "modelDisplay": "glm-4.7",
-    "avgTps": 48.19365320098755,
-    "medianTps": 46.633231983030065,
-    "ttft": 1997,
+    "model": "minimax-m2.1",
+    "modelDisplay": "minimax-m2.1",
+    "avgTps": 76.29229257460024,
+    "medianTps": 72.68094224818743,
+    "ttft": 1392,
     "dataPoints": 3
   },
   {
-    "timePoint": "07/07 18:00",
-    "provider": "Kimi(月之暗面)",
-    "model": "kimi-for-coding",
-    "modelDisplay": "kimi-k2.6",
-    "avgTps": 315.96696292149517,
-    "medianTps": 402.89387553643775,
-    "ttft": 901.3333333333334,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 18:00",
+    "timePoint": "07/07 19:00",
     "provider": "Ollama Cloud",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 113.61597764637696,
-    "medianTps": 103.33857448154036,
-    "ttft": 758.3333333333334,
+    "avgTps": 90.88808631331693,
+    "medianTps": 80.35503738413689,
+    "ttft": 772.3333333333334,
     "dataPoints": 3
   },
   {
-    "timePoint": "07/07 18:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.7-highspeed",
-    "modelDisplay": "minimax-m2.7",
-    "avgTps": 70.04657194471092,
-    "medianTps": 75.01135584886262,
-    "ttft": 709.3333333333334,
+    "timePoint": "07/07 19:00",
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.1",
+    "modelDisplay": "minimax-m2.1",
+    "avgTps": 71.83294800104262,
+    "medianTps": 67.54342905652477,
+    "ttft": 1143.6666666666667,
     "dataPoints": 3
   },
   {
@@ -1072,21 +1092,21 @@
   {
     "timePoint": "07/07 19:00",
     "provider": "MiniMax",
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 66.77923225764846,
+    "medianTps": 67.84528092691453,
+    "ttft": 1681.3333333333333,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 19:00",
+    "provider": "MiniMax",
     "model": "MiniMax-M2.7-highspeed",
     "modelDisplay": "minimax-m2.7",
     "avgTps": 64.42193422288116,
     "medianTps": 63.904109903402656,
     "ttft": 779.6666666666666,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 19:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.1",
-    "modelDisplay": "minimax-m2.1",
-    "avgTps": 71.83294800104262,
-    "medianTps": 67.54342905652477,
-    "ttft": 1143.6666666666667,
     "dataPoints": 3
   },
   {
@@ -1100,23 +1120,23 @@
     "dataPoints": 3
   },
   {
-    "timePoint": "07/07 19:00",
+    "timePoint": "07/07 20:00",
     "provider": "MiniMax",
     "model": "MiniMax-M2.5-highspeed",
     "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 66.77923225764846,
-    "medianTps": 67.84528092691453,
-    "ttft": 1681.3333333333333,
-    "dataPoints": 3
+    "avgTps": 65.18478011495361,
+    "medianTps": 66.091317810807,
+    "ttft": 505,
+    "dataPoints": 2
   },
   {
-    "timePoint": "07/07 19:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.5",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 90.88808631331693,
-    "medianTps": 80.35503738413689,
-    "ttft": 772.3333333333334,
+    "timePoint": "07/07 20:00",
+    "provider": "Kimi(月之暗面)",
+    "model": "kimi-for-coding",
+    "modelDisplay": "kimi-k2.6",
+    "avgTps": 311.1974977317748,
+    "medianTps": 397.79518151544,
+    "ttft": 909,
     "dataPoints": 3
   },
   {
@@ -1132,32 +1152,22 @@
   {
     "timePoint": "07/07 20:00",
     "provider": "Ollama Cloud",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 95.32819624403736,
+    "medianTps": 92.8853488983243,
+    "ttft": 573,
+    "dataPoints": 1
+  },
+  {
+    "timePoint": "07/07 20:00",
+    "provider": "Ollama Cloud",
     "model": "minimax-m2.1",
     "modelDisplay": "minimax-m2.1",
     "avgTps": 83.28355877658628,
     "medianTps": 77.51886236577815,
     "ttft": 1234,
     "dataPoints": 1
-  },
-  {
-    "timePoint": "07/07 20:00",
-    "provider": "Kimi(月之暗面)",
-    "model": "kimi-for-coding",
-    "modelDisplay": "kimi-k2.6",
-    "avgTps": 311.1974977317748,
-    "medianTps": 397.79518151544,
-    "ttft": 909,
-    "dataPoints": 3
-  },
-  {
-    "timePoint": "07/07 20:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.5-highspeed",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 65.18478011495361,
-    "medianTps": 66.091317810807,
-    "ttft": 505,
-    "dataPoints": 2
   },
   {
     "timePoint": "07/07 20:00",
@@ -1170,53 +1180,13 @@
     "dataPoints": 2
   },
   {
-    "timePoint": "07/07 20:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.5",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 95.32819624403736,
-    "medianTps": 92.8853488983243,
-    "ttft": 573,
-    "dataPoints": 1
-  },
-  {
-    "timePoint": "07/07 21:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.1",
-    "modelDisplay": "minimax-m2.1",
-    "avgTps": 79.27442357147333,
-    "medianTps": 72.57586013245512,
-    "ttft": 1443.6,
-    "dataPoints": 5
-  },
-  {
-    "timePoint": "07/07 21:00",
-    "provider": "Ollama Cloud",
-    "model": "minimax-m2.5",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 55.91113135013133,
-    "medianTps": 69.56468918230911,
-    "ttft": 776,
-    "dataPoints": 5
-  },
-  {
     "timePoint": "07/07 21:00",
     "provider": "MiniMax",
-    "model": "MiniMax-M2.5-highspeed",
-    "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 62.310053958402264,
-    "medianTps": 66.7689625618215,
-    "ttft": 1063.75,
-    "dataPoints": 4
-  },
-  {
-    "timePoint": "07/07 21:00",
-    "provider": "Ollama Cloud",
-    "model": "glm-4.7",
-    "modelDisplay": "glm-4.7",
-    "avgTps": 68.366315955229,
-    "medianTps": 68.95130171163981,
-    "ttft": 1969.5,
+    "model": "MiniMax-M2.7-highspeed",
+    "modelDisplay": "minimax-m2.7",
+    "avgTps": 58.64545361183423,
+    "medianTps": 60.965461354594154,
+    "ttft": 882.5,
     "dataPoints": 4
   },
   {
@@ -1231,23 +1201,43 @@
   },
   {
     "timePoint": "07/07 21:00",
-    "provider": "MiniMax",
-    "model": "MiniMax-M2.7-highspeed",
-    "modelDisplay": "minimax-m2.7",
-    "avgTps": 58.64545361183423,
-    "medianTps": 60.965461354594154,
-    "ttft": 882.5,
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 55.91113135013133,
+    "medianTps": 69.56468918230911,
+    "ttft": 776,
+    "dataPoints": 5
+  },
+  {
+    "timePoint": "07/07 21:00",
+    "provider": "Ollama Cloud",
+    "model": "glm-4.7",
+    "modelDisplay": "glm-4.7",
+    "avgTps": 68.366315955229,
+    "medianTps": 68.95130171163981,
+    "ttft": 1969.5,
     "dataPoints": 4
   },
   {
-    "timePoint": "07/07 22:00",
+    "timePoint": "07/07 21:00",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 62.310053958402264,
+    "medianTps": 66.7689625618215,
+    "ttft": 1063.75,
+    "dataPoints": 4
+  },
+  {
+    "timePoint": "07/07 21:00",
     "provider": "Ollama Cloud",
     "model": "minimax-m2.1",
     "modelDisplay": "minimax-m2.1",
-    "avgTps": 81.40453867157937,
-    "medianTps": 77.05742711216148,
-    "ttft": 2070,
-    "dataPoints": 2
+    "avgTps": 79.27442357147333,
+    "medianTps": 72.57586013245512,
+    "ttft": 1443.6,
+    "dataPoints": 5
   },
   {
     "timePoint": "07/07 22:00",
@@ -1258,6 +1248,26 @@
     "medianTps": 62.24539356570128,
     "ttft": 748,
     "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 22:00",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 61.42013027935243,
+    "medianTps": 61.05466128262059,
+    "ttft": 945.6666666666666,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 22:00",
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.1",
+    "modelDisplay": "minimax-m2.1",
+    "avgTps": 81.40453867157937,
+    "medianTps": 77.05742711216148,
+    "ttft": 2070,
+    "dataPoints": 2
   },
   {
     "timePoint": "07/07 22:00",
@@ -1290,13 +1300,63 @@
     "dataPoints": 3
   },
   {
-    "timePoint": "07/07 22:00",
+    "timePoint": "07/07 23:00",
+    "provider": "Kimi(月之暗面)",
+    "model": "kimi-for-coding",
+    "modelDisplay": "kimi-k2.6",
+    "avgTps": 303.24596630855234,
+    "medianTps": 362.62530590876946,
+    "ttft": 910.6666666666666,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 23:00",
     "provider": "MiniMax",
     "model": "MiniMax-M2.5-highspeed",
     "modelDisplay": "MiniMax-M2.5",
-    "avgTps": 61.42013027935243,
-    "medianTps": 61.05466128262059,
-    "ttft": 945.6666666666666,
+    "avgTps": 62.13931413181763,
+    "medianTps": 64.0222643297337,
+    "ttft": 726.3333333333334,
     "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 23:00",
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.7-highspeed",
+    "modelDisplay": "minimax-m2.7",
+    "avgTps": 68.99611719469085,
+    "medianTps": 71.6151711917416,
+    "ttft": 801,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 23:00",
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.1",
+    "modelDisplay": "minimax-m2.1",
+    "avgTps": 84.10343276140853,
+    "medianTps": 80.96607946733528,
+    "ttft": 1232.5,
+    "dataPoints": 4
+  },
+  {
+    "timePoint": "07/07 23:00",
+    "provider": "Ollama Cloud",
+    "model": "glm-4.7",
+    "modelDisplay": "glm-4.7",
+    "avgTps": 119.23828397663408,
+    "medianTps": 121.1078834128452,
+    "ttft": 1083,
+    "dataPoints": 3
+  },
+  {
+    "timePoint": "07/07 23:00",
+    "provider": "Ollama Cloud",
+    "model": "minimax-m2.5",
+    "modelDisplay": "MiniMax-M2.5",
+    "avgTps": 82.46601781414626,
+    "medianTps": 77.81930780605683,
+    "ttft": 953.75,
+    "dataPoints": 4
   }
 ]
