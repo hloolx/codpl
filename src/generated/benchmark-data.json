@@ -1,38 +1,25 @@
 {
   "meta": {
-    "generatedAt": "2026-07-12T18:30:14Z",
-    "generatedAtUnix": 1783881014151,
-    "activeProviderCount": 3,
-    "activeModelCount": 6,
+    "generatedAt": "2026-07-12T19:00:14Z",
+    "generatedAtUnix": 1783882814793,
+    "activeProviderCount": 2,
+    "activeModelCount": 3,
     "snapshotCount": 1
   },
   "summary": {
     "shanghaiDate": "2026/7/13",
-    "dailyRunIndex": 3,
-    "nextRunAt": "2026/7/13 02:41"
+    "dailyRunIndex": 4,
+    "nextRunAt": "2026/7/13 03:27"
   },
   "latest": [
     {
       "provider": "Kimi(月之暗面)",
       "model": "kimi-for-coding",
       "modelDisplay": "kimi-k2.6",
-      "avgTtft": 841,
-      "avgTps": 134.64599819586272,
-      "medianTps": 180.86597553577383,
-      "avgTotalTime": 10.819505355333334,
-      "successCount": 3,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "MiniMax",
-      "model": "MiniMax-M2.7-highspeed",
-      "modelDisplay": "minimax-m2.7",
-      "avgTtft": 1115.3333333333333,
-      "avgTps": 61.35466486909703,
-      "medianTps": 63.93436298540326,
-      "avgTotalTime": 25.111679327999997,
+      "avgTtft": 730.3333333333334,
+      "avgTps": 136.72998562731706,
+      "medianTps": 185.5893939905277,
+      "avgTotalTime": 11.769730843333333,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -42,38 +29,25 @@
       "provider": "MiniMax",
       "model": "MiniMax-M2.5-highspeed",
       "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 1075.6666666666667,
-      "avgTps": 60.27207360610537,
-      "medianTps": 60.379620440604604,
-      "avgTotalTime": 28.548925307666668,
+      "avgTtft": 887.6666666666666,
+      "avgTps": 61.833241176445206,
+      "medianTps": 63.38125718792725,
+      "avgTotalTime": 27.693926104333332,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
       "abnormalTps": false
     },
     {
-      "provider": "联通元景",
-      "model": "glm-5.1",
-      "modelDisplay": "glm-5.1",
-      "avgTtft": 494,
-      "avgTps": 41.67063632210252,
-      "medianTps": 55.884807106043816,
-      "avgTotalTime": 16.582725068333332,
-      "successCount": 1,
-      "errorCount": 2,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "联通元景",
-      "model": "glm-5",
-      "modelDisplay": "glm-5",
-      "avgTtft": 347,
-      "avgTps": 40.9569528313471,
-      "medianTps": 55.01043613318583,
-      "avgTotalTime": 15.720522547666667,
-      "successCount": 1,
-      "errorCount": 2,
+      "provider": "MiniMax",
+      "model": "MiniMax-M2.7-highspeed",
+      "modelDisplay": "minimax-m2.7",
+      "avgTtft": 660,
+      "avgTps": 64.02457929361611,
+      "medianTps": 63.328391192826594,
+      "avgTotalTime": 23.074099661,
+      "successCount": 3,
+      "errorCount": 0,
       "hasThinking": true,
       "abnormalTps": false
     }
@@ -630,7 +604,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": true,
+      "active": false,
       "purchaseUrl": "https://maas.ai-yuanjing.com/aibase/home",
       "domesticPolicy": {
         "providerPlatform": "yuanjing",
