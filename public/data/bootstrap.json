@@ -1,38 +1,38 @@
 {
   "meta": {
-    "generatedAt": "2026-07-20T00:00:13Z",
-    "generatedAtUnix": 1784505613135,
-    "activeProviderCount": 2,
-    "activeModelCount": 3,
+    "generatedAt": "2026-07-20T00:30:13Z",
+    "generatedAtUnix": 1784507413225,
+    "activeProviderCount": 3,
+    "activeModelCount": 14,
     "snapshotCount": 1
   },
   "summary": {
     "shanghaiDate": "2026/7/20",
-    "dailyRunIndex": 8,
-    "nextRunAt": "2026/7/20 08:06"
+    "dailyRunIndex": 9,
+    "nextRunAt": "2026/7/20 09:54"
   },
   "latest": [
     {
       "provider": "Kimi(月之暗面)",
       "model": "kimi-for-coding",
       "modelDisplay": "kimi-k2.6",
-      "avgTtft": 1028.3333333333333,
-      "avgTps": 130.74036947936108,
-      "medianTps": 173.59949753806563,
-      "avgTotalTime": 10.011252511333334,
+      "avgTtft": 837.6666666666666,
+      "avgTps": 123.99147127304813,
+      "medianTps": 161.45795031406135,
+      "avgTotalTime": 11.058761101333333,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
       "abnormalTps": false
     },
     {
-      "provider": "MiniMax",
-      "model": "MiniMax-M2.7-highspeed",
-      "modelDisplay": "minimax-m2.7",
-      "avgTtft": 1142.6666666666667,
-      "avgTps": 64.17452172281735,
-      "medianTps": 65.17981529497222,
-      "avgTotalTime": 28.030141634,
+      "provider": "Ollama Cloud",
+      "model": "minimax-m2.5",
+      "modelDisplay": "MiniMax-M2.5",
+      "avgTtft": 3142.6666666666665,
+      "avgTps": 74.74219245324139,
+      "medianTps": 77.07409799907701,
+      "avgTotalTime": 32.694064641666664,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -42,10 +42,23 @@
       "provider": "MiniMax",
       "model": "MiniMax-M2.5-highspeed",
       "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 656.3333333333334,
-      "avgTps": 60.15570413242858,
-      "medianTps": 61.84469696512529,
-      "avgTotalTime": 31.039310950333334,
+      "avgTtft": 941.3333333333334,
+      "avgTps": 75.27106446506714,
+      "medianTps": 76.6616448508208,
+      "avgTotalTime": 19.319155001333332,
+      "successCount": 3,
+      "errorCount": 0,
+      "hasThinking": true,
+      "abnormalTps": false
+    },
+    {
+      "provider": "MiniMax",
+      "model": "MiniMax-M2.7-highspeed",
+      "modelDisplay": "minimax-m2.7",
+      "avgTtft": 564.3333333333334,
+      "avgTps": 72.64104667326082,
+      "medianTps": 74.66331346018968,
+      "avgTotalTime": 25.451344674666668,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -959,7 +972,7 @@
           "apiType": "openai"
         }
       ],
-      "active": false,
+      "active": true,
       "purchaseUrl": "https://ollama.com/",
       "domesticPolicy": {
         "providerPlatform": "ollama_cloud",
