@@ -111415,9 +111415,9 @@
     "provider": "Kimi(月之暗面)",
     "model": "kimi-for-coding",
     "modelDisplay": "kimi-k2.5",
-    "tokensPerSec": 39.134720239127034,
-    "medianTps": 43.655347718882894,
-    "ttft": 1743
+    "tokensPerSec": 36.34971383917668,
+    "medianTps": 43.01413490921883,
+    "ttft": 2649
   },
   {
     "seriesKey": "腾讯云__minimax-m2.5",
@@ -174499,9 +174499,9 @@
     "provider": "Ollama Cloud",
     "model": "minimax-m2.5",
     "modelDisplay": "MiniMax-M2.5",
-    "tokensPerSec": 76.65033048613945,
-    "medianTps": 66.30807464119647,
-    "ttft": 1101
+    "tokensPerSec": 67.50643224305081,
+    "medianTps": 64.75963088786773,
+    "ttft": 1393.6666666666667
   },
   {
     "seriesKey": "Ollama Cloud__glm-4.7",
@@ -392532,6 +392532,18 @@
     "ttft": 1199
   },
   {
+    "seriesKey": "MiniMax__MiniMax-M2.5-highspeed",
+    "seriesLabel": "MiniMax / MiniMax-M2.5",
+    "timestamp": "2026/07/24 11:00",
+    "timestampUnix": 1784862000000,
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.5-highspeed",
+    "modelDisplay": "MiniMax-M2.5",
+    "tokensPerSec": 50.01348735999551,
+    "medianTps": 51.12157605493087,
+    "ttft": 1089.6666666666667
+  },
+  {
     "seriesKey": "MiniMax__MiniMax-M2.7-highspeed",
     "seriesLabel": "MiniMax / minimax-m2.7",
     "timestamp": "2026/03/23",
@@ -418510,6 +418522,18 @@
     "tokensPerSec": 66.99203532678796,
     "medianTps": 69.48024050472074,
     "ttft": 539
+  },
+  {
+    "seriesKey": "MiniMax__MiniMax-M2.7-highspeed",
+    "seriesLabel": "MiniMax / minimax-m2.7",
+    "timestamp": "2026/07/24 11:00",
+    "timestampUnix": 1784862000000,
+    "provider": "MiniMax",
+    "model": "MiniMax-M2.7-highspeed",
+    "modelDisplay": "minimax-m2.7",
+    "tokensPerSec": 50.84396889322464,
+    "medianTps": 51.427187772181846,
+    "ttft": 656
   },
   {
     "seriesKey": "京东云__GLM-5",
