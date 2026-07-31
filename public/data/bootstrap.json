@@ -1,51 +1,25 @@
 {
   "meta": {
-    "generatedAt": "2026-07-31T07:30:14Z",
-    "generatedAtUnix": 1785483014723,
-    "activeProviderCount": 3,
-    "activeModelCount": 14,
+    "generatedAt": "2026-07-31T08:00:12Z",
+    "generatedAtUnix": 1785484812997,
+    "activeProviderCount": 2,
+    "activeModelCount": 3,
     "snapshotCount": 1
   },
   "summary": {
     "shanghaiDate": "2026/7/31",
-    "dailyRunIndex": 15,
-    "nextRunAt": "2026/7/31 15:39"
+    "dailyRunIndex": 16,
+    "nextRunAt": "2026/7/31 16:36"
   },
   "latest": [
-    {
-      "provider": "Kimi(月之暗面)",
-      "model": "kimi-for-coding",
-      "modelDisplay": "kimi-k2.6",
-      "avgTtft": 5029.333333333333,
-      "avgTps": 68.65616814232283,
-      "medianTps": 130.1006820584063,
-      "avgTotalTime": 24.756359182666667,
-      "successCount": 3,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Ollama Cloud",
-      "model": "minimax-m2.5",
-      "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 1470,
-      "avgTps": 73.69872362290961,
-      "medianTps": 73.14623114406085,
-      "avgTotalTime": 25.577703152999998,
-      "successCount": 3,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
     {
       "provider": "MiniMax",
       "model": "MiniMax-M2.7-highspeed",
       "modelDisplay": "minimax-m2.7",
-      "avgTtft": 1139.3333333333333,
-      "avgTps": 51.28256978504731,
-      "medianTps": 54.87939014313641,
-      "avgTotalTime": 32.406056121,
+      "avgTtft": 922.3333333333334,
+      "avgTps": 54.63905001308174,
+      "medianTps": 56.91227635421751,
+      "avgTotalTime": 36.29097328266666,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -55,10 +29,23 @@
       "provider": "MiniMax",
       "model": "MiniMax-M2.5-highspeed",
       "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 1446.6666666666667,
-      "avgTps": 52.31751988643757,
-      "medianTps": 53.627894198051195,
-      "avgTotalTime": 37.193213482666664,
+      "avgTtft": 1159.3333333333333,
+      "avgTps": 54.666321545191636,
+      "medianTps": 56.05655056467241,
+      "avgTotalTime": 30.752190005666666,
+      "successCount": 3,
+      "errorCount": 0,
+      "hasThinking": true,
+      "abnormalTps": false
+    },
+    {
+      "provider": "Kimi(月之暗面)",
+      "model": "kimi-for-coding",
+      "modelDisplay": "kimi-k2.6",
+      "avgTtft": 1676.6666666666667,
+      "avgTps": 35.333199694998996,
+      "medianTps": 51.02470137972222,
+      "avgTotalTime": 41.054276722666664,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -972,7 +959,7 @@
           "apiType": "openai"
         }
       ],
-      "active": true,
+      "active": false,
       "purchaseUrl": "https://ollama.com/",
       "domesticPolicy": {
         "providerPlatform": "ollama_cloud",
