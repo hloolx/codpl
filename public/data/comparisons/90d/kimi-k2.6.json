@@ -1,18 +1,5 @@
 [
   {
-    "provider": "联通元景",
-    "providerPlatform": "yuanjing",
-    "ttftP50": 408,
-    "ttftP95": 885.9,
-    "avgMedianTps": 103.21503659154938,
-    "avgLatency": 116.87207024066667,
-    "successRate": 0.00046282011724776306,
-    "sampleCount": 6482,
-    "score": -2383.648716350123,
-    "compositeScore": 95.56393348524387,
-    "latestProbeAt": "2026-08-25T19:14:05.957747352+08:00"
-  },
-  {
     "provider": "Kimi(月之暗面)",
     "providerPlatform": "moonshot_kimi",
     "ttftP50": 959,
@@ -39,6 +26,19 @@
     "latestProbeAt": "2026-08-25T19:14:22.077415657+08:00"
   },
   {
+    "provider": "联通元景",
+    "providerPlatform": "yuanjing",
+    "ttftP50": 939,
+    "ttftP95": 939,
+    "avgMedianTps": 5.229186290271889,
+    "avgLatency": 317.348124943,
+    "successRate": 0.00015432098765432098,
+    "sampleCount": 6480,
+    "score": -8089.973684845714,
+    "compositeScore": 26.6758852025842,
+    "latestProbeAt": "2026-08-25T19:14:05.957747352+08:00"
+  },
+  {
     "provider": "Ollama Cloud",
     "providerPlatform": "ollama_cloud",
     "ttftP50": 0,
@@ -46,7 +46,7 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 6482,
+    "sampleCount": 6480,
     "score": -1000,
     "compositeScore": 0,
     "latestProbeAt": "2026-08-25T19:14:31.323048178+08:00"
