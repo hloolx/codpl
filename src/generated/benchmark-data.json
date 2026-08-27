@@ -1,25 +1,25 @@
 {
   "meta": {
-    "generatedAt": "2026-08-27T08:30:16Z",
-    "generatedAtUnix": 1787819416044,
-    "activeProviderCount": 1,
-    "activeModelCount": 2,
+    "generatedAt": "2026-08-27T09:00:13Z",
+    "generatedAtUnix": 1787821213025,
+    "activeProviderCount": 2,
+    "activeModelCount": 3,
     "snapshotCount": 1
   },
   "summary": {
     "shanghaiDate": "2026/8/27",
-    "dailyRunIndex": 16,
-    "nextRunAt": "2026/8/27 16:57"
+    "dailyRunIndex": 17,
+    "nextRunAt": "2026/8/27 17:41"
   },
   "latest": [
     {
       "provider": "MiniMax",
-      "model": "MiniMax-M2.5-highspeed",
-      "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 1163,
-      "avgTps": 56.40996388357422,
-      "medianTps": 57.20551197055439,
-      "avgTotalTime": 32.66442203333333,
+      "model": "MiniMax-M2.7-highspeed",
+      "modelDisplay": "minimax-m2.7",
+      "avgTtft": 2065.3333333333335,
+      "avgTps": 63.72228555760035,
+      "medianTps": 64.65628799410787,
+      "avgTotalTime": 29.223272306000002,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -27,12 +27,25 @@
     },
     {
       "provider": "MiniMax",
-      "model": "MiniMax-M2.7-highspeed",
-      "modelDisplay": "minimax-m2.7",
-      "avgTtft": 889.6666666666666,
-      "avgTps": 54.62137589426561,
-      "medianTps": 56.14502238876826,
-      "avgTotalTime": 32.438986607333334,
+      "model": "MiniMax-M2.5-highspeed",
+      "modelDisplay": "MiniMax-M2.5",
+      "avgTtft": 689.3333333333334,
+      "avgTps": 58.703542745029345,
+      "medianTps": 61.02730175038747,
+      "avgTotalTime": 29.650454921666668,
+      "successCount": 3,
+      "errorCount": 0,
+      "hasThinking": true,
+      "abnormalTps": false
+    },
+    {
+      "provider": "Kimi(月之暗面)",
+      "model": "kimi-for-coding",
+      "modelDisplay": "kimi-k2.6",
+      "avgTtft": 1559,
+      "avgTps": 42.60572162926358,
+      "medianTps": 25.674822602393476,
+      "avgTotalTime": 30.592638634666667,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -127,7 +140,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": false,
+      "active": true,
       "domesticPolicy": {
         "providerPlatform": "moonshot_kimi",
         "stickyTtlSeconds": 900,
