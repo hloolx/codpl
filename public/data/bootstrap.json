@@ -1,25 +1,25 @@
 {
   "meta": {
-    "generatedAt": "2026-08-30T23:30:11Z",
-    "generatedAtUnix": 1788132611026,
-    "activeProviderCount": 2,
-    "activeModelCount": 3,
+    "generatedAt": "2026-08-31T00:00:11Z",
+    "generatedAtUnix": 1788134411164,
+    "activeProviderCount": 1,
+    "activeModelCount": 2,
     "snapshotCount": 1
   },
   "summary": {
     "shanghaiDate": "2026/8/31",
-    "dailyRunIndex": 7,
-    "nextRunAt": "2026/8/31 07:44"
+    "dailyRunIndex": 8,
+    "nextRunAt": "2026/8/31 08:57"
   },
   "latest": [
     {
       "provider": "MiniMax",
       "model": "MiniMax-M2.7-highspeed",
       "modelDisplay": "minimax-m2.7",
-      "avgTtft": 543.6666666666666,
-      "avgTps": 66.01732923565355,
-      "medianTps": 67.57854915967992,
-      "avgTotalTime": 24.781198346,
+      "avgTtft": 779.6666666666666,
+      "avgTps": 69.92222470192317,
+      "medianTps": 68.84526487273992,
+      "avgTotalTime": 26.526503510666668,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -29,23 +29,10 @@
       "provider": "MiniMax",
       "model": "MiniMax-M2.5-highspeed",
       "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 790,
-      "avgTps": 67.30766172175039,
-      "medianTps": 66.45909783583527,
-      "avgTotalTime": 24.904719766,
-      "successCount": 3,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "Kimi(月之暗面)",
-      "model": "kimi-for-coding",
-      "modelDisplay": "kimi-k2.6",
-      "avgTtft": 407.6666666666667,
-      "avgTps": 101.1687830498153,
-      "medianTps": 29.162818728242055,
-      "avgTotalTime": 11.447967413,
+      "avgTtft": 1051.6666666666667,
+      "avgTps": 64.926819137091,
+      "medianTps": 68.15615865823735,
+      "avgTotalTime": 28.861672477,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -140,7 +127,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": true,
+      "active": false,
       "domesticPolicy": {
         "providerPlatform": "moonshot_kimi",
         "stickyTtlSeconds": 900,
