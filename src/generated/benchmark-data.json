@@ -1,25 +1,25 @@
 {
   "meta": {
-    "generatedAt": "2026-09-02T08:00:17Z",
-    "generatedAtUnix": 1788336017108,
+    "generatedAt": "2026-09-02T08:30:12Z",
+    "generatedAtUnix": 1788337812828,
     "activeProviderCount": 2,
     "activeModelCount": 3,
     "snapshotCount": 1
   },
   "summary": {
     "shanghaiDate": "2026/9/2",
-    "dailyRunIndex": 16,
-    "nextRunAt": "2026/9/2 16:26"
+    "dailyRunIndex": 17,
+    "nextRunAt": "2026/9/2 17:36"
   },
   "latest": [
     {
       "provider": "MiniMax",
-      "model": "MiniMax-M2.7-highspeed",
-      "modelDisplay": "minimax-m2.7",
-      "avgTtft": 1127.3333333333333,
-      "avgTps": 63.606909197197545,
-      "medianTps": 62.90850087305423,
-      "avgTotalTime": 24.526075629999998,
+      "model": "MiniMax-M2.5-highspeed",
+      "modelDisplay": "MiniMax-M2.5",
+      "avgTtft": 851.3333333333334,
+      "avgTps": 71.80850193363763,
+      "medianTps": 72.6662616403088,
+      "avgTotalTime": 20.993416885,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -27,12 +27,12 @@
     },
     {
       "provider": "MiniMax",
-      "model": "MiniMax-M2.5-highspeed",
-      "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 660,
-      "avgTps": 61.055360449017314,
-      "medianTps": 61.51988064758285,
-      "avgTotalTime": 25.165671947666667,
+      "model": "MiniMax-M2.7-highspeed",
+      "modelDisplay": "minimax-m2.7",
+      "avgTtft": 742.6666666666666,
+      "avgTps": 65.55491940537873,
+      "medianTps": 66.93140517370527,
+      "avgTotalTime": 29.40299713666667,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -42,12 +42,12 @@
       "provider": "Kimi(月之暗面)",
       "model": "kimi-for-coding",
       "modelDisplay": "kimi-k2.6",
-      "avgTtft": 15448,
-      "avgTps": 40.348804192757015,
-      "medianTps": 24.242682831041108,
-      "avgTotalTime": 29.273595112,
-      "successCount": 1,
-      "errorCount": 2,
+      "avgTtft": 575,
+      "avgTps": 90.9493186329989,
+      "medianTps": 22.26177333171069,
+      "avgTotalTime": 8.668831131,
+      "successCount": 3,
+      "errorCount": 0,
       "hasThinking": true,
       "abnormalTps": false
     }
