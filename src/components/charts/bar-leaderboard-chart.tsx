@@ -189,14 +189,6 @@ export function BarLeaderboardChart<T extends BarLeaderboardDatumBase>({
     el.scrollBy({ left: delta, behavior: 'smooth' });
   }, []);
 
-  if (!data.length) {
-    return (
-      <div className="flex h-[200px] items-center justify-center text-sm text-muted-foreground sm:h-[240px]">
-        暂无数据
-      </div>
-    );
-  }
-
   const axisKey = mode === 'provider' ? 'provider' : 'normalizedModelDisplay';
   const metricAxis =
     metric === 'ttft'
@@ -209,7 +201,8 @@ export function BarLeaderboardChart<T extends BarLeaderboardDatumBase>({
           }
         : getMetricAxisProps('tps');
 
-  const showLabelText = effectiveMode === 'scroll' || data.length <= (isMobile ? 6 : 12);
+  const showLabelText = data.length <= (isMobile ? 6 : 12);
+  const xAxisHeight = showLabelText ? (isMobile ? 40 : 52) : (isMobile ? 24 : 30);
   const hasOverflow = effectiveMode === 'scroll' && innerWidth > wrapperWidth;
   const showLeftFade = hasOverflow && scrollState.left > 4;
   const showRightFade = hasOverflow && scrollState.left < scrollState.max - 4;
@@ -228,8 +221,8 @@ export function BarLeaderboardChart<T extends BarLeaderboardDatumBase>({
           interval={effectiveMode === 'scroll' ? 0 : isMobile ? 'preserveStartEnd' : 0}
           tickLine={false}
           axisLine={false}
-          tick={<BarXAxisTick mode={mode} data={data} isMobile={isMobile} showText={showLabelText} />}
-          height={isMobile ? 40 : 52}
+          tick={<BarXAxisTick mode={mode} data={data} isMobile={isMobile} showText={showLabelText} axisHeight={xAxisHeight} />}
+          height={xAxisHeight}
         />
         <YAxis
           {...metricAxis}
@@ -248,6 +241,14 @@ export function BarLeaderboardChart<T extends BarLeaderboardDatumBase>({
     ),
     [data, dataKey, axisKey, mode, metric, tooltipContent, isMobile, effectiveMode, innerWidth, effectiveHeight, showLabelText, metricAxis],
   );
+
+  if (!data.length) {
+    return (
+      <div className="flex h-[200px] items-center justify-center text-sm text-muted-foreground sm:h-[240px]">
+        暂无数据
+      </div>
+    );
+  }
 
   return (
     <div ref={wrapperRef} className="relative w-full">
@@ -309,7 +310,7 @@ export function BarLeaderboardChart<T extends BarLeaderboardDatumBase>({
       ) : null}
 
       {effectiveMode === 'scroll' ? (
-        <div className="mt-1 text-right text-[10px] text-muted-foreground/80">
+        <div className="pointer-events-none absolute bottom-0 right-0 bg-background/70 px-1 text-right text-[10px] text-muted-foreground/80 backdrop-blur-sm">
           可横向拖动 / 滚轮 / 滑动浏览全部 {data.length} 项
         </div>
       ) : null}
@@ -349,9 +350,10 @@ interface BarXAxisTickProps {
   data: BarLeaderboardDatumBase[];
   isMobile: boolean;
   showText: boolean;
+  axisHeight: number;
 }
 
-function BarXAxisTick({ x = 0, y = 0, payload, mode, data, isMobile, showText }: BarXAxisTickProps) {
+function BarXAxisTick({ x = 0, y = 0, payload, mode, data, isMobile, showText, axisHeight }: BarXAxisTickProps) {
   if (!payload) return null;
   const value = String(payload.value ?? '');
   const record = data.find((d) => {
@@ -363,13 +365,16 @@ function BarXAxisTick({ x = 0, y = 0, payload, mode, data, isMobile, showText }:
   const maxLen = isMobile ? 6 : 10;
   const label = value.length > maxLen ? `${value.slice(0, maxLen)}…` : value;
   const glyphSize = isMobile ? 14 : 18;
+  const glyphContainerHeight = glyphSize + 4;
+  const glyphY = showText ? 2 : Math.max(0, (axisHeight - glyphContainerHeight) / 2);
+  const textY = isMobile ? 26 : 34;
   return (
     <g transform={`translate(${x}, ${y + 2})`}>
       <foreignObject
         x={-(glyphSize + 6)}
-        y={2}
+        y={glyphY}
         width={(glyphSize + 6) * 2}
-        height={glyphSize + 4}
+        height={glyphContainerHeight}
         style={{ overflow: 'visible' }}
       >
         <div className="flex items-center justify-center">
@@ -383,7 +388,7 @@ function BarXAxisTick({ x = 0, y = 0, payload, mode, data, isMobile, showText }:
       {showText ? (
         <text
           x={0}
-          y={isMobile ? 26 : 34}
+          y={textY}
           textAnchor="middle"
           fill="hsl(var(--muted-foreground))"
           fontSize={isMobile ? 9 : 10}
