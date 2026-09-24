@@ -2,15 +2,15 @@
   {
     "provider": "MiniMax",
     "providerPlatform": "minimax",
-    "ttftP50": 1216,
-    "ttftP95": 1418.5,
-    "avgMedianTps": 53.31269903883605,
-    "avgLatency": 35.67959415466667,
+    "ttftP50": 636,
+    "ttftP95": 1097.6999999999998,
+    "avgMedianTps": 60.848204994663185,
+    "avgLatency": 30.913743607,
     "successRate": 1,
     "sampleCount": 3,
-    "score": 184.68634036634967,
-    "compositeScore": 51.796531193824585,
-    "latestProbeAt": "2026-09-24T14:32:45.393271575+08:00"
+    "score": 465.04563979297893,
+    "compositeScore": 65.66828034891316,
+    "latestProbeAt": "2026-09-24T15:38:40.222689731+08:00"
   },
   {
     "provider": "Ollama Cloud",
@@ -20,10 +20,10 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 1,
+    "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-09-24T14:30:22.730686168+08:00"
+    "latestProbeAt": "2026-09-24T15:36:39.346895535+08:00"
   },
   {
     "provider": "OpenCode Go",
@@ -33,9 +33,35 @@
     "avgMedianTps": 0,
     "avgLatency": 0,
     "successRate": 0,
-    "sampleCount": 1,
+    "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-09-24T14:30:18.361145849+08:00"
+    "latestProbeAt": "2026-09-24T15:36:30.752861849+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-09-24T15:36:16.251605287+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-09-24T15:36:11.849601462+08:00"
   }
 ]
