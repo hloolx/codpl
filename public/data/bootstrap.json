@@ -1,38 +1,25 @@
 {
   "meta": {
-    "generatedAt": "2026-09-25T12:00:12Z",
-    "generatedAtUnix": 1790337612765,
-    "activeProviderCount": 3,
-    "activeModelCount": 6,
+    "generatedAt": "2026-09-25T12:30:12Z",
+    "generatedAtUnix": 1790339412309,
+    "activeProviderCount": 2,
+    "activeModelCount": 3,
     "snapshotCount": 1
   },
   "summary": {
     "shanghaiDate": "2026/9/25",
-    "dailyRunIndex": 20,
-    "nextRunAt": "2026/9/25 20:14"
+    "dailyRunIndex": 21,
+    "nextRunAt": "2026/9/25 21:54"
   },
   "latest": [
-    {
-      "provider": "联通元景",
-      "model": "glm-5.1",
-      "modelDisplay": "glm-5.1",
-      "avgTtft": 3604,
-      "avgTps": 91.63956526949832,
-      "medianTps": 113.83713825227576,
-      "avgTotalTime": 9.604394464,
-      "successCount": 1,
-      "errorCount": 2,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
     {
       "provider": "MiniMax",
       "model": "MiniMax-M2.5-highspeed",
       "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 1002.3333333333334,
-      "avgTps": 60.742172947575035,
-      "medianTps": 63.19131251544783,
-      "avgTotalTime": 22.726354990999997,
+      "avgTtft": 1277,
+      "avgTps": 58.060544059290045,
+      "medianTps": 61.20943730429986,
+      "avgTotalTime": 25.387522141,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -42,10 +29,10 @@
       "provider": "MiniMax",
       "model": "MiniMax-M2.7-highspeed",
       "modelDisplay": "minimax-m2.7",
-      "avgTtft": 591.3333333333334,
-      "avgTps": 53.93243647661675,
-      "medianTps": 54.581516511651365,
-      "avgTotalTime": 29.566227365,
+      "avgTtft": 955.3333333333334,
+      "avgTps": 54.74325423283838,
+      "medianTps": 54.10072756563645,
+      "avgTotalTime": 32.72438308366667,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -55,10 +42,10 @@
       "provider": "Kimi(月之暗面)",
       "model": "kimi-for-coding",
       "modelDisplay": "kimi-k2.6",
-      "avgTtft": 721.6666666666666,
-      "avgTps": 47.69879598052774,
-      "medianTps": 25.34352142039076,
-      "avgTotalTime": 15.471643585999999,
+      "avgTtft": 1511.6666666666667,
+      "avgTps": 49.82262123192652,
+      "medianTps": 42.77696706662619,
+      "avgTotalTime": 15.095933504333333,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -617,7 +604,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": true,
+      "active": false,
       "purchaseUrl": "https://maas.ai-yuanjing.com/aibase/home",
       "domesticPolicy": {
         "providerPlatform": "yuanjing",
