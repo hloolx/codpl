@@ -1,38 +1,25 @@
 {
   "meta": {
-    "generatedAt": "2026-10-19T14:30:13Z",
-    "generatedAtUnix": 1792420213629,
-    "activeProviderCount": 3,
-    "activeModelCount": 4,
+    "generatedAt": "2026-10-19T15:00:13Z",
+    "generatedAtUnix": 1792422013299,
+    "activeProviderCount": 2,
+    "activeModelCount": 3,
     "snapshotCount": 1
   },
   "summary": {
     "shanghaiDate": "2026/10/19",
-    "dailyRunIndex": 22,
-    "nextRunAt": "2026/10/19 22:41"
+    "dailyRunIndex": 23,
+    "nextRunAt": "2026/10/19 23:12"
   },
   "latest": [
     {
       "provider": "MiniMax",
-      "model": "MiniMax-M2.7-highspeed",
-      "modelDisplay": "minimax-m2.7",
-      "avgTtft": 244,
-      "avgTps": 70.4290181851206,
-      "medianTps": 72.63154334620783,
-      "avgTotalTime": 21.788417743333337,
-      "successCount": 3,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "移动云",
-      "model": "cm-code-latest",
-      "modelDisplay": "cm-code-latest",
-      "avgTtft": 1330.6666666666667,
-      "avgTps": 66.46697759950966,
-      "medianTps": 72.29298767565346,
-      "avgTotalTime": 31.413222383333334,
+      "model": "MiniMax-M2.5-highspeed",
+      "modelDisplay": "MiniMax-M2.5",
+      "avgTtft": 296,
+      "avgTps": 64.95463768226439,
+      "medianTps": 66.36845046794346,
+      "avgTotalTime": 31.919285126333335,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -40,12 +27,12 @@
     },
     {
       "provider": "MiniMax",
-      "model": "MiniMax-M2.5-highspeed",
-      "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 387.6666666666667,
-      "avgTps": 67.40921116138695,
-      "medianTps": 68.7436746806634,
-      "avgTotalTime": 25.146195975666668,
+      "model": "MiniMax-M2.7-highspeed",
+      "modelDisplay": "minimax-m2.7",
+      "avgTtft": 279.3333333333333,
+      "avgTps": 57.85314144132531,
+      "medianTps": 59.456298277567264,
+      "avgTotalTime": 34.59279355266667,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -55,10 +42,10 @@
       "provider": "Kimi(月之暗面)",
       "model": "kimi-for-coding",
       "modelDisplay": "kimi-k2.6",
-      "avgTtft": 712.3333333333334,
-      "avgTps": 46.22778334040805,
-      "medianTps": 32.651835301756016,
-      "avgTotalTime": 15.022404078,
+      "avgTtft": 3223,
+      "avgTps": 46.72591347821075,
+      "medianTps": 28.443055285582318,
+      "avgTotalTime": 17.900780912000002,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -646,7 +633,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": true,
+      "active": false,
       "purchaseUrl": "https://ecloud.10086.cn/portal/act/codingplan",
       "domesticPolicy": {
         "providerPlatform": "cmecloud",
