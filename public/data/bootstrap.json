@@ -1,25 +1,25 @@
 {
   "meta": {
-    "generatedAt": "2026-10-22T10:00:11Z",
-    "generatedAtUnix": 1792663211840,
-    "activeProviderCount": 3,
-    "activeModelCount": 4,
+    "generatedAt": "2026-10-22T10:30:11Z",
+    "generatedAtUnix": 1792665011455,
+    "activeProviderCount": 2,
+    "activeModelCount": 3,
     "snapshotCount": 1
   },
   "summary": {
     "shanghaiDate": "2026/10/22",
-    "dailyRunIndex": 18,
-    "nextRunAt": "2026/10/22 18:05"
+    "dailyRunIndex": 19,
+    "nextRunAt": "2026/10/22 19:37"
   },
   "latest": [
     {
       "provider": "MiniMax",
       "model": "MiniMax-M2.7-highspeed",
       "modelDisplay": "minimax-m2.7",
-      "avgTtft": 2024,
-      "avgTps": 94.57664957398363,
-      "medianTps": 96.20888267311909,
-      "avgTotalTime": 12.286740347666667,
+      "avgTtft": 993.3333333333334,
+      "avgTps": 88.74269020173983,
+      "medianTps": 87.44365864261398,
+      "avgTotalTime": 11.556101138333332,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -29,23 +29,10 @@
       "provider": "MiniMax",
       "model": "MiniMax-M2.5-highspeed",
       "modelDisplay": "MiniMax-M2.5",
-      "avgTtft": 2732,
-      "avgTps": 61.632336869929475,
-      "medianTps": 70.54019990354998,
-      "avgTotalTime": 22.490919627333337,
-      "successCount": 3,
-      "errorCount": 0,
-      "hasThinking": true,
-      "abnormalTps": false
-    },
-    {
-      "provider": "移动云",
-      "model": "cm-code-latest",
-      "modelDisplay": "cm-code-latest",
-      "avgTtft": 39413.666666666664,
-      "avgTps": 30.604243281451655,
-      "medianTps": 36.28820949363212,
-      "avgTotalTime": 119.83850675299999,
+      "avgTtft": 1980.3333333333333,
+      "avgTps": 79.17888689528266,
+      "medianTps": 86.53983351191879,
+      "avgTotalTime": 14.974105163666666,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -55,10 +42,10 @@
       "provider": "Kimi(月之暗面)",
       "model": "kimi-for-coding",
       "modelDisplay": "kimi-k2.6",
-      "avgTtft": 539,
-      "avgTps": 88.78083325210059,
-      "medianTps": 32.069566458323415,
-      "avgTotalTime": 8.046638801333334,
+      "avgTtft": 505.3333333333333,
+      "avgTps": 89.15516714326282,
+      "medianTps": 47.18235726543242,
+      "avgTotalTime": 8.462025185666667,
       "successCount": 3,
       "errorCount": 0,
       "hasThinking": true,
@@ -646,7 +633,7 @@
           "apiType": "anthropic"
         }
       ],
-      "active": true,
+      "active": false,
       "purchaseUrl": "https://ecloud.10086.cn/portal/act/codingplan",
       "domesticPolicy": {
         "providerPlatform": "cmecloud",
