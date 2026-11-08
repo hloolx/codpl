@@ -2,15 +2,28 @@
   {
     "provider": "MiniMax",
     "providerPlatform": "minimax",
-    "ttftP50": 1370,
-    "ttftP95": 1641.8,
-    "avgMedianTps": 95.59307251979043,
-    "avgLatency": 11.785850910333332,
+    "ttftP50": 693,
+    "ttftP95": 996.3,
+    "avgMedianTps": 132.51891422721837,
+    "avgLatency": 6.464940536333333,
     "successRate": 1,
     "sampleCount": 3,
-    "score": 1004.9121623604094,
-    "compositeScore": 75.44442863835417,
-    "latestProbeAt": "2026-11-08T08:01:43.110090321+08:00"
+    "score": 1494.889971954977,
+    "compositeScore": 87.92107148358667,
+    "latestProbeAt": "2026-11-08T09:16:15.203632349+08:00"
+  },
+  {
+    "provider": "Alaya Code",
+    "providerPlatform": "alaya code",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-11-08T09:15:32.778319322+08:00"
   },
   {
     "provider": "Ollama Cloud",
@@ -23,7 +36,7 @@
     "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-11-08T08:00:33.465837904+08:00"
+    "latestProbeAt": "2026-11-08T09:15:56.729054488+08:00"
   },
   {
     "provider": "OpenCode Go",
@@ -36,7 +49,59 @@
     "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-11-08T08:00:25.291336521+08:00"
+    "latestProbeAt": "2026-11-08T09:15:43.157646941+08:00"
+  },
+  {
+    "provider": "京东云",
+    "providerPlatform": "jdcloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-11-08T09:15:32.587820735+08:00"
+  },
+  {
+    "provider": "优云",
+    "providerPlatform": "modelverse",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-11-08T09:15:31.837099194+08:00"
+  },
+  {
+    "provider": "无问芯穹",
+    "providerPlatform": "infini_genstudio",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-11-08T09:15:33.37195866+08:00"
+  },
+  {
+    "provider": "火山引擎",
+    "providerPlatform": "volcengine",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-11-08T09:15:31.63400677+08:00"
   },
   {
     "provider": "百度云(千帆)",
@@ -49,6 +114,58 @@
     "sampleCount": 3,
     "score": -1000,
     "compositeScore": 0,
-    "latestProbeAt": "2026-11-08T08:00:19.266883245+08:00"
+    "latestProbeAt": "2026-11-08T09:15:37.325638036+08:00"
+  },
+  {
+    "provider": "百炼(阿里云)",
+    "providerPlatform": "aliyun_bailian",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-11-08T09:15:31.735484741+08:00"
+  },
+  {
+    "provider": "移动云",
+    "providerPlatform": "cmecloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-11-08T09:15:30.086458564+08:00"
+  },
+  {
+    "provider": "联通云",
+    "providerPlatform": "cucloud",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-11-08T09:15:30.296104084+08:00"
+  },
+  {
+    "provider": "腾讯云",
+    "providerPlatform": "tencent_token_plan",
+    "ttftP50": 0,
+    "ttftP95": 0,
+    "avgMedianTps": 0,
+    "avgLatency": 0,
+    "successRate": 0,
+    "sampleCount": 3,
+    "score": -1000,
+    "compositeScore": 0,
+    "latestProbeAt": "2026-11-08T09:15:31.168252669+08:00"
   }
 ]
